@@ -1,0 +1,13 @@
+sample: "wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0"
+
+word_length: 9
+min_word_length: 8
+
+tf_metadata_file: "../TF_fam.txt"
+
+tf_database_file: "JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme"
+
+enrichment_cutoffs:
+  percent_kmer_5p: 0.1
+  padj_cutoff_poisson: 0.01
+  padj_cutoff_wilcox: 0.01

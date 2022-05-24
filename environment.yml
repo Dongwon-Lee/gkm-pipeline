@@ -1,0 +1,13 @@
+name: pipeline
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - snakemake-minimal>=7
+  - pandas
+  - meme>=5
