@@ -57,7 +57,7 @@ motinfo.loc[motinfo['padj_wilcox'] == 0, 'padj_wilcox'] = sys.float_info.min
 motinfo['is_sig'] = (motinfo['padj_poisson'] <= padj_cutoff_poisson) & (motinfo['padj_wilcox'] <= padj_cutoff_wilcox) & (motinfo['kmer5p_pcrt'] >= kmer5p_pcrt_cutoff)
 
 expr_enriched_tfs = motinfo.loc[motinfo['is_sig'], ['TF_Name', 'Motif_ID', 'total', 'kmer5p', 'kmer5p_pcrt', 'poisson_pval', 'padj_poisson', 'wilcox_pval', 'padj_wilcox']]
-filename = '.'.join(["expr_enriched_tfs", outprefix, "txt",])
+filename = f'{outprefix}.expr_enriched_tfs.txt'
 expr_enriched_tfs.to_csv(filename, index=False, sep='\t', float_format='%.16g')
 
 if tf_metadata_fn:
@@ -78,7 +78,7 @@ if tf_metadata_fn:
         oddsratio, pvalue = fisher_exact([[m00, m01], [m10, m11]], alternative='greater')
         res_fam = res_fam.append({'Family': family, 'm00': m00, 'm01': m01, 'm10': m10, 'm11': m11, 'fisher_pval': pvalue}, ignore_index=True)
 
-    filename = '.'.join(["TF_family_enrichment_test", outprefix, "txt",])
+    filename = f'{outprefix}.TF_family_enrichment_test.txt'
     res_fam.to_csv(filename, index=False, sep='\t', float_format='%.16g')
 
     classes = tf_metadata['Class'].dropna().unique()
@@ -92,5 +92,5 @@ if tf_metadata_fn:
         oddsratio, pvalue = fisher_exact([[m00, m01], [m10, m11]], alternative='greater')
         res_class = res_class.append({'Class': cls, 'm00': m00, 'm01': m01, 'm10': m10, 'm11': m11, 'fisher_pval': pvalue}, ignore_index=True)
 
-    filename = '.'.join(["TF_class_enrichment_test", outprefix, "txt",])
+    filename = f'{outprefix}.TF_class_enrichment_test.txt'
     res_class.to_csv(filename, index=False, sep='\t', float_format='%.16g')
