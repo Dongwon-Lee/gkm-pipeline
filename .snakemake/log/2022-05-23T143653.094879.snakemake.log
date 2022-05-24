@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in line 16 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Missing input files for rule split_motifs:
+    output: data/samples/data/samples/data/samples/data/samples/JASPAR2022_CORE.txt
+    wildcards: tf_database_file=data/samples/data/samples/data/samples/data/samples/JASPAR2022, i=CORE
+    affected files:
+        data/samples/data/samples/data/samples/data/samples/data/samples/JASPAR2022.txt

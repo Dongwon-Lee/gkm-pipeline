@@ -1,0 +1,197 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job                    count    min threads    max threads
+-------------------  -------  -------------  -------------
+combine_fimo_output        1              1              1
+run_fimo                  10              1              1
+split_motifs              10              1              1
+total                     21              1              1
+
+Select jobs to execute...
+
+[Mon May 23 19:13:05 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.5.txt
+    jobid: 13
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, i=5
+    resources: tmpdir=/tmp
+
+[Mon May 23 19:13:05 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt
+    jobid: 3
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, i=0
+    resources: tmpdir=/tmp
+
+[Mon May 23 19:13:05 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.2.txt
+    jobid: 7
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, i=2
+    resources: tmpdir=/tmp
+
+[Mon May 23 19:13:05 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9.txt
+    jobid: 21
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, i=9
+    resources: tmpdir=/tmp
+
+[Mon May 23 19:13:05 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.6.txt
+    jobid: 15
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, i=6
+    resources: tmpdir=/tmp
+
+[Mon May 23 19:13:05 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.8.txt
+    jobid: 19
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, i=8
+    resources: tmpdir=/tmp
+
+[Mon May 23 19:13:05 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.3.txt
+    jobid: 9
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, i=3
+    resources: tmpdir=/tmp
+
+[Mon May 23 19:13:05 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.7.txt
+    jobid: 17
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, i=7
+    resources: tmpdir=/tmp
+
+[Mon May 23 19:13:05 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.4.txt
+    jobid: 11
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, i=4
+    resources: tmpdir=/tmp
+
+[Mon May 23 19:13:05 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.1.txt
+    jobid: 5
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, i=1
+    resources: tmpdir=/tmp
+
+[Mon May 23 19:13:09 2022]
+Error in rule split_motifs:
+    jobid: 13
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.5.txt
+
+[Mon May 23 19:13:09 2022]
+[Mon May 23 19:13:09 2022]
+[Mon May 23 19:13:09 2022]
+[Mon May 23 19:13:09 2022]
+[Mon May 23 19:13:09 2022]
+[Mon May 23 19:13:09 2022]
+Error in rule split_motifs:
+    jobid: 7
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.2.txt
+
+Error in rule split_motifs:
+    jobid: 17
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.7.txt
+
+[Mon May 23 19:13:09 2022]
+Error in rule split_motifs:
+    jobid: 3
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt
+
+Error in rule split_motifs:
+    jobid: 21
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9.txt
+
+Error in rule split_motifs:
+    jobid: 9
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.3.txt
+
+Error in rule split_motifs:
+    jobid: 11
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.4.txt
+
+Error in rule split_motifs:
+    jobid: 5
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.1.txt
+
+[Mon May 23 19:13:09 2022]
+Error in rule split_motifs:
+    jobid: 19
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.8.txt
+
+[Mon May 23 19:13:09 2022]
+Error in rule split_motifs:
+    jobid: 15
+    output: JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.6.txt
+
+RuleException:
+CalledProcessError in line 20 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Command 'set -euo pipefail;  /gpfs/home/jtl334/.conda/envs/pipeline/bin/python3.7 /gpfs/scratch/jtl334/thesis/pipeline/.snakemake/scripts/tmpvuqvmcp2.split_file.py' returned non-zero exit status 1.
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 20, in __rule_split_motifs
+  File "/gpfs/home/jtl334/.conda/envs/pipeline/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+RuleException:
+CalledProcessError in line 20 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Command 'set -euo pipefail;  /gpfs/home/jtl334/.conda/envs/pipeline/bin/python3.7 /gpfs/scratch/jtl334/thesis/pipeline/.snakemake/scripts/tmp94zu76bf.split_file.py' returned non-zero exit status 1.
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 20, in __rule_split_motifs
+  File "/gpfs/home/jtl334/.conda/envs/pipeline/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+RuleException:
+CalledProcessError in line 20 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Command 'set -euo pipefail;  /gpfs/home/jtl334/.conda/envs/pipeline/bin/python3.7 /gpfs/scratch/jtl334/thesis/pipeline/.snakemake/scripts/tmpyc8nr5r7.split_file.py' returned non-zero exit status 1.
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 20, in __rule_split_motifs
+  File "/gpfs/home/jtl334/.conda/envs/pipeline/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+RuleException:
+CalledProcessError in line 20 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Command 'set -euo pipefail;  /gpfs/home/jtl334/.conda/envs/pipeline/bin/python3.7 /gpfs/scratch/jtl334/thesis/pipeline/.snakemake/scripts/tmpb8rjz6ev.split_file.py' returned non-zero exit status 1.
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 20, in __rule_split_motifs
+  File "/gpfs/home/jtl334/.conda/envs/pipeline/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+RuleException:
+CalledProcessError in line 20 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Command 'set -euo pipefail;  /gpfs/home/jtl334/.conda/envs/pipeline/bin/python3.7 /gpfs/scratch/jtl334/thesis/pipeline/.snakemake/scripts/tmp0b0j2f8n.split_file.py' returned non-zero exit status 1.
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 20, in __rule_split_motifs
+  File "/gpfs/home/jtl334/.conda/envs/pipeline/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+RuleException:
+CalledProcessError in line 20 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Command 'set -euo pipefail;  /gpfs/home/jtl334/.conda/envs/pipeline/bin/python3.7 /gpfs/scratch/jtl334/thesis/pipeline/.snakemake/scripts/tmp2onry1jd.split_file.py' returned non-zero exit status 1.
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 20, in __rule_split_motifs
+  File "/gpfs/home/jtl334/.conda/envs/pipeline/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+RuleException:
+CalledProcessError in line 20 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Command 'set -euo pipefail;  /gpfs/home/jtl334/.conda/envs/pipeline/bin/python3.7 /gpfs/scratch/jtl334/thesis/pipeline/.snakemake/scripts/tmpzcgzzyjn.split_file.py' returned non-zero exit status 1.
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 20, in __rule_split_motifs
+  File "/gpfs/home/jtl334/.conda/envs/pipeline/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+RuleException:
+CalledProcessError in line 20 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Command 'set -euo pipefail;  /gpfs/home/jtl334/.conda/envs/pipeline/bin/python3.7 /gpfs/scratch/jtl334/thesis/pipeline/.snakemake/scripts/tmpjuyu_0bc.split_file.py' returned non-zero exit status 1.
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 20, in __rule_split_motifs
+  File "/gpfs/home/jtl334/.conda/envs/pipeline/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+RuleException:
+CalledProcessError in line 20 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Command 'set -euo pipefail;  /gpfs/home/jtl334/.conda/envs/pipeline/bin/python3.7 /gpfs/scratch/jtl334/thesis/pipeline/.snakemake/scripts/tmp04_nxhqr.split_file.py' returned non-zero exit status 1.
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 20, in __rule_split_motifs
+  File "/gpfs/home/jtl334/.conda/envs/pipeline/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+RuleException:
+CalledProcessError in line 20 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Command 'set -euo pipefail;  /gpfs/home/jtl334/.conda/envs/pipeline/bin/python3.7 /gpfs/scratch/jtl334/thesis/pipeline/.snakemake/scripts/tmpk3a9ihow.split_file.py' returned non-zero exit status 1.
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 20, in __rule_split_motifs
+  File "/gpfs/home/jtl334/.conda/envs/pipeline/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-05-23T191302.736880.snakemake.log

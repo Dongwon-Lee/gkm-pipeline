@@ -1,0 +1,53 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 17
+Job stats:
+job                        count    min threads    max threads
+-----------------------  -------  -------------  -------------
+combine_fimo_output            1              1              1
+generate_motif_database        1              1              1
+total                          2              1              1
+
+Select jobs to execute...
+
+[Tue May 24 12:14:46 2022]
+rule combine_fimo_output:
+    input: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.0.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.1.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.2.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.3.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.4.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.5.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.6.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.7.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.8.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.9.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.10.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.11.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.12.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.13.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.14.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.15.fimo.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.16.fimo.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.fimo.txt
+    jobid: 1
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 17286824'.
+[Tue May 24 12:14:55 2022]
+Finished job 1.
+1 of 2 steps (50%) done
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.0.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.1.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.2.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.3.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.4.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.5.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.6.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.7.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.8.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.9.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.10.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.11.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.12.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.13.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.14.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.15.fimo.txt.
+Removing temporary output temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.16.fimo.txt.
+Select jobs to execute...
+
+[Tue May 24 12:14:55 2022]
+localrule generate_motif_database:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.fimo.txt
+    jobid: 0
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+[Tue May 24 12:14:55 2022]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2022-05-24T121445.173775.snakemake.log

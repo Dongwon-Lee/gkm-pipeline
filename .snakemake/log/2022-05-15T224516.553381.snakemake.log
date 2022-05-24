@@ -1,0 +1,31 @@
+Building DAG of jobs...
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+all                 1              1              1
+enriched_tfs        1              1              1
+gkm_predict         1              1              1
+gkm_train           1              1              1
+total               4              1              1
+
+
+[Sun May 15 22:45:16 2022]
+rule gkm_train:
+    input: data/samples/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.tr.fa, data/samples/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.neg.tr.fa
+    output: model/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.9mers.model.txt
+    jobid: 4
+    wildcards: sample=wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0, word_length=9
+    resources: tmpdir=/tmp
+
+../lsgkm/bin/gkmtrain -l 9 data/samples/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.tr.fa data/samples/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.neg.tr.fa model/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.9mers
+
+[Sun May 15 22:45:16 2022]
+rule gkm_predict:
+    input: data/9mers.fa, model/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.9mers.model.txt
+    output: weights/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.9mers.svmw.txt
+    jobid: 2
+    wildcards: sample=wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0, word_length=9
+    resources: tmpdir=/tmp
+
+WorkflowError:
+Error when formatting '../lsgkm/bin/gkmpredict {input.kmers} {input.model} {output}' for rule gkm_predict. 'InputFiles' object has no attribute 'kmers'

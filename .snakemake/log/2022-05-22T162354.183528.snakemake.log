@@ -1,0 +1,22 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+split_motifs        1              1              1
+total               1              1              1
+
+Select jobs to execute...
+
+[Sun May 22 16:23:54 2022]
+rule split_motifs:
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_0, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_1, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_2, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_3, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_4, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_5, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_6, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_7, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_8, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_9
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Sun May 22 16:23:55 2022]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2022-05-22T162354.183528.snakemake.log

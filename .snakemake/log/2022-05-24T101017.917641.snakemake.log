@@ -1,0 +1,40 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 10
+Job stats:
+job                     count    min threads    max threads
+--------------------  -------  -------------  -------------
+combine_fimo_output         1              1              1
+generate_tf_database        1              1              1
+run_fimo                   10              1              1
+split_motifs                1              1              1
+total                      13              1              1
+
+Select jobs to execute...
+
+[Tue May 24 10:10:20 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.1.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.2.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.3.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.4.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.5.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.6.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.7.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.8.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9.txt
+    jobid: 4
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 4 with external jobid 'Submitted batch job 17284204'.
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 18 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Job Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.1.txt
+temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.2.txt
+temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.3.txt
+temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.4.txt
+temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.5.txt
+temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.6.txt
+temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.7.txt
+temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.8.txt
+temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9.txt completed successfully, but some output files are missing. 4
+Removing output files of failed job split_motifs since they might be corrupted:
+temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-05-24T101017.917641.snakemake.log

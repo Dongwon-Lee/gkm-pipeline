@@ -1,0 +1,36 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 20
+Rules claiming more threads will be scaled down.
+Job stats:
+job                     count    min threads    max threads
+--------------------  -------  -------------  -------------
+combine_fimo_output         1              1              1
+generate_tf_database        1              1              1
+run_fimo                   20              1              1
+split_motifs                1              1              1
+total                      23              1              1
+
+Select jobs to execute...
+
+[Tue May 24 02:11:08 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.1.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.2.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.3.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.4.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.5.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.6.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.7.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.8.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.10.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.11.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.12.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.13.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.14.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.15.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.16.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.17.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.18.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.19.txt
+    jobid: 4
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme
+    resources: tmpdir=/tmp
+
+[Tue May 24 02:11:08 2022]
+Error in rule split_motifs:
+    jobid: 4
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.1.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.2.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.3.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.4.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.5.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.6.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.7.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.8.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.10.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.11.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.12.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.13.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.14.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.15.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.16.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.17.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.18.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.19.txt
+
+RuleException:
+CalledProcessError in line 26 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Command 'set -euo pipefail;  /gpfs/home/jtl334/.conda/envs/pipeline/bin/python3.7 /gpfs/scratch/jtl334/thesis/pipeline/.snakemake/scripts/tmp8_vt2wjv.split_file.py' returned non-zero exit status 1.
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 26, in __rule_split_motifs
+  File "/gpfs/home/jtl334/.conda/envs/pipeline/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-05-24T021108.441153.snakemake.log

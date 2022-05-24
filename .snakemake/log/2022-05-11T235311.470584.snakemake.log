@@ -1,0 +1,71 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+enriched_tfs        1              1              1
+get_kmers           1              1              1
+gkm_predict         1              1              1
+gkm_train           1              1              1
+total               4              1              1
+
+Select jobs to execute...
+
+[Wed May 11 23:53:14 2022]
+rule get_kmers:
+    output: data/11mers.fa
+    jobid: 2
+    resources: tmpdir=/tmp
+
+[Wed May 11 23:53:36 2022]
+Finished job 2.
+1 of 4 steps (25%) done
+Select jobs to execute...
+
+[Wed May 11 23:53:36 2022]
+rule gkm_train:
+    input: ../lsgkm/tests/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.tr.fa, ../lsgkm/tests/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.neg.tr.fa
+    output: model/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.model.txt
+    jobid: 3
+    wildcards: sample=wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0
+    resources: tmpdir=/tmp
+
+[Wed May 11 23:54:47 2022]
+Finished job 3.
+2 of 4 steps (50%) done
+Select jobs to execute...
+
+[Wed May 11 23:54:47 2022]
+rule gkm_predict:
+    input: data/11mers.fa, model/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.model.txt
+    output: weights/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.svmw.txt
+    jobid: 1
+    wildcards: sample=wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0
+    resources: tmpdir=/tmp
+
+[Thu May 12 00:02:19 2022]
+Finished job 1.
+3 of 4 steps (75%) done
+Select jobs to execute...
+
+[Thu May 12 00:02:19 2022]
+rule enriched_tfs:
+    input: weights/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.svmw.txt
+    output: expr_enriched_tfs.jaspar.wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.txt
+    jobid: 0
+    wildcards: sample=wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0
+    resources: tmpdir=/tmp
+
+[Thu May 12 00:02:19 2022]
+Error in rule enriched_tfs:
+    jobid: 0
+    output: expr_enriched_tfs.jaspar.wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.txt
+    shell:
+        ../count_kmers_per_motif.py ../jaspar/fimo.JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.11mers.uniq.txt weights/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.svmw.txt wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0 0.1 0.01 0.01 ../TF_fam.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-05-11T235311.470584.snakemake.log

@@ -1,0 +1,14 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+enriched_tfs        1              1              1
+get_kmers           1              1              1
+gkm_predict         1              1              1
+gkm_train           1              1              1
+total               4              1              1
+
+Select jobs to execute...

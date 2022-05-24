@@ -1,0 +1,22 @@
+Building DAG of jobs...
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+all                 1              1              1
+enriched_tfs        1              1              1
+get_kmers           1              1              1
+gkm_predict         1              1              1
+gkm_train           1              1              1
+total               5              1              1
+
+
+[Sun May 15 22:22:50 2022]
+rule gkm_train:
+    input: data/samples/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.tr.fa, data/samples/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.neg.tr.fa
+    output: model/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.model.txt
+    jobid: 4
+    wildcards: sample=wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0
+    resources: tmpdir=/tmp
+
+RuleException in line 8 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+NameError: The name 'sample' is unknown in this context. Did you mean 'wildcards.sample'?

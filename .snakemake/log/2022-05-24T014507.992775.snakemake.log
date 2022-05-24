@@ -1,0 +1,12 @@
+Building DAG of jobs...
+AmbiguousRuleException:
+Rules split_motifs and run_fimo are ambiguous for the file data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.0.fimo.txt.
+Consider starting rule output with a unique prefix, constrain your wildcards, or use the ruleorder directive.
+Wildcards:
+	split_motifs: i=fimo,tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.0
+	run_fimo: i=0,tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme,word_length=9
+Expected input files:
+	split_motifs: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.0.txt
+	run_fimo: data/9mers.fa data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txtExpected output files:
+	split_motifs: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.0.fimo.txt
+	run_fimo: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.0.fimo.txt

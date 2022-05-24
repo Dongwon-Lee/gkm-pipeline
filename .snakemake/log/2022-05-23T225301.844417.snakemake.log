@@ -1,0 +1,3 @@
+WorkflowError in line 16 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Workflow requires a total number of cores to be defined (e.g. because a rule defines its number of threads as a fraction of a total number of cores). Please set it with --cores N with N being the desired number of cores. Consider to use this in combination with --max-threads to avoid jobs with too many threads for your setup. Also make sure to perform a dryrun first.
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 16, in <module>

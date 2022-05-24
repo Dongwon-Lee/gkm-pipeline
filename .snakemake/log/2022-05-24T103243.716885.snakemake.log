@@ -1,0 +1,227 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 20
+Job stats:
+job                     count    min threads    max threads
+--------------------  -------  -------------  -------------
+combine_fimo_output         1              1              1
+generate_tf_database        1              1              1
+run_fimo                   20              1              1
+split_motifs                1              1              1
+total                      23              1              1
+
+Select jobs to execute...
+
+[Tue May 24 10:32:45 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.1.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.2.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.3.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.4.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.5.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.6.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.7.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.8.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.10.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.11.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.12.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.13.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.14.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.15.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.16.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.17.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.18.txt, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.19.txt
+    jobid: 4
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 4 with external jobid 'Submitted batch job 17284266'.
+[Tue May 24 10:32:55 2022]
+Finished job 4.
+1 of 23 steps (4%) done
+Select jobs to execute...
+
+[Tue May 24 10:32:55 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.8.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.8.fimo.txt
+    jobid: 12
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=8
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 17284282'.
+
+[Tue May 24 10:32:55 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.1.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.1.fimo.txt
+    jobid: 5
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=1
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 17284283'.
+
+[Tue May 24 10:32:55 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.15.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.15.fimo.txt
+    jobid: 19
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=15
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 19 with external jobid 'Submitted batch job 17284284'.
+
+[Tue May 24 10:32:55 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.9.fimo.txt
+    jobid: 13
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=9
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 17284285'.
+
+[Tue May 24 10:32:55 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.2.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.2.fimo.txt
+    jobid: 6
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=2
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 17284286'.
+
+[Tue May 24 10:32:55 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.16.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.16.fimo.txt
+    jobid: 20
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=16
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 20 with external jobid 'Submitted batch job 17284287'.
+
+[Tue May 24 10:32:55 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.10.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.10.fimo.txt
+    jobid: 14
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=10
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 17284288'.
+
+[Tue May 24 10:32:55 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.3.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.3.fimo.txt
+    jobid: 7
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=3
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 17284289'.
+
+[Tue May 24 10:32:56 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.17.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.17.fimo.txt
+    jobid: 21
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=17
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 21 with external jobid 'Submitted batch job 17284290'.
+
+[Tue May 24 10:32:56 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.11.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.11.fimo.txt
+    jobid: 15
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=11
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 15 with external jobid 'Submitted batch job 17284291'.
+
+[Tue May 24 10:32:56 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.18.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.18.fimo.txt
+    jobid: 22
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=18
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 22 with external jobid 'Submitted batch job 17284292'.
+
+[Tue May 24 10:32:56 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.4.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.4.fimo.txt
+    jobid: 8
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=4
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 17284293'.
+
+[Tue May 24 10:32:56 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.0.fimo.txt
+    jobid: 2
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=0
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 17284294'.
+
+[Tue May 24 10:32:56 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.12.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.12.fimo.txt
+    jobid: 16
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=12
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 16 with external jobid 'Submitted batch job 17284295'.
+
+[Tue May 24 10:32:56 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.5.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.5.fimo.txt
+    jobid: 9
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=5
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 17284296'.
+
+[Tue May 24 10:32:56 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.19.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.19.fimo.txt
+    jobid: 23
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=19
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 23 with external jobid 'Submitted batch job 17284297'.
+
+[Tue May 24 10:32:56 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.13.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.13.fimo.txt
+    jobid: 17
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=13
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 17 with external jobid 'Submitted batch job 17284298'.
+
+[Tue May 24 10:32:56 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.6.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.6.fimo.txt
+    jobid: 10
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=6
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 17284299'.
+
+[Tue May 24 10:32:56 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.14.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.14.fimo.txt
+    jobid: 18
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=14
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 18 with external jobid 'Submitted batch job 17284300'.
+
+[Tue May 24 10:32:56 2022]
+rule run_fimo:
+    input: data/9mers.fa, temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.7.txt
+    output: temp/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.7.fimo.txt
+    jobid: 11
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=7
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 17284301'.

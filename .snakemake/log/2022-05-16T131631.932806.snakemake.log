@@ -1,0 +1,37 @@
+Building DAG of jobs...
+The code used to generate one or several output files has changed:
+    To inspect which output files have changes, run 'snakemake --list-code-changes'.
+    To trigger a re-run, use 'snakemake -R $(snakemake --list-code-changes)'.
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+all                 1              1              1
+enriched_tfs        1              1              1
+total               2              1              1
+
+Select jobs to execute...
+
+[Mon May 16 13:16:34 2022]
+rule enriched_tfs:
+    input: weights/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.11mers.svmw.txt
+    output: expr_enriched_tfs.wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.11mers.txt
+    jobid: 1
+    wildcards: sample=wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0, word_length=11
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
+[Mon May 16 13:16:49 2022]
+Error in rule enriched_tfs:
+    jobid: 1
+    output: expr_enriched_tfs.wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.11mers.txt
+    shell:
+        python -E workflow/scripts/count_kmers_per_motif.py weights/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.11mers.svmw.txt wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0 ../TF_fam.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+The code used to generate one or several output files has changed:
+    To inspect which output files have changes, run 'snakemake --list-code-changes'.
+    To trigger a re-run, use 'snakemake -R $(snakemake --list-code-changes)'.
+Complete log: .snakemake/log/2022-05-16T131631.932806.snakemake.log

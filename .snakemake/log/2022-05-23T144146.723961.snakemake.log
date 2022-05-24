@@ -1,0 +1,2 @@
+SyntaxError in line 25 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+positional argument follows keyword argument

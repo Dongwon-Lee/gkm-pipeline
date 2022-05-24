@@ -1,0 +1,26 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 15
+Job stats:
+job                    count    min threads    max threads
+-------------------  -------  -------------  -------------
+combine_fimo_output        1              1              1
+run_fimo                  15              1              1
+split_motifs               1              1              1
+total                     17              1              1
+
+Select jobs to execute...
+
+[Mon May 23 23:12:23 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.1.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.2.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.3.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.4.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.5.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.6.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.7.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.8.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.10.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.11.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.12.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.13.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.14.txt
+    jobid: 3
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Error submitting jobscript (exit code 1):
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-05-23T231222.112176.snakemake.log

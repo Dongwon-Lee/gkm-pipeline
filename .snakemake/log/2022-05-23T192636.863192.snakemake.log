@@ -1,0 +1,2 @@
+SyntaxError in line 33 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+EOF in multi-line statement (Snakefile, line 33)

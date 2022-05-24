@@ -1,0 +1,17 @@
+Building DAG of jobs...
+Job stats:
+job         count    min threads    max threads
+--------  -------  -------------  -------------
+run_fimo        1              1              1
+total           1              1              1
+
+
+[Sun May 22 16:46:35 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_0, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_1, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_2, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_3, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_4, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_5, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_6, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_7, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_8, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt_9
+    output: {input.db_file}.{wildcards.word_length}.fimo.txt
+    jobid: 0
+    resources: tmpdir=/tmp
+
+WorkflowError:
+Error when formatting 'fimo -text {input.db_file} {input.kmers} > {input.db_file}.{wildcards.word_length}.fimo.txt' for rule run_fimo. 'Wildcards' object has no attribute 'word_length'

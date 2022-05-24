@@ -1,0 +1,283 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 15
+Rules claiming more threads will be scaled down.
+Job stats:
+job                    count    min threads    max threads
+-------------------  -------  -------------  -------------
+combine_fimo_output        1              1              1
+run_fimo                  15              1              1
+split_motifs               1              1              1
+total                     17              1              1
+
+Select jobs to execute...
+
+[Mon May 23 21:25:18 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.1.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.2.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.3.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.4.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.5.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.6.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.7.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.8.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.10.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.11.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.12.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.13.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.14.txt
+    jobid: 3
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme
+    resources: tmpdir=/tmp
+
+[Mon May 23 21:25:18 2022]
+Finished job 3.
+1 of 17 steps (6%) done
+Select jobs to execute...
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.10.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.10.fimo.txt
+    jobid: 13
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=10
+    resources: tmpdir=/tmp
+
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.3.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.3.fimo.txt
+    jobid: 6
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=3
+    resources: tmpdir=/tmp
+
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.0.fimo.txt
+    jobid: 1
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=0
+    resources: tmpdir=/tmp
+
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.12.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.12.fimo.txt
+    jobid: 15
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=12
+    resources: tmpdir=/tmp
+
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.5.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.5.fimo.txt
+    jobid: 8
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=5
+    resources: tmpdir=/tmp
+
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.14.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.14.fimo.txt
+    jobid: 17
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=14
+    resources: tmpdir=/tmp
+
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.7.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.7.fimo.txt
+    jobid: 10
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=7
+    resources: tmpdir=/tmp
+
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.2.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.2.fimo.txt
+    jobid: 5
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=2
+    resources: tmpdir=/tmp
+
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.9.fimo.txt
+    jobid: 12
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=9
+    resources: tmpdir=/tmp
+
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.11.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.11.fimo.txt
+    jobid: 14
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=11
+    resources: tmpdir=/tmp
+
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.4.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.4.fimo.txt
+    jobid: 7
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=4
+    resources: tmpdir=/tmp
+
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.13.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.13.fimo.txt
+    jobid: 16
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=13
+    resources: tmpdir=/tmp
+
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.6.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.6.fimo.txt
+    jobid: 9
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=6
+    resources: tmpdir=/tmp
+
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.1.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.1.fimo.txt
+    jobid: 4
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=1
+    resources: tmpdir=/tmp
+
+
+[Mon May 23 21:25:19 2022]
+rule run_fimo:
+    input: data/9mers.fa, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.8.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.8.fimo.txt
+    jobid: 11
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=8
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
+[Mon May 23 22:48:03 2022]
+Error in rule run_fimo:
+    jobid: 6
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.3.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.3.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.3.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 23 22:48:03 2022]
+[Mon May 23 22:48:03 2022]
+[Mon May 23 22:48:03 2022]
+Error in rule run_fimo:
+    jobid: 11
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.8.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.8.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.8.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 23 22:48:03 2022]
+[Mon May 23 22:48:03 2022]
+[Mon May 23 22:48:03 2022]
+[Mon May 23 22:48:03 2022]
+[Mon May 23 22:48:03 2022]
+[Mon May 23 22:48:03 2022]
+Error in rule run_fimo:
+    jobid: 13
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.10.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.10.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.10.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_fimo:
+    jobid: 12
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.9.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.9.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_fimo:
+    jobid: 7
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.4.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.4.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.4.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 23 22:48:03 2022]
+Error in rule run_fimo:
+    jobid: 5
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.2.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.2.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.2.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_fimo:
+    jobid: 8
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.5.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.5.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.5.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_fimo:
+    jobid: 15
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.12.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.12.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.12.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_fimo:
+    jobid: 17
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.14.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.14.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.14.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_fimo:
+    jobid: 10
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.7.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.7.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.7.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_fimo:
+    jobid: 9
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.6.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.6.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.6.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 23 22:48:03 2022]
+Error in rule run_fimo:
+    jobid: 16
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.13.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.13.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.13.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 23 22:48:03 2022]
+[Mon May 23 22:48:03 2022]
+Error in rule run_fimo:
+    jobid: 14
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.11.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.11.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.11.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule run_fimo:
+    jobid: 1
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.0.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.0.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Mon May 23 22:48:03 2022]
+Error in rule run_fimo:
+    jobid: 4
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.1.fimo.txt
+    shell:
+        fimo --skip-matched-sequence data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.1.txt data/9mers.fa > data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.1.fimo.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2022-05-23T212517.190096.snakemake.log
