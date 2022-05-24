@@ -1,3 +1,0 @@
-WildcardError in line 37 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
-No values given for wildcard 'tf_database_file'.
-  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 37, in <module>

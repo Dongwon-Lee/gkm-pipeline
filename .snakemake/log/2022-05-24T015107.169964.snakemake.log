@@ -1,3 +1,0 @@
-WorkflowError in line 37 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
-Flags in file patterns given to expand() are invalid. Flags (e.g. temp(), directory()) have to be applied outside of expand (e.g. 'temp(expand("plots/{sample}.pdf", sample=SAMPLES))').
-  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 37, in <module>

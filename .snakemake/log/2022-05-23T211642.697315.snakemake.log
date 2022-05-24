@@ -1,7 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 31 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
-Missing input files for rule run_fimo:
-    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9mers.0.fimo.txt
-    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme, word_length=9, i=0
-    affected files:
-        data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt

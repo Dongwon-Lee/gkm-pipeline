@@ -1,5 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 3 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
-Missing input files for rule all:
-    affected files:
-        expr_enriched_tfs.wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.txt
