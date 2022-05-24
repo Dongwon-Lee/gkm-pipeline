@@ -1,0 +1,3 @@
+AttributeError in line 16 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+'Workflow' object has no attribute 'jobs'
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 16, in <module>

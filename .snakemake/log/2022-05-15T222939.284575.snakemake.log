@@ -1,0 +1,39 @@
+Building DAG of jobs...
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+all                 1              1              1
+enriched_tfs        1              1              1
+get_kmers           1              1              1
+gkm_predict         1              1              1
+gkm_train           1              1              1
+total               5              1              1
+
+
+[Sun May 15 22:29:39 2022]
+rule gkm_train:
+    input: data/samples/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.tr.fa, data/samples/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.neg.tr.fa
+    output: model/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.model.txt
+    jobid: 4
+    wildcards: sample=wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0
+    resources: tmpdir=/tmp
+
+../lsgkm/bin/gkmtrain data/samples/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.tr.fa data/samples/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.neg.tr.fa model/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0
+
+[Sun May 15 22:29:39 2022]
+rule get_kmers:
+    output: data/9mers.fa
+    jobid: 3
+    wildcards: word_length=9
+    resources: tmpdir=/tmp
+
+[Sun May 15 22:29:39 2022]
+rule gkm_predict:
+    input: data/9mers.fa, model/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.model.txt
+    output: weights/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.svmw.txt
+    jobid: 2
+    wildcards: sample=wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0
+    resources: tmpdir=/tmp
+
+WorkflowError:
+Error when formatting '../lsgkm/bin/gkmpredict {input.kners} {input.model} {output}' for rule gkm_predict. 'InputFiles' object has no attribute 'kners'

@@ -1,0 +1,47 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+all                 1              1              1
+enriched_tfs        1              1              1
+get_kmers           1              1              1
+gkm_predict         1              1              1
+gkm_train           1              1              1
+total               5              1              1
+
+Select jobs to execute...
+
+[Sun May 15 22:32:20 2022]
+rule gkm_train:
+    input: data/samples/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.tr.fa, data/samples/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.neg.tr.fa
+    output: model/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.model.txt
+    jobid: 4
+    wildcards: sample=wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0
+    resources: tmpdir=/tmp
+
+[Sun May 15 22:33:27 2022]
+Finished job 4.
+1 of 5 steps (20%) done
+Select jobs to execute...
+
+[Sun May 15 22:33:27 2022]
+rule get_kmers:
+    output: data/9mers.fa
+    jobid: 3
+    wildcards: word_length=9
+    resources: tmpdir=/tmp
+
+[Sun May 15 22:33:27 2022]
+Error in rule get_kmers:
+    jobid: 3
+    output: data/9mers.fa
+    shell:
+        python scripts/nrkmers.py 9 data/9mers.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-05-15T223218.689405.snakemake.log

@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in line 8 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Missing input files for rule gkm_train:
+    output: model/{config[sample-name]}.model.txt
+    affected files:
+        data/samples/{config[sample-name]}.neg.tr.fa
+        data/samples/{config[sample-name]}.tr.fa

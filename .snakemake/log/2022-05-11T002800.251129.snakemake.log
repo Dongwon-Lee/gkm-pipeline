@@ -1,0 +1,33 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+enriched_tfs        1              1              1
+get_kmers           1              1              1
+gkm_predict         1              1              1
+gkm_train           1              1              1
+total               4              1              1
+
+Select jobs to execute...
+
+[Wed May 11 00:28:05 2022]
+rule gkm_train:
+    input: ../lsgkm/tests/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.tr.fa, ../lsgkm/tests/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.neg.tr.fa
+    output: model/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.model.txt
+    jobid: 3
+    wildcards: sample=wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
+[Wed May 11 00:29:12 2022]
+Error in rule gkm_train:
+    jobid: 3
+    output: model/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.model.txt
+    shell:
+        ../lsgkm/bin/gkmtrain ../lsgkm/tests/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.tr.fa ../lsgkm/tests/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.neg.tr.fa model/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: /gpfs/scratch/jtl334/thesis/pipeline/.snakemake/log/2022-05-11T002800.251129.snakemake.log

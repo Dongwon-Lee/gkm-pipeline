@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 15
+Job stats:
+job                    count    min threads    max threads
+-------------------  -------  -------------  -------------
+combine_fimo_output        1              1              1
+run_fimo                  15              1              1
+split_motifs               1              1              1
+total                     17              1              1
+
+Select jobs to execute...
+
+[Tue May 24 01:25:15 2022]
+rule split_motifs:
+    input: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.1.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.2.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.3.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.4.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.5.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.6.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.7.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.8.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.10.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.11.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.12.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.13.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.14.txt
+    jobid: 3
+    wildcards: tf_database_file=JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 3 with external jobid 'Submitted batch job 17282325'.
+[Tue May 24 01:25:24 2022]
+Error in rule split_motifs:
+    jobid: 3
+    output: data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.0.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.1.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.2.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.3.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.4.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.5.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.6.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.7.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.8.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.9.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.10.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.11.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.12.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.13.txt, data/tf_database/JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.14.txt
+    cluster_jobid: Submitted batch job 17282325
+
+Error executing rule split_motifs on cluster (jobid: 3, external: Submitted batch job 17282325, jobscript: /gpfs/scratch/jtl334/thesis/pipeline/.snakemake/tmp.o6wipf_s/snakejob.split_motifs.3.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-05-24T012514.199084.snakemake.log

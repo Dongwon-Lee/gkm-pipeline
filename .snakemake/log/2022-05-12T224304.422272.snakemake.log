@@ -1,0 +1,3 @@
+WorkflowError in line 1 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+Workflow defines configfile config.yaml but it is not present or accessible.
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 1, in <module>

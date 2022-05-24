@@ -1,0 +1,50 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+enriched_tfs        1              1              1
+get_kmers           1              1              1
+gkm_predict         1              1              1
+gkm_train           1              1              1
+total               4              1              1
+
+Select jobs to execute...
+
+[Wed May 11 00:21:22 2022]
+rule gkm_train:
+    input: ../lsgkm/tests/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.tr.fa, ../lsgkm/tests/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.neg.tr.fa
+    output: model/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.model.txt
+    jobid: 3
+    wildcards: sample=wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0
+    resources: tmpdir=/tmp
+
+[Wed May 11 00:22:31 2022]
+Finished job 3.
+1 of 4 steps (25%) done
+Select jobs to execute...
+
+[Wed May 11 00:22:31 2022]
+rule get_kmers:
+    output: data/11mers.fa
+    jobid: 2
+    resources: tmpdir=/tmp
+
+[Wed May 11 00:22:31 2022]
+Error in rule get_kmers:
+    jobid: 2
+    output: data/11mers.fa
+
+RuleException:
+ImportError in line 16 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+cannot import name 'encodestring' from 'base64' (/gpfs/home/jtl334/.conda/envs/pipeline/lib/python3.9/base64.py)
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 16, in __rule_get_kmers
+  File "/gpfs/share/apps/anaconda3/gpu/5.2.0/lib/python3.6/site-packages/nbformat/__init__.py", line 14, in <module>
+  File "/gpfs/share/apps/anaconda3/gpu/5.2.0/lib/python3.6/site-packages/nbformat/v1/__init__.py", line 19, in <module>
+  File "/gpfs/share/apps/anaconda3/gpu/5.2.0/lib/python3.6/site-packages/nbformat/v1/nbjson.py", line 19, in <module>
+  File "/gpfs/home/jtl334/.conda/envs/pipeline/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /gpfs/scratch/jtl334/thesis/pipeline/.snakemake/log/2022-05-11T002115.506054.snakemake.log

@@ -1,0 +1,3 @@
+TypeError in line 33 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+threads() missing 1 required positional argument: 'threads'
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 33, in <module>

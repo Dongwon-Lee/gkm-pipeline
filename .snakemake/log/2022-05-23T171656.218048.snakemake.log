@@ -1,0 +1,3 @@
+TypeError in line 33 of /gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile:
+'method' object cannot be interpreted as an integer
+  File "/gpfs/scratch/jtl334/thesis/pipeline/workflow/Snakefile", line 33, in <module>
