@@ -47,6 +47,9 @@ Configuration of the pipeline and inputs/outputs is done by changing values in t
   - `percent_kmer_5p`: Minimum percentage of k-mers for a TF which must be in the top 5th percentile of SVM weight as determined by LS-GKM in ordered to be considered significant. Default: `0.1`
   - `padj_cutoff_poisson`: Adjusted p-value cutoff for the Poisson test, which uses a Poisson distribution to determine whether the number of k-mers at the top 5th percentile of SVM weight is significantly higher than average. Default: `0.01`
   - `padj_cutoff_wilcox`: Adjusted p-value cutoff for the Wilcox test, which uses a Wilcoxon rank-sum test to determine whether the average SVM weight of the k-mers associated with a TF is significantly higher than the overall average SVM weight. Default: `0.01`
+- `paths`:
+  - `lsgkm`: Absolute path of `lsgkm` program on this machine
+  - `gkm_qc`: Absolute path of `gkmQC` program on this machine
 
 ### Running the pipeline on a compute cluster
 The pipeline can take advantage of HPC clustering engines (e.g. Slurm) to run applicable steps of the pipeline in different jobs. This can be achieved using the `--cluster` command like so:
