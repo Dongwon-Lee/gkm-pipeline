@@ -132,5 +132,7 @@ dmypy.json
 results/**
 resources/**
 logs/**
+temp/**
 .snakemake
 .snakemake/**
+*.svg

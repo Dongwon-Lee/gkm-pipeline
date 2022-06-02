@@ -1,7 +1,7 @@
 sample: "wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0"
 
 word_length: 9
-min_word_length: 8
+min_word_length: 7
 
 tf_metadata_file: "TF_fam"
 
@@ -11,3 +11,7 @@ enrichment_cutoffs:
   percent_kmer_5p: 0.1
   padj_cutoff_poisson: 0.01
   padj_cutoff_wilcox: 0.01
+
+paths:
+  lsgkm: "/gpfs/scratch/jtl334/thesis/lsgkm"
+  gkm_qc: "/gpfs/scratch/jtl334/thesis/gkmQC"

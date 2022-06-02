@@ -11,7 +11,7 @@ rule generate_motif_database:
 #python lsgkm/scripts/nrkmers.py 11 testrun/11mers.fa
 rule get_kmers:
     output: 
-        protected("data/{word_length}mers.fa")
+        protected("data/kmers/{word_length}mers.fa")
     script:
         "scripts/nrkmers.py"
 
@@ -27,7 +27,7 @@ rule split_motifs:
 
 rule run_fimo:
     input:
-        kmers = "data/{word_length}mers.fa",
+        kmers = "data/kmers/{word_length}mers.fa",
         db_file = "temp/{tf_database_file}.{i}.txt"
     output:
         temp("temp/{tf_database_file}.{word_length}mers.{i}.fimo.txt")
@@ -56,25 +56,29 @@ rule gkm_train:
         pos = "data/samples/{sample}.tr.fa",
         neg = "data/samples/{sample}.neg.tr.fa"
     output:
-        "model/{sample}.{word_length}mers.model.txt"
+        "results/models/{sample}.{word_length}mers.model.txt"
+    params:
+        lsgkm_path = config['paths']['lsgkm'],
     shell:
-        "../lsgkm/bin/gkmtrain -l {wildcards.word_length} -d 2 {input.pos} {input.neg} model/{wildcards.sample}.{wildcards.word_length}mers"
+        "{params.lsgkm_path}/bin/gkmtrain -l {wildcards.word_length} -d 2 {input.pos} {input.neg} results/models/{wildcards.sample}.{wildcards.word_length}mers"
 
 
 #lsgkm/bin/gkmpredict testrun/11mers.fa testrun/test_gkmtrain.model.txt test_svmw.txt
 rule gkm_predict:
     input:
-        kmers = "data/{word_length}mers.fa",
-        model = "model/{sample}.{word_length}mers.model.txt"
+        kmers = "data/kmers/{word_length}mers.fa",
+        model = "results/models/{sample}.{word_length}mers.model.txt"
     output:
-        "weights/{sample}.{word_length}mers.svmw.txt"
+        "results/weights/{sample}.{word_length}mers.svmw.txt"
+    params:
+        lsgkm_path = config['paths']['lsgkm'],
     shell:
-        "../lsgkm/bin/gkmpredict {input.kmers} {input.model} {output}"
+        "{params.lsgkm_path}/bin/gkmpredict {input.kmers} {input.model} {output}"
 
 #./count_kmers_per_motif.py jaspar/fimo.JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.11mers.uniq.txt testrun/test_svmw.txt test 0.1 0.01 0.01 TF_fam.txt
 rule enriched_tfs:
     input:
-        "weights/{sample}.{word_length}mers.svmw.txt",
+        "results/weights/{sample}.{word_length}mers.svmw.txt",
         expand("data/tf_database/{tf_database_file}.{{word_length}}_{min_word_length}mers.fimo.txt", tf_database_file=config['tf_database_file'], min_word_length=config["min_word_length"])
     output:
         "results/{sample}.{word_length}mers.expr_enriched_tfs.txt"
