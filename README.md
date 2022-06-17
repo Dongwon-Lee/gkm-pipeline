@@ -5,7 +5,7 @@ A pipeline for discovery of likely CRE transcription factor elements from epigen
 First to set up the [Conda](https://docs.conda.io/en/latest/) environment, run the following in the project root directory:
 ```bash
 $ conda env create -f environment.yml
-$ conda activate gklm-pipeline
+$ conda activate gkm-pipeline
 ```
 
 ### Running the pipeline
@@ -27,22 +27,32 @@ $ snakemake -np [rule name]
 $ snakemake -c[cores] [rule name]
 ```
 
+Some of the pipeline steps can be given a variable amount of memory to speed up performance. You can specify a maximum amount of memory available to Snakemake (in MB) like so:
+```bash
+$ snakemake -c[cores] --resources mem_mb=[memory_in_MB]
+```
+The pipeline will automatically assign each step the maximum amount of memory specified by both the rule an the maximum given by the user.
+
 ### Pipeline steps
 The pipeline currently consists of two major steps (for now, until more are added). These two steps both appear at the top of the `Snakemake` file as [target rules](https://snakemake.readthedocs.io/en/stable/tutorial/basics.html#step-7-adding-a-target-rule), making it convenient to run them alone. They are as follows:
 
 - `all`: Runs all steps in the pipeline (for which output doesn't already exist) from start to finish. Outputs the following files to the `results` directory:
-  - `[sample].[word_length]mers.expr_enriched_tfs.txt`: Contains all transcription factors found to be significantly upregulated for the sample data
+  - `[sample]/[sample].[word_length]mers.expr_enriched_tfs.html`: An HTML file containing information about all transcription factors found to be significantly upregulated for the sample data
+  - `[sample]/[sample].[word_length]mers.all_tfs.txt`: Text file continaing information about all transcription factors (including ones not found to be significant) 
   - `[sample].[word_length]mers.TF_class_enrichment_test.txt`: (Optional) Contains information about which TF classes are upregulated for the sample data
   - `[sample].[word_length]mers.TF_family_enrichment_test.txt`: (Optional) Contains information about which TF families are upregulated for the sample data
 - `generate_motif_database`: Runs only the steps needed to create the transcription factor sequence motif data file for the given transcription factor database. Outputs a file to the `data/tf_database` directory named `[tf_database_file].[word_length]_[min_word_length]mers.fimo.txt`. Note that output of this rule is required to run the main `all` rule, however this is the longest running portion of the pipeline, so there may be situations in which one wants to run this rule separately. There are also precompiled TF sequence motif data files in the `data/tf_database` directory, which may be used to automatically skip this step when running the `all` rule.
+- `run_qc`: Runs the gkmQC tool for the sample data. Outputs the following files to the `results/QC` directory:
+  - `[sample].[word_length]mers.gkmqc.eval.out`: Text file containing AUCs of trained QC models
+  - `[sample].[word_length]mers.gkmqc.curve.pdf`: PDF with curve visualizing AUCs of trained QC models, with final gkmQC score
 
 ### Configuration
 Configuration of the pipeline and inputs/outputs is done by changing values in the `config/config.yaml` file. The available configuration variables are as follows:
-- `sample`: The name of the sample to be interrogated. The pipeline expects two files to exist in the `data/samples` directory: `[sample].tr.fa` and `[sample].neg.tr.fa`. (_Note_: this will change when initial data ingestion step is added). Default: `wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0` (which points to an example sample file)
-- `word_length`: The k-mer word length to use to train the LS-GKM algorithm. Default: 11
+- `sample`: An array of names of samples to be interrogated. The pipeline expects all samples to correspond with `.bed` files in the `data/samples` directory, i.e. `data/samples/[sample].bed`. Default: `example` (which points to an example sample file)
+- `word_length`: The k-mer word length to use to train the LS-GKM algorithm. Default: 10
 - `min_word_length`: When compiling the TF sequence motif data file, motif sequences in the database longer than `word_length` will need to be examined as smaller subsequences. `min_word_length` defines a value (_less than_ `word_length`) which is the minimum word length to consider for this process. Reccomended value: `word_length` - 2
 - `tf_database_file`: Name of the motif database file present in `data/tf_database` as `[tf_database_file].txt`. This file should be in [MEME format](https://meme-suite.org/meme/doc/meme-format.html?man_type=web). Default: `JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme` (pre-provided JASPAR 2022 database of all vertebrate transcription factors, without redundancy) 
-- `tf_metadata_file`: (Optional) Name of the file containing transcription factor family and class information. Should be a 3 column tsv file without headers in the format `Motif_ID TF_family TF_class`. Default: `TF_fam` (pre-provided file of families and classes for motifs found in `JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt`)
+- `tf_metadata_file`: (Optional) Name of the file containing transcription factor family and class information. Should be a 3 column tsv file without headers in the format `Motif_ID TF_family TF_class`. Default: `TF_metadata` (pre-provided file of families and classes for motifs found in `JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.txt`)
 - `enrichment_cutoffs`: Statistical cutoff values for determining whether a transcription factor is found to be significantly enriched for this sample. A TF is only considered significant if it passes _all three_ tests. Contains three values:
   - `percent_kmer_5p`: Minimum percentage of k-mers for a TF which must be in the top 5th percentile of SVM weight as determined by LS-GKM in ordered to be considered significant. Default: `0.1`
   - `padj_cutoff_poisson`: Adjusted p-value cutoff for the Poisson test, which uses a Poisson distribution to determine whether the number of k-mers at the top 5th percentile of SVM weight is significantly higher than average. Default: `0.01`
