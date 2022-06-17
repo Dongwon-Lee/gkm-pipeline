@@ -5,7 +5,7 @@ A pipeline for discovery of likely CRE transcription factor elements from epigen
 First to set up the [Conda](https://docs.conda.io/en/latest/) environment, run the following in the project root directory:
 ```bash
 $ conda env create -f environment.yml
-$ conda activate pipeline
+$ conda activate gklm-pipeline
 ```
 
 ### Running the pipeline
@@ -49,7 +49,7 @@ Configuration of the pipeline and inputs/outputs is done by changing values in t
   - `padj_cutoff_wilcox`: Adjusted p-value cutoff for the Wilcox test, which uses a Wilcoxon rank-sum test to determine whether the average SVM weight of the k-mers associated with a TF is significantly higher than the overall average SVM weight. Default: `0.01`
 - `paths`:
   - `lsgkm`: Absolute path of `lsgkm` program on this machine
-  - `gkm_qc`: Absolute path of `gkmQC` program on this machine
+  - `gkmQC`: Absolute path of `gkmQC` program on this machine
 
 ### Running the pipeline on a compute cluster
 The pipeline can take advantage of HPC clustering engines (e.g. Slurm) to run applicable steps of the pipeline in different jobs. This can be achieved using the `--cluster` command like so:

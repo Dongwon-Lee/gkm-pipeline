@@ -2,13 +2,68 @@ configfile: "config/config.yaml"
 
 rule all:
     input:
-        expand("results/{sample}.{word_length}mers.expr_enriched_tfs.txt", word_length=config["word_length"], sample=config["sample"])
+        expand("results/{sample}/{sample}.{word_length}mers.all_tfs.txt", word_length=config["word_length"], sample=config["samples"]),
+        expand("results/{sample}/{sample}.{word_length}mers.expr_enriched_tfs.html", word_length=config["word_length"], sample=config["samples"])
 
 rule generate_motif_database:
     input:
         expand("data/tf_database/{tf_database_file}.{word_length}_{min_word_length}mers.fimo.txt", tf_database_file=config['tf_database_file'], word_length=config["word_length"], min_word_length=config["min_word_length"])
 
-#python lsgkm/scripts/nrkmers.py 11 testrun/11mers.fa
+rule run_qc:
+    input:
+        expand("results/qc/{sample}.{word_length}mers.gkmqc.curve.pdf", sample=config["samples"], word_length=config["word_length"])
+
+rule qc_eval:
+    input:
+        "data/samples/{sample}.bed"
+    output:
+        "results/qc/{sample}.{word_length}mers.gkmqc.eval.out"
+    threads: 10
+    params:
+        gkmQC_path = config['paths']['gkmQC'],
+    resources:
+        mem_mb = lambda wildcards, input: max(input.size_mb * 512, 512)
+    shell:
+        "cd data/samples && "
+        "python -E {params.gkmQC_path}/bin/gkmqc.py evaluate -i {wildcards.sample}.bed -g hg38 "
+        "-n {wildcards.sample}.{wildcards.word_length}mers -l "
+        "-@ {threads} -L {wildcards.word_length} -c {resources.mem_mb} "
+        "&& mv {wildcards.sample}.{wildcards.word_length}mers.gkmqc/{wildcards.sample}.{wildcards.word_length}mers.gkmqc.eval.out "
+        "../../results/qc/{wildcards.sample}.{wildcards.word_length}mers.gkmqc.eval.out"
+
+rule qc_report:
+    input:
+        "results/qc/{sample}.{word_length}mers.gkmqc.eval.out"
+    output:
+        "results/qc/{sample}.{word_length}mers.gkmqc.curve.pdf"
+    params:
+        gkmQC_path = config['paths']['gkmQC']
+    shell:
+        "python -E {params.gkmQC_path}/bin/gkmqc.py report -i {input}"
+
+rule clean_bed:
+    input:
+        "data/samples/{sample}.bed"
+    output:
+        "results/samples/bed/{sample}.clean.bed"
+    shell:
+        "grep -v 'chrUn\|chrM\|random' {input} > {output}"
+
+rule generate_null_seq:
+    input:
+        "results/samples/bed/{sample}.clean.bed"
+    output:
+        neg_bed = "results/samples/bed/{sample}.neg.bed",
+        neg_fa = "results/samples/fasta/{sample}.neg.fa",
+        fa = "results/samples/fasta/{sample}.fa"
+    params:
+        gkmQC_path = config['paths']['gkmQC']
+    threads: 10
+    shell:
+        "python -E {params.gkmQC_path}/scripts/seqs_nullgen.py -p {input} -n {output.neg_bed} -g hg38 -@ {threads} && "
+        "mv results/samples/bed/{wildcards.sample}.neg.fa results/samples/fasta/{wildcards.sample}.neg.fa && "
+        "mv results/samples/bed/{wildcards.sample}.clean.fa results/samples/fasta/{wildcards.sample}.fa"
+
 rule get_kmers:
     output: 
         protected("data/kmers/{word_length}mers.fa")
@@ -50,20 +105,27 @@ rule combine_fimo_output:
         rm tmp
         """
         
-#lsgkm/bin/gkmtrain lsgkm/tests/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.tr.fa lsgkm/tests/wgEncodeSydhTfbsGm12878Nfe2hStdAlnRep0.neg.tr.fa testrun/test_gkmtrain
+def get_num_threads(wildcards):
+    return 16 if workflow.cores >= 16 else 4 if workflow.cores < 16 and workflow.cores >= 4 else 1
+
+def get_d(wildcards):
+    return int(wildcards.word_length) - 7 if int(wildcards.word_length) <= 9 else 3
+
 rule gkm_train:
     input:
-        pos = "data/samples/{sample}.tr.fa",
-        neg = "data/samples/{sample}.neg.tr.fa"
+        pos = "results/samples/fasta/{sample}.fa",
+        neg = "results/samples/fasta/{sample}.neg.fa"
     output:
         "results/models/{sample}.{word_length}mers.model.txt"
     params:
         lsgkm_path = config['paths']['lsgkm'],
+        d = get_d
+    threads: get_num_threads
+    resources:
+        mem_mb = lambda wildcards, input: max(input.size_mb * 512, 512)
     shell:
-        "{params.lsgkm_path}/bin/gkmtrain -l {wildcards.word_length} -d 2 {input.pos} {input.neg} results/models/{wildcards.sample}.{wildcards.word_length}mers"
+        "{params.lsgkm_path}/bin/gkmtrain -l {wildcards.word_length} -d {params.d} -m {resources.mem_mb} -T {threads} {input.pos} {input.neg} results/models/{wildcards.sample}.{wildcards.word_length}mers"
 
-
-#lsgkm/bin/gkmpredict testrun/11mers.fa testrun/test_gkmtrain.model.txt test_svmw.txt
 rule gkm_predict:
     input:
         kmers = "data/kmers/{word_length}mers.fa",
@@ -71,21 +133,22 @@ rule gkm_predict:
     output:
         "results/weights/{sample}.{word_length}mers.svmw.txt"
     params:
-        lsgkm_path = config['paths']['lsgkm'],
+        lsgkm_path = config['paths']['lsgkm']
+    threads: get_num_threads
     shell:
-        "{params.lsgkm_path}/bin/gkmpredict {input.kmers} {input.model} {output}"
+        "{params.lsgkm_path}/bin/gkmpredict -T {threads} {input.kmers} {input.model} {output}"
 
-#./count_kmers_per_motif.py jaspar/fimo.JASPAR2022_CORE_vertebrates_non-redundant_pfms_meme.11mers.uniq.txt testrun/test_svmw.txt test 0.1 0.01 0.01 TF_fam.txt
 rule enriched_tfs:
     input:
         "results/weights/{sample}.{word_length}mers.svmw.txt",
         expand("data/tf_database/{tf_database_file}.{{word_length}}_{min_word_length}mers.fimo.txt", tf_database_file=config['tf_database_file'], min_word_length=config["min_word_length"])
     output:
-        "results/{sample}.{word_length}mers.expr_enriched_tfs.txt"
+        "results/{sample}/{sample}.{word_length}mers.all_tfs.txt",
+        "results/{sample}/{sample}.{word_length}mers.expr_enriched_tfs.html"
     params:
         tf_metadata_file = config['tf_metadata_file'],
         percent_kmer_5p = config['enrichment_cutoffs']['percent_kmer_5p'],
         padj_cutoff_poisson = config['enrichment_cutoffs']['padj_cutoff_poisson'],
         padj_cutoff_wilcox = config['enrichment_cutoffs']['padj_cutoff_wilcox']
     shell:
-        "python -E workflow/scripts/count_kmers_per_motif.py {input} results/{wildcards.sample}.{wildcards.word_length}mers {params.percent_kmer_5p} {params.padj_cutoff_poisson} {params.padj_cutoff_wilcox} data/tf_database/{params.tf_metadata_file}.txt"
+        "python -E workflow/scripts/count_kmers_per_motif.py {input} results/{wildcards.sample}/{wildcards.sample}.{wildcards.word_length}mers {params.percent_kmer_5p} {params.padj_cutoff_poisson} {params.padj_cutoff_wilcox} data/tf_database/{params.tf_metadata_file}.txt"

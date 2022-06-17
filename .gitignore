@@ -129,10 +129,13 @@ dmypy.json
 .pyre/
 
 # snakemake
-results/**
-resources/**
-logs/**
-temp/**
+results/*
+resources/*
+logs/*
+temp/*
 .snakemake
-.snakemake/**
+.snakemake/*
 *.svg
+data/samples/*
+!data/samples/example.bed
+data/tf_database/*.fimo.txt

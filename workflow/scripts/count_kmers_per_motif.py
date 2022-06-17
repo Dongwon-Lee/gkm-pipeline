@@ -56,13 +56,30 @@ motinfo.loc[motinfo['padj_wilcox'] == 0, 'padj_wilcox'] = sys.float_info.min
 
 motinfo['is_sig'] = (motinfo['padj_poisson'] <= padj_cutoff_poisson) & (motinfo['padj_wilcox'] <= padj_cutoff_wilcox) & (motinfo['kmer5p_pcrt'] >= kmer5p_pcrt_cutoff)
 
-expr_enriched_tfs = motinfo.loc[motinfo['is_sig'], ['TF_Name', 'Motif_ID', 'total', 'kmer5p', 'kmer5p_pcrt', 'poisson_pval', 'padj_poisson', 'wilcox_pval', 'padj_wilcox']]
-filename = f'{outprefix}.expr_enriched_tfs.txt'
-expr_enriched_tfs.to_csv(filename, index=False, sep='\t', float_format='%.16g')
+def makeHtmlFile(htmlString):
+    return f'''<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://tofsjonas.github.io/sortable/sortable.css" rel="stylesheet" />
+        <script src="https://tofsjonas.github.io/sortable/sortable.js"></script>
+        <style>
+            th, td {{padding: 4px !important;}}
+            img {{max-height: 80px;}}
+            table {{font-size: 0.85em; text-align: center;}}
+        </style>
+    </head>
+    <body>
+        {htmlString}
+    </body>
+</html>
+'''
 
 if tf_metadata_fn:
     tf_metadata = pd.read_csv(tf_metadata_fn, sep='\t',names=['Motif_ID', 'Family', 'Class'])
     motinfo = motinfo.merge(tf_metadata, how='left', on='Motif_ID')
+
+    filename = f'{outprefix}.all_tfs.txt'
+    motinfo.to_csv(filename, sep='\t', index=False, float_format='%.16g')
 
     totalTfs = motinfo.shape[0]
     num_sig = motinfo[motinfo['is_sig']].shape[0]
@@ -94,3 +111,19 @@ if tf_metadata_fn:
 
     filename = f'{outprefix}.TF_class_enrichment_test.txt'
     res_class.to_csv(filename, index=False, sep='\t', float_format='%.16g')
+
+    expr_enriched_tfs = motinfo.loc[motinfo['is_sig'], ['TF_Name', 'Motif_ID', 'Family', 'Class', 'total', 'kmer5p', 'kmer5p_pcrt', 'poisson_pval', 'padj_poisson', 'wilcox_pval', 'padj_wilcox']]
+    expr_enriched_tfs['Logo'] = expr_enriched_tfs['Motif_ID'].map('<img src="https://jaspar.genereg.net/static/logos/all/svg/{}.svg"/>'.format)
+    expr_enriched_tfs['Motif_ID'] = expr_enriched_tfs['Motif_ID'].map(lambda x: f'<a target="_blank" href="http://jaspar.genereg.net/matrix/{x}">{x}</a>')
+    file = open(f'{outprefix}.expr_enriched_tfs.html', 'w')
+    file.write(makeHtmlFile(expr_enriched_tfs.to_html(index=False, classes='sortable', escape=False, float_format='%.16g')))
+    file.close()
+else:
+    filename = f'{outprefix}.all_tfs.txt'
+    motinfo.to_csv(filename, sep='\t', index=False, float_format='%.16g')
+    expr_enriched_tfs = motinfo.loc[motinfo['is_sig'], ['TF_Name', 'Motif_ID', 'total', 'kmer5p', 'kmer5p_pcrt', 'poisson_pval', 'padj_poisson', 'wilcox_pval', 'padj_wilcox']]
+    expr_enriched_tfs['Logo'] = expr_enriched_tfs['Motif_ID'].map('<img src="https://jaspar.genereg.net/static/logos/all/svg/{}.svg"/>'.format)
+    expr_enriched_tfs['Motif_ID'] = expr_enriched_tfs['Motif_ID'].map(lambda x: f'<a target="_blank" href="http://jaspar.genereg.net/matrix/{x}">{x}</a>')
+    file = open(f'{outprefix}.expr_enriched_tfs.html', 'w')
+    file.write(makeHtmlFile(expr_enriched_tfs.to_html(index=False, classes='sortable', escape=False, float_format='%.16g')))
+    file.close()
