@@ -138,4 +138,3 @@ temp/*
 *.svg
 data/samples/*
 !data/samples/example.bed
-data/tf_database/*.fimo.txt
