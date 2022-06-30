@@ -2,6 +2,8 @@
 
 import re
 import os
+from multiprocessing import Pool
+import tempfile
 
 memeHeader = '''MEME version 4
 
@@ -14,21 +16,21 @@ A 0.25 C 0.25 G 0.25 T 0.25
 
 '''
 
-dbFile = snakemake.input[0]
-numFiles = len(snakemake.output)
+dbFilePath = snakemake.input['db_file']
+all_kmers = snakemake.input['kmers']
+numFiles = snakemake.threads
 k_min = snakemake.config['min_word_length']
 k = snakemake.config['word_length']    
 subMers = k - k_min
-
-print(f'there are {numFiles} cores avail')
+dbFileName = snakemake.config['tf_database_file']
 
 files = []
 for i in range(numFiles):
-    file = open(f'{snakemake.params["target_fn"]}.{i}.txt', 'w')
-    if i > 0: file.write(memeHeader)
-    files.append(file)
+    f = tempfile.NamedTemporaryFile(mode='w+t')
+    if i > 0: f.write(memeHeader)
+    files.append(f)
 
-with open(dbFile, "r") as fp:
+with open(dbFilePath, "r") as fp:
     i = 0
     motif = []
     for line in fp:
@@ -56,6 +58,18 @@ with open(dbFile, "r") as fp:
                     
         else:
             motif.append(line.strip())
-                                
-for i in range(numFiles):
-    files[i].close()
+
+for f in files:
+    f.seek(0)
+
+def run_fimo(i, fileName):
+    out = f'{os.environ["TMPDIR"]}/{dbFileName}.{k}_{k_min}mers.{i}.fimo.txt'
+    print(f'running fimo {i} on input {fileName}')
+    os.system(f'fimo --skip-matched-sequence {fileName} {all_kmers} > {out}')
+    print(f'fimo output {i} written to {out}')
+
+with Pool(numFiles) as pool:
+    pool.starmap(run_fimo, enumerate(map(lambda f: f.name, files)))
+
+for f in files:
+    f.close()
