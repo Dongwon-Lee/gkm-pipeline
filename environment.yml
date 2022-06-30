@@ -1,0 +1,19 @@
+name: gkm-pipeline
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - pip
+  - python=3.7
+  - numpy
+  - scipy
+  - snakemake-minimal>=7
+  - pandas
+  - meme>=5
+  - bitarray
+  - scikit-learn
+  - matplotlib
+  - pip:
+    - pyfasta

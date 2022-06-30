@@ -1,0 +1,2982 @@
+MA0001.1	MIKC	MADS box factors
+MA0002.1	Runt-related factors	Runt domain factors
+MA0003.1	AP-2	Basic helix-span-helix factors (bHSH)
+MA0004.1	PAS domain factors	Basic helix-loop-helix factors (bHLH)
+MA0005.1	MIKC	MADS box factors
+MA0006.1	PAS domain factors::PAS domain factors	Basic helix-loop-helix factors (bHLH)::Basic helix-loop-helix factors (bHLH)
+MA0007.1	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0008.1	HD-ZIP	Homeo domain factors
+MA0009.1	Brachyury-related factors	T-Box factors
+MA0010.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0011.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0012.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0013.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0014.1	Paired domain only	Paired box factors
+MA0015.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0016.1		Nuclear receptors with C4 zinc fingers
+MA0017.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0018.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+MA0019.1	CEBP-related::CEBP-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA0020.1	DOF	Other C4 zinc finger-type factors
+MA0021.1	DOF	Other C4 zinc finger-type factors
+MA0022.1		Rel homology region (RHR) factors
+MA0023.1	Rel homology domain (RHD)	Rel homology region (RHR) factors
+MA0024.1	E2F	Fork head/winged helix factors
+MA0025.1	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0026.1	Ets-related	Tryptophan cluster factors
+MA0027.1	NK	Homeo domain factors
+MA0028.1	Ets-related	Tryptophan cluster factors
+MA0029.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0030.1	FOX	Fork head/winged helix factors
+MA0031.1	FOX	Fork head/winged helix factors
+MA0032.1	FOX	Fork head/winged helix factors
+MA0033.1	FOX	Fork head/winged helix factors
+MA0034.1	Myb	Tryptophan cluster factors
+MA0035.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0036.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0037.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0038.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0039.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0040.1	FOX	Fork head/winged helix factors
+MA0041.1	FOX	Fork head/winged helix factors
+MA0042.1	FOX	Fork head/winged helix factors
+MA0043.1	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0046.1	POU domain factors	Homeo domain factors
+MA0047.1	FOX	Fork head/winged helix factors
+MA0048.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0049.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0050.1	Interferon-regulatory factors	Tryptophan cluster factors
+MA0051.1	Interferon-regulatory factors	Tryptophan cluster factors
+MA0052.1	Regulators of differentiation	MADS box factors
+MA0053.1	DOF	Other C4 zinc finger-type factors
+MA0054.1	Myb	Tryptophan cluster factors
+MA0056.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0058.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0059.1	bHLH-ZIP::bHLH-ZIP	Basic helix-loop-helix factors (bHLH)::Basic helix-loop-helix factors (bHLH)
+MA0060.1	NFY	Other alpha
+MA0105.1	NF-kappaB-related factors	Rel homology region (RHR) factors
+MA0062.1	Ets-related	Tryptophan cluster factors
+MA0063.1	NK	Homeo domain factors
+MA0064.1	DOF	Other C4 zinc finger-type factors
+MA0065.1	Thyroid hormone receptor-related factors (NR1)::RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers::Nuclear receptors with C4 zinc fingers
+MA0066.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA0067.1	Paired domain only	Paired box factors
+MA0068.1	Paired plus homeo domain	Paired box factors
+MA0069.1	Paired plus homeo domain	Paired box factors
+MA0070.1	TALE-type homeo domain factors	Homeo domain factors
+MA0071.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA0072.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA0073.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0074.1	RXR-related receptors (NR2)::Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers::Nuclear receptors with C4 zinc fingers
+MA0075.1	Paired-related HD factors	Homeo domain factors
+MA0076.1	Ets-related	Tryptophan cluster factors
+MA0077.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA0078.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA0079.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0080.1	Ets-related	Tryptophan cluster factors
+MA0081.1	Ets-related	Tryptophan cluster factors
+MA0082.1	MIKC	MADS box factors
+MA0083.1	Responders to external signals (SRF/RLM1)	MADS box factors
+MA0084.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA0085.1		
+MA0086.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0087.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA0088.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0089.1	Maf-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA0090.1	TEF-1-related factors	TEA domain factors
+MA0091.1	Tal-related::E2A	Basic helix-loop-helix factors (bHLH)::Basic helix-loop-helix factors (bHLH)
+MA0092.1	Tal-related::E2A	Basic helix-loop-helix factors (bHLH)::Basic helix-loop-helix factors (bHLH)
+MA0093.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0094.1	HOX	Homeo domain factors
+MA0095.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0096.1	Group S	Basic leucine zipper factors (bZIP)
+MA0097.1	Group S	Basic leucine zipper factors (bZIP)
+MA0098.1	Ets-related	Tryptophan cluster factors
+MA0099.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA0100.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA0101.1	NF-kappaB-related factors	Rel homology region (RHR) factors
+MA0102.1	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0103.1	HD-ZF factors	Homeo domain factors
+MA0104.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0105.2	NF-kappaB-related factors	Rel homology region (RHR) factors
+MA0106.1	p53-related factors	p53 domain factors
+MA0107.1	NF-kappaB-related factors	Rel homology region (RHR) factors
+MA0108.1	TBP-related factors	TATA-binding proteins
+MA0108.2	TBP-related factors	TATA-binding proteins
+MA0110.1	HD-ZIP	Homeo domain factors
+MA0111.1		Basic helix-loop-helix factors (bHLH)
+MA0112.1	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0113.1	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0114.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0115.1	Thyroid hormone receptor-related factors (NR1)::RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers::Nuclear receptors with C4 zinc fingers
+MA0116.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0117.1	Maf-related	Basic leucine zipper factors (bZIP)
+MA0118.1		C2H2 zinc finger factors
+MA0119.1	Nuclear factor 1::NK	SMAD/NF-1 DNA-binding domain factors::Homeo domain factors
+MA0121.1	GARP_ARR-B	Tryptophan cluster factors
+MA0122.1	NK	Homeo domain factors
+MA0123.1	ERF/DREB	AP2/EREBP
+MA0124.1	NK	Homeo domain factors
+MA0125.1	Paired-related HD factors	Homeo domain factors
+MA0126.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0127.1		
+MA0128.1	Group G	Basic leucine zipper factors (bZIP)
+MA0129.1	Group D	Basic leucine zipper factors (bZIP)
+MA0130.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0131.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0132.1	HOX	Homeo domain factors
+MA0135.1	HD-LIM	Homeo domain factors
+MA0136.1	Ets-related	Tryptophan cluster factors
+MA0137.1	STAT factors	STAT domain factors
+MA0138.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0139.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0140.1	C4-GATA-related::Tal-related	Other C4 zinc finger-type factors::Basic helix-loop-helix factors (bHLH)
+MA0141.1	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0142.1	POU domain factors::SOX-related factors	Homeo domain factors::High-mobility group (HMG) domain factors
+MA0143.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA0144.1	STAT factors	STAT domain factors
+MA0145.1	CP2-related factors	Grainyhead domain factors
+MA0146.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0147.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0148.1	FOX	Fork head/winged helix factors
+MA0149.1	Ets-related	Tryptophan cluster factors
+MA0062.2	Ets-related	Tryptophan cluster factors
+MA0035.2	C4-GATA-related	Other C4 zinc finger-type factors
+MA0039.2	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0138.2	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0002.2	Runt-related factors	Runt domain factors
+MA0137.2	STAT factors	STAT domain factors
+MA0104.2	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0047.2	FOX	Fork head/winged helix factors
+MA0112.2	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0065.2	Thyroid hormone receptor-related factors (NR1)::RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers::Nuclear receptors with C4 zinc fingers
+MA0150.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA0151.1	ARID-related	ARID
+MA0152.1	NFAT-related factors	Rel homology region (RHR) factors
+MA0153.1	POU domain factors	Homeo domain factors
+MA0154.1	Early B-Cell Factor-related factors	Rel homology region (RHR) factors
+MA0155.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0156.1	Ets-related	Tryptophan cluster factors
+MA0157.1	FOX	Fork head/winged helix factors
+MA0158.1	HOX	Homeo domain factors
+MA0159.1	Thyroid hormone receptor-related factors (NR1)::RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers::Nuclear receptors with C4 zinc fingers
+MA0160.1	NGFI-B-related receptors (NR4)	Nuclear receptors with C4 zinc fingers
+MA0161.1	Nuclear factor 1	SMAD/NF-1 DNA-binding domain factors
+MA0162.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0163.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0164.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0080.2	Ets-related	Tryptophan cluster factors
+MA0018.2	CREB-related factors	Basic leucine zipper factors (bZIP)
+MA0099.2	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA0079.2	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0102.2	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0165.1	HOX	Homeo domain factors
+MA0166.1	HOX	Homeo domain factors
+MA0167.1		Homeo domain factors
+MA0168.1	HOX	Homeo domain factors
+MA0169.1	HOX	Homeo domain factors
+MA0170.1		Homeo domain factors
+MA0171.1		Homeo domain factors
+MA0172.1		Homeo domain factors
+MA0173.1		Homeo domain factors
+MA0174.1		Homeo domain factors
+MA0175.1		Homeo domain factors
+MA0176.1		Homeo domain factors
+MA0177.1		Homeo domain factors
+MA0178.1		Homeo domain factors
+MA0179.1		Homeo domain factors
+MA0180.1	Paired-related HD factors	Homeo domain factors
+MA0181.1	Paired-related HD factors	Homeo domain factors
+MA0182.1		Homeo domain factors
+MA0183.1		Homeo domain factors
+MA0184.1		Homeo domain factors
+MA0185.1	DEAF	SAND domain factors
+MA0186.1	HOX	Homeo domain factors
+MA0187.1		Homeo domain factors
+MA0188.1	NK	Homeo domain factors
+MA0189.1		Homeo domain factors
+MA0190.1	Paired-related HD factors	Homeo domain factors
+MA0191.1	NK	Homeo domain factors
+MA0192.1	NK	Homeo domain factors
+MA0193.1		Homeo domain factors
+MA0194.1	HD-LIM	Homeo domain factors
+MA0195.1	HD-LIM	Homeo domain factors
+MA0196.1	NK	Homeo domain factors
+MA0197.1	POU domain factors	Homeo domain factors
+MA0198.1	Paired-related HD factors	Homeo domain factors
+MA0199.1	HD-SINE	Homeo domain factors
+MA0200.1		Homeo domain factors
+MA0201.1	Paired-related HD factors	Homeo domain factors
+MA0202.1	Paired-related HD factors	Homeo domain factors
+MA0203.1	HOX	Homeo domain factors
+MA0204.1	HD-SINE	Homeo domain factors
+MA0205.1		C2H2 zinc finger factors
+MA0206.1	HOX	Homeo domain factors
+MA0207.1		Homeo domain factors
+MA0208.1	Paired-related HD factors	Homeo domain factors
+MA0209.1		Homeo domain factors
+MA0210.1	TALE-type homeo domain factors	Homeo domain factors
+MA0211.1	NK	Homeo domain factors
+MA0212.1	Paired-related HD factors	Homeo domain factors
+MA0213.1		
+MA0214.1	NK	Homeo domain factors
+MA0215.1		Homeo domain factors
+MA0216.1	HOX	Homeo domain factors
+MA0217.1	TALE-type homeo domain factors	Homeo domain factors
+MA0218.1	HD-CUT	Homeo domain factors
+MA0219.1	NK	Homeo domain factors
+MA0220.1	NK	Homeo domain factors
+MA0221.1	HOX	Homeo domain factors
+MA0222.1	TALE-type homeo domain factors	Homeo domain factors
+MA0224.1		Homeo domain factors
+MA0225.1	HOX	Homeo domain factors
+MA0226.1		Homeo domain factors
+MA0227.1	TALE-type homeo domain factors	Homeo domain factors
+MA0228.1		Homeo domain factors
+MA0229.1	NK	Homeo domain factors
+MA0230.1	HOX	Homeo domain factors
+MA0231.1		Homeo domain factors
+MA0232.1		Homeo domain factors
+MA0233.1		Homeo domain factors
+MA0234.1	Paired-related HD factors	Homeo domain factors
+MA0235.1	HD-CUT	Homeo domain factors
+MA0236.1	Paired-related HD factors	Homeo domain factors
+MA0237.1	High Mobility Group box (HMG)	High-mobility group (HMG) domain factors
+MA0238.1	HOX	Homeo domain factors
+MA0239.1		Paired box factors
+MA0240.1		Homeo domain factors
+MA0241.1		Homeo domain factors
+MA0242.1	Runt-related factors::Runt-related factors	Runt domain factors::Runt domain factors
+MA0243.1		TEA domain factors
+MA0244.1	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0245.1	NK	Homeo domain factors
+MA0246.1	HD-SINE	Homeo domain factors
+MA0247.1	Homeo	Homeo domain factors
+MA0248.1	HD-LIM	Homeo domain factors
+MA0249.1		Basic helix-loop-helix factors (bHLH)
+MA0250.1	Paired-related HD factors	Homeo domain factors
+MA0251.1		Homeo domain factors
+MA0252.1		Homeo domain factors
+MA0253.1	NK	Homeo domain factors
+MA0254.1	POU domain factors	Homeo domain factors
+MA0255.1		
+MA0256.1		Homeo domain factors
+MA0257.1		Homeo domain factors
+MA0094.2	HOX	Homeo domain factors
+MA0258.1	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0259.1	PAS domain factors::PAS domain factors	Basic helix-loop-helix factors (bHLH)::Basic helix-loop-helix factors (bHLH)
+MA0260.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0261.1		
+MA0262.1		DM-type intertwined zinc finger factors
+MA0263.1	Paired-related HD factors::HD-LIM factors	Homeo domain factors::Homeo domain factors
+MA0264.1	NK	Homeo domain factors
+MA0265.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0266.1		High-mobility group (HMG) domain factors
+MA0267.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0268.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0269.1		
+MA0270.1		
+MA0271.1		MADS box factors
+MA0272.1		C6 zinc cluster factors
+MA0273.1		C6 zinc cluster factors
+MA0274.1		Basic leucine zipper factors (bZIP)
+MA0275.1		C6 zinc cluster factors
+MA0276.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0277.1		C2H2 zinc finger factors
+MA0278.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA0279.1		Basic leucine zipper factors (bZIP)
+MA0280.1		C6 zinc cluster factors
+MA0281.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0282.1		C6 zinc cluster factors
+MA0283.1		C6 zinc cluster factors
+MA0284.1		Basic leucine zipper factors (bZIP)
+MA0285.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0286.1		Basic leucine zipper factors (bZIP)
+MA0287.1		Copper-fist DNA-binding domain
+MA0288.1	TALE-type homeo domain factors	Homeo domain factors
+MA0289.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0290.1		C6 zinc cluster factors
+MA0291.1		
+MA0292.1		C6 zinc cluster factors
+MA0293.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0294.1		C6 zinc cluster factors
+MA0295.1	FOX	Fork head/winged helix factors
+MA0296.1	FOX	Fork head/winged helix factors
+MA0297.1	FOX	Fork head/winged helix factors
+MA0299.1		C6 zinc cluster factors
+MA0300.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0301.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0302.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0303.1		Basic leucine zipper factors (bZIP)
+MA0304.1		
+MA0305.1		
+MA0306.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0307.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0308.1		C6 zinc cluster factors
+MA0309.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0310.1		Basic leucine zipper factors (bZIP)
+MA0311.1		C6 zinc cluster factors
+MA0312.1		C6 zinc cluster factors
+MA0313.1	Heteromeric CCAAT-binding	Heteromeric CCAAT-binding factors
+MA0314.1	Heteromeric CCAAT-binding	Heteromeric CCAAT-binding factors
+MA0316.1	Heteromeric CCAAT-binding	Heteromeric CCAAT-binding factors
+MA0317.1	FOX	Fork head/winged helix factors
+MA0318.1	TALE-type homeo domain factors	Homeo domain factors
+MA0319.1	HSF factors	Heat shock factors
+MA0320.1		
+MA0321.1		Basic helix-loop-helix factors (bHLH)
+MA0322.1		Basic helix-loop-helix factors (bHLH)
+MA0323.1		High-mobility group (HMG) domain factors
+MA0324.1		C6 zinc cluster factors
+MA0325.1		C6 zinc cluster factors
+MA0326.1		Copper-fist DNA-binding domain
+MA0327.1		Homeo domain factors
+MA0328.1	TALE-type homeo domain factors	Homeo domain factors
+MA0329.1		APSES-type DNA-binding domain
+MA0330.1		APSES-type DNA-binding domain
+MA0331.1		MADS box factors
+MA0332.1		Basic leucine zipper factors (bZIP)
+MA0333.1		C2H2 zinc finger factors
+MA0334.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0335.1		Basic leucine zipper factors (bZIP)
+MA0336.1	HSF factors	Heat shock factors
+MA0337.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0338.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0339.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0340.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0341.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0342.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0343.1		NDT80 domain factors
+MA0344.1		High-mobility group (HMG) domain factors
+MA0347.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0348.1		C6 zinc cluster factors
+MA0349.1		
+MA0350.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA0351.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA0352.1		C6 zinc cluster factors
+MA0353.1		C6 zinc cluster factors
+MA0354.1		C6 zinc cluster factors
+MA0355.1		APSES-type DNA-binding domain
+MA0356.1		Homeo domain factors
+MA0357.1		Basic helix-loop-helix factors (bHLH)
+MA0358.1		C6 zinc cluster factors
+MA0359.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA0360.1		C6 zinc cluster factors
+MA0361.1		C6 zinc cluster factors
+MA0362.1		C6 zinc cluster factors
+MA0363.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA0364.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0365.1	RFX-related factors	Fork head/winged helix factors
+MA0366.1		C2H2 zinc finger factors
+MA0367.1		C6 zinc cluster factors
+MA0368.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0369.1	Regulators of differentiation	MADS box factors
+MA0370.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0371.1		High-mobility group (HMG) domain factors
+MA0372.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0373.1		C2H2 zinc finger factors
+MA0374.1		C6 zinc cluster factors
+MA0375.1		C6 zinc cluster factors
+MA0376.1		Basic helix-loop-helix factors (bHLH)
+MA0377.1	HSF factors	Heat shock factors
+MA0378.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0379.1		RING-type zinc finger
+MA0380.1		C6 zinc cluster factors
+MA0381.1	HSF factors	Heat shock factors
+MA0382.1		Basic leucine zipper factors (bZIP)
+MA0384.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA0385.1		APSES-type DNA-binding domain
+MA0386.1	TBP-related factors	TATA-binding proteins
+MA0387.1		
+MA0388.1		
+MA0389.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0390.1		
+MA0391.1		C6 zinc cluster factors
+MA0392.1		C6 zinc cluster factors
+MA0393.1		
+MA0394.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0395.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0396.1		C2H2 zinc finger factors
+MA0397.1		C2H2 zinc finger factors
+MA0398.1		A.T hook factors
+MA0399.1		C6 zinc cluster factors
+MA0400.1		C6 zinc cluster factors
+MA0401.1		APSES-type DNA-binding domain
+MA0402.1		A.T hook factors
+MA0403.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA0404.1		C6 zinc cluster factors
+MA0405.1		C6 zinc cluster factors
+MA0406.1		TEA domain factors
+MA0407.1		C6 zinc cluster factors
+MA0408.1	TALE-type homeo domain factors	Homeo domain factors
+MA0409.1		Basic helix-loop-helix factors (bHLH)
+MA0410.1		C6 zinc cluster factors
+MA0411.1		C6 zinc cluster factors
+MA0412.1		C6 zinc cluster factors
+MA0413.1		C2H2 zinc finger factors
+MA0414.1		
+MA0415.1		Basic leucine zipper factors (bZIP)
+MA0416.1		Basic leucine zipper factors (bZIP)
+MA0417.1		Basic leucine zipper factors (bZIP)
+MA0418.1		Basic leucine zipper factors (bZIP)
+MA0419.1		Basic leucine zipper factors (bZIP)
+MA0420.1		C6 zinc cluster factors
+MA0421.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA0422.1		C6 zinc cluster factors
+MA0423.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0424.1		C6 zinc cluster factors
+MA0425.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0426.1		Homeo domain factors
+MA0428.1		C6 zinc cluster factors
+MA0429.1		C6 zinc cluster factors
+MA0430.1		C6 zinc cluster factors
+MA0431.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0432.1		C6 zinc cluster factors
+MA0433.1		Homeo domain factors
+MA0434.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0435.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0436.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0437.1		C6 zinc cluster factors
+MA0438.1		C6 zinc cluster factors
+MA0439.1		C6 zinc cluster factors
+MA0440.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0441.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0442.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA0443.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0444.1		Homeo domain factors
+MA0445.1		High-mobility group (HMG) domain factors
+MA0446.1	FOX	Fork head/winged helix factors
+MA0447.1		Basic leucine zipper factors (bZIP)
+MA0448.1	NK	Homeo domain factors
+MA0449.1	Helix-Loop-Helix	Zipper-type
+MA0450.1		C2H2 zinc finger factors
+MA0451.1		Nuclear receptors with C4 zinc fingers
+MA0452.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0197.2	POU domain factors	Homeo domain factors
+MA0454.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0456.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0457.1		Homeo domain factors
+MA0458.1	FOX	Fork head/winged helix factors
+MA0459.1		Nuclear receptors with C4 zinc fingers
+MA0460.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0141.2	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0143.2	SOX-related factors	High-mobility group (HMG) domain factors
+MA0145.2	CP2-related factors	Grainyhead domain factors
+MA0146.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0148.2	FOX	Fork head/winged helix factors
+MA0461.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0462.1	B-ATF-related factors::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA0463.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0464.1	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA0465.1	HOX	Homeo domain factors
+MA0466.1	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0467.1	Paired-related HD factors	Homeo domain factors
+MA0468.1	Paired-related HD factors	Homeo domain factors
+MA0469.1	E2F	Fork head/winged helix factors
+MA0470.1	E2F	Fork head/winged helix factors
+MA0471.1	E2F	Fork head/winged helix factors
+MA0472.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0473.1	Ets-related	Tryptophan cluster factors
+MA0474.1	Ets-related	Tryptophan cluster factors
+MA0475.1	Ets-related	Tryptophan cluster factors
+MA0476.1	Fos-related	Basic leucine zipper factors (bZIP)
+MA0477.1	Fos-related	Basic leucine zipper factors (bZIP)
+MA0478.1	Fos-related	Basic leucine zipper factors (bZIP)
+MA0479.1	FOX	Fork head/winged helix factors
+MA0480.1	FOX	Fork head/winged helix factors
+MA0481.1	FOX	Fork head/winged helix factors
+MA0482.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0483.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0484.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0485.1	HOX	Homeo domain factors
+MA0486.1	HSF factors	Heat shock factors
+MA0488.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA0489.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA0490.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA0491.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA0492.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA0493.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0494.1	Thyroid hormone receptor-related factors (NR1)::RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers::Nuclear receptors with C4 zinc fingers
+MA0495.1	Maf-related	Basic leucine zipper factors (bZIP)
+MA0496.1	Maf-related	Basic leucine zipper factors (bZIP)
+MA0497.1	Regulators of differentiation	MADS box factors
+MA0498.1	TALE-type homeo domain factors	Homeo domain factors
+MA0499.1	MyoD/ASC-related factors	Basic helix-loop-helix factors (bHLH)
+MA0500.1	MyoD/ASC-related factors	Basic helix-loop-helix factors (bHLH)
+MA0501.1	Maf-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA0502.1	Heteromeric CCAAT-binding	Heteromeric CCAAT-binding factors
+MA0504.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0505.1	FTZF1related(NR5A)	Nuclear receptors with C4 zinc fingers
+MA0506.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA0507.1	POU domain factors	Homeo domain factors
+MA0508.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0509.1	RFX-related factors	Fork head/winged helix factors
+MA0510.1	RFX-related factors	Fork head/winged helix factors
+MA0511.1	Runt-related factors	Runt domain factors
+MA0512.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0514.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA0515.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA0516.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0517.1	STAT factors::STAT factors	STAT domain factors::STAT domain factors
+MA0518.1	STAT factors	STAT domain factors
+MA0519.1	STAT factors::STAT factors	STAT domain factors::STAT domain factors
+MA0520.1	STAT factors	STAT domain factors
+MA0521.1	E2A	Basic helix-loop-helix factors (bHLH)
+MA0522.1	E2A	Basic helix-loop-helix factors (bHLH)
+MA0523.1	TCF-7-related factors	High-mobility group (HMG) domain factors
+MA0524.1	AP-2	Basic helix-span-helix factors (bHSH)
+MA0525.1	p53-related factors	p53 domain factors
+MA0526.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0527.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0528.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0007.2	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0102.3	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0024.2	E2F	Fork head/winged helix factors
+MA0154.2	Early B-Cell Factor-related factors	Rel homology region (RHR) factors
+MA0162.2	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0076.2	Ets-related	Tryptophan cluster factors
+MA0258.2	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0098.2	Ets-related	Tryptophan cluster factors
+MA0148.3	FOX	Fork head/winged helix factors
+MA0035.3	C4-GATA-related	Other C4 zinc finger-type factors
+MA0036.2	C4-GATA-related	Other C4 zinc finger-type factors
+MA0037.2	C4-GATA-related	Other C4 zinc finger-type factors
+MA0114.2	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0050.2	Interferon-regulatory factors	Tryptophan cluster factors
+MA0058.2	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0052.2	Regulators of differentiation	MADS box factors
+MA0100.2	Myb/SANT domain factors	Tryptophan cluster factors
+MA0147.2	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0104.3	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0150.2	Jun-related	Basic leucine zipper factors (bZIP)
+MA0105.3	NF-kappaB-related factors	Rel homology region (RHR) factors
+MA0060.2	NFY	Other alpha
+MA0014.2	Paired domain only	Paired box factors
+MA0080.3	Ets-related	Tryptophan cluster factors
+MA0143.3	SOX-related factors	High-mobility group (HMG) domain factors
+MA0079.3	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0083.2	Responders to external signals (SRF/RLM1)	MADS box factors
+MA0137.3	STAT factors	STAT domain factors
+MA0144.2	STAT factors	STAT domain factors
+MA0140.2	C4-GATA-related::Tal-related	Other C4 zinc finger-type factors::Basic helix-loop-helix factors (bHLH)
+MA0003.2	AP-2	Basic helix-span-helix factors (bHSH)
+MA0106.2	p53-related factors	p53 domain factors
+MA0093.2	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0095.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0103.2	HD-ZF factors	Homeo domain factors
+MA0529.1	Zinc finger, BED-type	C2H2 zinc finger factors
+MA0216.2	HOX	Homeo domain factors
+MA0530.1	Jun-related::Maf-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA0531.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0452.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0532.1	STAT factors	STAT domain factors
+MA0533.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0534.1		Nuclear receptors with C4 zinc fingers::Nuclear receptors with C4 zinc fingers
+MA0237.2	High Mobility Group box (HMG)	High-mobility group (HMG) domain factors
+MA0535.1	SMAD factors	SMAD/NF-1 DNA-binding domain factors
+MA0536.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0247.2	Homeo	Homeo domain factors
+MA0537.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0538.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0540.1		
+MA0541.1	E2F	Fork head/winged helix factors
+MA0542.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0543.1		C2H2 zinc finger factors
+MA0544.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA0545.1		Basic helix-loop-helix factors (bHLH)
+MA0546.1	FOX	Fork head/winged helix factors
+MA0547.1		Basic leucine zipper factors (bZIP)
+MA0548.1	MIKC	MADS box factors
+MA0549.1	BES/BZR	Basic helix-loop-helix factors (bHLH)
+MA0550.1	BES/BZR	Basic helix-loop-helix factors (bHLH)
+MA0551.1	Group H	Basic leucine zipper factors (bZIP)
+MA0552.1		Basic helix-loop-helix factors (bHLH)
+MA0553.1	AP2	AP2/EREBP
+MA0554.1	MIKC	MADS box factors
+MA0555.1	MIKC	MADS box factors
+MA0556.1	MIKC	MADS box factors
+MA0557.1	WRKY-like_FRS/FRF	GCM domain factors
+MA0558.1	MIKC	MADS box factors
+MA0559.1	MIKC	MADS box factors
+MA0560.1		Basic helix-loop-helix factors (bHLH)
+MA0561.1		Basic helix-loop-helix factors (bHLH)
+MA0562.1		Basic helix-loop-helix factors (bHLH)
+MA0563.1	MIKC	MADS box factors
+MA0564.1	ABI3	B3
+MA0565.1	ABI3	B3
+MA0566.1		Basic helix-loop-helix factors (bHLH)
+MA0567.1	ERF/DREB	AP2/EREBP
+MA0568.1		Basic helix-loop-helix factors (bHLH)
+MA0569.1		Basic helix-loop-helix factors (bHLH)
+MA0570.1	Group A	Basic leucine zipper factors (bZIP)
+MA0005.2	MIKC	MADS box factors
+MA0571.1	AP2	AP2/EREBP
+MA0008.2	HD-ZIP	Homeo domain factors
+MA0110.2	HD-ZIP	Homeo domain factors
+MA0573.1	HD-ZIP	Homeo domain factors
+MA0574.1	Myb	Tryptophan cluster factors
+MA0575.1	Myb	Tryptophan cluster factors
+MA0576.1	Myb	Tryptophan cluster factors
+MA0577.1	SBP	C2H2 zinc finger factors
+MA0578.1	SBP	C2H2 zinc finger factors
+MA0579.1	Myb-related	Tryptophan cluster factors
+MA0580.1		Basic helix-loop-helix factors (bHLH)
+MA0581.1	ABI3	B3
+MA0582.1	RAV	B3
+MA0583.1	RAV	B3
+MA0584.1	MIKC	MADS box factors
+MA0001.2	MIKC	MADS box factors
+MA0585.1	MIKC	MADS box factors
+MA0586.1	SBP	C2H2 zinc finger factors
+MA0587.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA0588.1	Group D	Basic leucine zipper factors (bZIP)
+MA0589.1	WRKY	GCM domain factors
+MA0590.1		LEAFY
+MA0591.1	Jun-related::Maf-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA0592.1	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0593.1	FOX	Fork head/winged helix factors
+MA0594.1	HOX	Homeo domain factors
+MA0595.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0596.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0597.1	THAP-related factors	C2CH THAP-type zinc finger factors
+MA0598.1	Ets-related	Tryptophan cluster factors
+MA0599.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0600.1	RFX-related factors	Fork head/winged helix factors
+MA0113.2	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0601.1	ARID-related	ARID
+MA0602.1	ARID-related	ARID
+MA0603.1	PAS domain factors	Basic helix-loop-helix factors (bHLH)
+MA0604.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+MA0605.1	Fos-related	Basic leucine zipper factors (bZIP)
+MA0606.1	NFAT-related factors	Rel homology region (RHR) factors
+MA0607.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0608.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+MA0609.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+MA0610.1	DMRT factors	DM-type intertwined zinc finger factors
+MA0611.1	Paired-related HD factors	Homeo domain factors
+MA0612.1	NK	Homeo domain factors
+MA0613.1	FOX	Fork head/winged helix factors
+MA0614.1	FOX	Fork head/winged helix factors
+MA0615.1	GMEB	SAND domain factors
+MA1099.1	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA0616.1	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA0618.1	NK	Homeo domain factors
+MA0619.1		CRC domain
+MA0620.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0621.1	Paired-related HD factors	Homeo domain factors
+MA0622.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0623.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0624.1	NFAT-related factors	Rel homology region (RHR) factors
+MA0625.1	NFAT-related factors	Rel homology region (RHR) factors
+MA0626.1	PAS domain factors	Basic helix-loop-helix factors (bHLH)
+MA0627.1	POU domain factors	Homeo domain factors
+MA0628.1	POU domain factors	Homeo domain factors
+MA0629.1	Paired-related HD factors	Homeo domain factors
+MA0630.1	Paired-related HD factors	Homeo domain factors
+MA0631.1	HD-SINE	Homeo domain factors
+MA0632.1	PAS domain factors	Basic helix-loop-helix factors (bHLH)
+MA0633.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0634.1	Paired-related HD factors	Homeo domain factors
+MA0007.3	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0635.1	NK	Homeo domain factors
+MA0636.1	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA0638.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+MA0639.1	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0154.3	Early B-Cell Factor-related factors	Rel homology region (RHR) factors
+MA0598.2	Ets-related	Tryptophan cluster factors
+MA0640.1	Ets-related	Tryptophan cluster factors
+MA0641.1	Ets-related	Tryptophan cluster factors
+MA0136.2	Ets-related	Tryptophan cluster factors
+MA0027.2	NK	Homeo domain factors
+MA0642.1	NK	Homeo domain factors
+MA0643.1	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0644.1	Paired-related HD factors	Homeo domain factors
+MA0645.1	Ets-related	Tryptophan cluster factors
+MA0475.2	Ets-related	Tryptophan cluster factors
+MA0042.2	FOX	Fork head/winged helix factors
+MA0033.2	FOX	Fork head/winged helix factors
+MA0157.2	FOX	Fork head/winged helix factors
+MA0646.1	GCM	GCM domain factors
+MA0647.1	Grainyhead-related factors	Grainyhead domain factors
+MA0648.1	Paired-related HD factors	Homeo domain factors
+MA0649.1	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA0131.2	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0043.2	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0046.2	POU domain factors	Homeo domain factors
+MA0153.2	POU domain factors	Homeo domain factors
+MA0650.1	HOX	Homeo domain factors
+MA0651.1	HOX	Homeo domain factors
+MA0486.2	HSF factors	Heat shock factors
+MA0652.1	Interferon-regulatory factors	Tryptophan cluster factors
+MA0653.1	Interferon-regulatory factors	Tryptophan cluster factors
+MA0654.1	Paired-related HD factors	Homeo domain factors
+MA0655.1	Fos-related	Basic leucine zipper factors (bZIP)
+MA0656.1	Fos-related	Basic leucine zipper factors (bZIP)
+MA0657.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0658.1	HD-LIM	Homeo domain factors
+MA0659.1	Maf-related	Basic leucine zipper factors (bZIP)
+MA0660.1	Regulators of differentiation	MADS box factors
+MA0661.1	HOX	Homeo domain factors
+MA0662.1	Paired-related HD factors	Homeo domain factors
+MA0663.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0664.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0665.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0666.1	NK	Homeo domain factors
+MA0667.1	MyoD/ASC-related factors	Basic helix-loop-helix factors (bHLH)
+MA0668.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0669.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0670.1	Nuclear factor 1	SMAD/NF-1 DNA-binding domain factors
+MA0671.1	Nuclear factor 1	SMAD/NF-1 DNA-binding domain factors
+MA0048.2	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0672.1	NK	Homeo domain factors
+MA0673.1	NK	Homeo domain factors
+MA0674.1	NK	Homeo domain factors
+MA0675.1	NK	Homeo domain factors
+MA0676.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0677.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0678.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0679.1	HD-CUT	Homeo domain factors
+MA0068.2	Paired plus homeo domain	Paired box factors
+MA0680.1	Paired plus homeo domain	Paired box factors
+MA0681.1	Paired-related HD factors	Homeo domain factors
+MA0682.1	Paired-related HD factors	Homeo domain factors
+MA0683.1	POU domain factors	Homeo domain factors
+MA0075.2	Paired-related HD factors	Homeo domain factors
+MA0684.1	Runt-related factors	Runt domain factors
+MA0512.2	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0685.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0686.1	Ets-related	Tryptophan cluster factors
+MA0080.4	Ets-related	Tryptophan cluster factors
+MA0687.1	Ets-related	Tryptophan cluster factors
+MA0083.3	Responders to external signals (SRF/RLM1)	MADS box factors
+MA0009.2	Brachyury-related factors	T-Box factors
+MA0688.1	TBX2-related factors	T-Box factors
+MA0689.1	TBX1-related factors	T-Box factors
+MA0690.1	TBrain-related factors	T-Box factors
+MA0090.2	TEF-1-related factors	TEA domain factors
+MA0691.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0692.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0693.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA0694.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0695.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0696.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0697.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0698.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0699.1	NK	Homeo domain factors
+MA0700.1	HD-LIM	Homeo domain factors
+MA0701.1	HD-LIM	Homeo domain factors
+MA0702.1	HD-LIM	Homeo domain factors
+MA0703.1	HD-LIM	Homeo domain factors
+MA0704.1	HD-LIM	Homeo domain factors
+MA0705.1	HD-LIM	Homeo domain factors
+MA0706.1	HOX	Homeo domain factors
+MA0707.1	HOX	Homeo domain factors
+MA0708.1	NK	Homeo domain factors
+MA0709.1	NK	Homeo domain factors
+MA0122.2	NK	Homeo domain factors
+MA0710.1	NK	Homeo domain factors
+MA0124.2	NK	Homeo domain factors
+MA0711.1	Paired-related HD factors	Homeo domain factors
+MA0712.1	Paired-related HD factors	Homeo domain factors
+MA0132.2	HOX	Homeo domain factors
+MA0713.1	Paired-related HD factors	Homeo domain factors
+MA0714.1	Paired-related HD factors	Homeo domain factors
+MA0715.1	Paired-related HD factors	Homeo domain factors
+MA0716.1	Paired-related HD factors	Homeo domain factors
+MA0717.1	Paired-related HD factors	Homeo domain factors
+MA0718.1	Paired-related HD factors	Homeo domain factors
+MA0719.1	Paired-related HD factors	Homeo domain factors
+MA0720.1	Paired-related HD factors	Homeo domain factors
+MA0721.1	Paired-related HD factors	Homeo domain factors
+MA0722.1	NK	Homeo domain factors
+MA0723.1	NK	Homeo domain factors
+MA0724.1	NK	Homeo domain factors
+MA0725.1	Paired-related HD factors	Homeo domain factors
+MA0726.1	Paired-related HD factors	Homeo domain factors
+MA0112.3	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0141.3	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0592.2	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0114.3	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0017.2	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0113.3	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0727.1	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0728.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0729.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA0730.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA0731.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0472.2	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0732.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0733.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0734.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0735.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0736.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0737.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0738.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0739.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA0740.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0741.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0742.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0743.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0744.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0745.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0746.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0747.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0748.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0749.1	BED zinc finger factors	C2H2 zinc finger factors
+MA0750.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0751.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0088.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0752.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0753.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0754.1	HD-CUT	Homeo domain factors
+MA0755.1	HD-CUT	Homeo domain factors
+MA0756.1	HD-CUT	Homeo domain factors
+MA0757.1	HD-CUT	Homeo domain factors
+MA0469.2	E2F	Fork head/winged helix factors
+MA0758.1	E2F	Fork head/winged helix factors
+MA0473.2	Ets-related	Tryptophan cluster factors
+MA0759.1	Ets-related	Tryptophan cluster factors
+MA0760.1	Ets-related	Tryptophan cluster factors
+MA0474.2	Ets-related	Tryptophan cluster factors
+MA0098.3	Ets-related	Tryptophan cluster factors
+MA0761.1	Ets-related	Tryptophan cluster factors
+MA0762.1	Ets-related	Tryptophan cluster factors
+MA0763.1	Ets-related	Tryptophan cluster factors
+MA0764.1	Ets-related	Tryptophan cluster factors
+MA0765.1	Ets-related	Tryptophan cluster factors
+MA0156.2	Ets-related	Tryptophan cluster factors
+MA0766.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA0767.1	GCM	GCM domain factors
+MA0768.1	TCF-7-related factors	High-mobility group (HMG) domain factors
+MA0769.1	TCF-7-related factors	High-mobility group (HMG) domain factors
+MA0770.1	HSF factors	Heat shock factors
+MA0771.1	HSF factors	Heat shock factors
+MA0772.1	Interferon-regulatory factors	Tryptophan cluster factors
+MA0052.3	Regulators of differentiation	MADS box factors
+MA0773.1	Regulators of differentiation	MADS box factors
+MA0498.2	TALE-type homeo domain factors	Homeo domain factors
+MA0774.1	TALE-type homeo domain factors	Homeo domain factors
+MA0775.1	TALE-type homeo domain factors	Homeo domain factors
+MA0776.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA0777.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA0105.4	NF-kappaB-related factors	Rel homology region (RHR) factors
+MA0778.1	NF-kappaB-related factors	Rel homology region (RHR) factors
+MA0779.1	Paired domain only	Paired box factors
+MA0780.1	Paired plus homeo domain	Paired box factors
+MA0781.1	Paired domain only	Paired box factors
+MA0782.1	TALE-type homeo domain factors	Homeo domain factors
+MA0783.1	TALE-type homeo domain factors	Homeo domain factors
+MA0784.1	POU domain factors	Homeo domain factors
+MA0785.1	POU domain factors	Homeo domain factors
+MA0786.1	POU domain factors	Homeo domain factors
+MA0787.1	POU domain factors	Homeo domain factors
+MA0788.1	POU domain factors	Homeo domain factors
+MA0789.1	POU domain factors	Homeo domain factors
+MA0790.1	POU domain factors	Homeo domain factors
+MA0791.1	POU domain factors	Homeo domain factors
+MA0792.1	POU domain factors	Homeo domain factors
+MA0793.1	POU domain factors	Homeo domain factors
+MA0794.1	HD-PROS factors	Homeo domain factors
+MA0600.2	RFX-related factors	Fork head/winged helix factors
+MA0795.1	SMAD factors	SMAD/NF-1 DNA-binding domain factors
+MA0796.1	TALE-type homeo domain factors	Homeo domain factors
+MA0797.1	TALE-type homeo domain factors	Homeo domain factors
+MA0798.1	RFX-related factors	Fork head/winged helix factors
+MA0799.1	RFX-related factors	Fork head/winged helix factors
+MA0510.2	RFX-related factors	Fork head/winged helix factors
+MA0511.2	Runt-related factors	Runt domain factors
+MA0800.1	TBrain-related factors	T-Box factors
+MA0801.1	TBX6-related factors	T-Box factors
+MA0802.1	TBrain-related factors	T-Box factors
+MA0803.1	TBX1-related factors	T-Box factors
+MA0804.1	Brachyury-related factors	T-Box factors
+MA0805.1	TBX1-related factors	T-Box factors
+MA0806.1	TBX2-related factors	T-Box factors
+MA0807.1	TBX2-related factors	T-Box factors
+MA0808.1	TEF-1-related factors	TEA domain factors
+MA0809.1	TEF-1-related factors	TEA domain factors
+MA0810.1	AP-2	Basic helix-span-helix factors (bHSH)
+MA0003.3	AP-2	Basic helix-span-helix factors (bHSH)
+MA0811.1	AP-2	Basic helix-span-helix factors (bHSH)
+MA0812.1	AP-2	Basic helix-span-helix factors (bHSH)
+MA0813.1	AP-2	Basic helix-span-helix factors (bHSH)
+MA0524.2	AP-2	Basic helix-span-helix factors (bHSH)
+MA0814.1	AP-2	Basic helix-span-helix factors (bHSH)
+MA0815.1	AP-2	Basic helix-span-helix factors (bHSH)
+MA0816.1	MyoD/ASC-related factors	Basic helix-loop-helix factors (bHLH)
+MA0461.2	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0464.2	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA0817.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0818.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0819.1	PAS domain factors	Basic helix-loop-helix factors (bHLH)
+MA0820.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0821.1	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA0822.1	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA0823.1	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA0058.3	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0825.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0826.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0827.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0828.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0829.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0522.2	E2A	Basic helix-loop-helix factors (bHLH)
+MA0830.1	E2A	Basic helix-loop-helix factors (bHLH)
+MA0831.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0832.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0833.1	ATF-4-related factors	Basic leucine zipper factors (bZIP)
+MA0834.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA0466.2	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0836.1	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0837.1	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0838.1	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0839.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+MA0840.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+MA0117.2	Maf-related	Basic leucine zipper factors (bZIP)
+MA0841.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA0842.1	Maf-related	Basic leucine zipper factors (bZIP)
+MA0843.1	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0844.1	XBP-1-related factors	Basic leucine zipper factors (bZIP)
+MA0845.1	FOX	Fork head/winged helix factors
+MA0032.2	FOX	Fork head/winged helix factors
+MA0846.1	FOX	Fork head/winged helix factors
+MA0847.1	FOX	Fork head/winged helix factors
+MA0848.1	FOX	Fork head/winged helix factors
+MA0849.1	FOX	Fork head/winged helix factors
+MA0850.1	FOX	Fork head/winged helix factors
+MA0851.1	FOX	Fork head/winged helix factors
+MA0852.1	FOX	Fork head/winged helix factors
+MA0853.1	Paired-related HD factors	Homeo domain factors
+MA0854.1	Paired-related HD factors	Homeo domain factors
+MA0855.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0856.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0857.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA0858.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA0859.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA0860.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA0525.2	p53-related factors	p53 domain factors
+MA0106.3	p53-related factors	p53 domain factors
+MA0861.1	p53-related factors	p53 domain factors
+MA0862.1	GMEB	SAND domain factors
+MA0863.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0024.3	E2F	Fork head/winged helix factors
+MA0864.1	E2F	Fork head/winged helix factors
+MA0865.1	E2F	Fork head/winged helix factors
+MA0866.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA0867.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA0868.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA0869.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA0870.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA0871.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0872.1	AP-2	Basic helix-span-helix factors (bHSH)
+MA0028.2	Ets-related	Tryptophan cluster factors
+MA0873.1	HOX	Homeo domain factors
+MA0874.1	Paired-related HD factors	Homeo domain factors
+MA0875.1	NK	Homeo domain factors
+MA0876.1	NK	Homeo domain factors
+MA0877.1	NK	Homeo domain factors
+MA0878.1	HOX	Homeo domain factors
+MA0879.1	NK	Homeo domain factors
+MA0880.1	NK	Homeo domain factors
+MA0881.1	NK	Homeo domain factors
+MA0882.1	NK	Homeo domain factors
+MA0883.1	Paired-related HD factors	Homeo domain factors
+MA0884.1	Paired-related HD factors	Homeo domain factors
+MA0885.1	NK	Homeo domain factors
+MA0886.1	NK	Homeo domain factors
+MA0887.1	HOX	Homeo domain factors
+MA0888.1	HOX	Homeo domain factors
+MA0889.1	HOX	Homeo domain factors
+MA0890.1	HOX	Homeo domain factors
+MA0891.1	Paired-related HD factors	Homeo domain factors
+MA0892.1	HOX	Homeo domain factors
+MA0893.1	HOX	Homeo domain factors
+MA0894.1	Paired-related HD factors	Homeo domain factors
+MA0895.1	POU domain factors	Homeo domain factors
+MA0896.1	NK	Homeo domain factors
+MA0897.1	NK	Homeo domain factors
+MA0898.1	NK	Homeo domain factors
+MA0899.1	HOX	Homeo domain factors
+MA0900.1	HOX	Homeo domain factors
+MA0901.1	HOX	Homeo domain factors
+MA0902.1	HOX	Homeo domain factors
+MA0903.1	HOX	Homeo domain factors
+MA0904.1	HOX	Homeo domain factors
+MA0905.1	HOX	Homeo domain factors
+MA0906.1	HOX	Homeo domain factors
+MA0907.1	HOX	Homeo domain factors
+MA0908.1	HOX	Homeo domain factors
+MA0909.1	HOX	Homeo domain factors
+MA0910.1	HOX	Homeo domain factors
+MA0911.1	HOX	Homeo domain factors
+MA0912.1	HOX	Homeo domain factors
+MA0913.1	HOX	Homeo domain factors
+MA0914.1	HD-LIM	Homeo domain factors
+MA0915.1		Homeo domain factors
+MA0916.1	Ets-related	Tryptophan cluster factors
+MA0917.1	GCM	GCM domain factors
+MA0918.1	TALE-type homeo domain factors	Homeo domain factors
+MA0919.1		Homeo domain factors
+MA0920.1	FOX	Fork head/winged helix factors
+MA0921.1	HD-CUT	Homeo domain factors
+MA0922.1		Basic leucine zipper factors (bZIP)
+MA0923.1	HD-LIM	C2H2 zinc finger factors
+MA0924.1	HOX	Homeo domain factors
+MA0925.1	SMAD factors	SMAD/NF-1 DNA-binding domain factors
+MA0926.1	POU domain factors	Homeo domain factors
+MA0927.1	HOX	Homeo domain factors
+MA0928.1		Homeo domain factors
+MA0328.2	TALE-type homeo domain factors	Homeo domain factors
+MA0929.1	FOX	Fork head/winged helix factors
+MA0930.1	Group A	Basic leucine zipper factors (bZIP)
+MA0931.1	Group A	Basic leucine zipper factors (bZIP)
+MA0932.1		A.T hook factors
+MA0933.1		A.T hook factors
+MA0934.1		A.T hook factors
+MA0935.1	NAC	GCM domain factors
+MA0936.1	NAC	GCM domain factors
+MA0937.1	NAC	GCM domain factors
+MA0938.1	NAC	GCM domain factors
+MA0939.1	NAC	GCM domain factors
+MA0940.1	MIKC	MADS box factors
+MA0941.1	Group A	Basic leucine zipper factors (bZIP)
+MA0942.1	ARF	B3
+MA0943.1	ARF	B3
+MA0944.1	ARF	B3
+MA0945.1	GARP_ARR-B	Tryptophan cluster factors
+MA0946.1	GARP_ARR-B	Tryptophan cluster factors
+MA0947.1	GARP_ARR-B	Tryptophan cluster factors
+MA0948.1	GARP_ARR-B	Tryptophan cluster factors
+MA0949.1	GARP_ARR-B	Tryptophan cluster factors
+MA0950.1	HD-ZIP	Homeo domain factors
+MA0951.1	HD-ZIP	Homeo domain factors
+MA0952.1	HD-ZIP	Homeo domain factors
+MA0953.1	HD-ZIP	Homeo domain factors
+MA0954.1	HD-ZIP	Homeo domain factors
+MA0955.1	SBP	C2H2 zinc finger factors
+MA0956.1		Basic helix-loop-helix factors (bHLH)
+MA0957.1		Basic helix-loop-helix factors (bHLH)
+MA0958.1		Basic helix-loop-helix factors (bHLH)
+MA0959.1		Basic helix-loop-helix factors (bHLH)
+MA0960.1		Basic helix-loop-helix factors (bHLH)
+MA0961.1		Basic helix-loop-helix factors (bHLH)
+MA0962.1		Basic helix-loop-helix factors (bHLH)
+MA0963.1		Basic helix-loop-helix factors (bHLH)
+MA0964.1		Basic helix-loop-helix factors (bHLH)
+MA0965.1		Basic helix-loop-helix factors (bHLH)
+MA0966.1		Basic helix-loop-helix factors (bHLH)
+MA0967.1	Group K	Basic leucine zipper factors (bZIP)
+MA0968.1	Group G	Basic leucine zipper factors (bZIP)
+MA0969.1		CAMTA
+MA0970.1		CAMTA
+MA0971.1	ERF/DREB	AP2/EREBP
+MA0972.1	Myb-related	Tryptophan cluster factors
+MA0973.1	DOF	Other C4 zinc finger-type factors
+MA0974.1	DOF	Other C4 zinc finger-type factors
+MA0975.1	ERF/DREB	AP2/EREBP
+MA0976.1	ERF/DREB	AP2/EREBP
+MA0977.1	DOF	Other C4 zinc finger-type factors
+MA0978.1	ERF/DREB	AP2/EREBP
+MA0979.1	ERF/DREB	AP2/EREBP
+MA0980.1	ERF/DREB	AP2/EREBP
+MA0981.1	DOF	Other C4 zinc finger-type factors
+MA0982.1	DOF	Other C4 zinc finger-type factors
+MA0983.1	DOF	Other C4 zinc finger-type factors
+MA0984.1	DOF	Other C4 zinc finger-type factors
+MA0986.1	ERF/DREB	AP2/EREBP
+MA0987.1	DOF	Other C4 zinc finger-type factors
+MA0988.1		Basic helix-loop-helix factors (bHLH)
+MA0989.1	DOF	Other C4 zinc finger-type factors
+MA0990.1	HD-ZIP	Homeo domain factors
+MA0992.1	ERF/DREB	AP2/EREBP
+MA0993.1	ERF/DREB	AP2/EREBP
+MA0994.1	ERF/DREB	AP2/EREBP
+MA0995.1	ERF/DREB	AP2/EREBP
+MA0997.1	ERF/DREB	AP2/EREBP
+MA0998.1	ERF/DREB	AP2/EREBP
+MA1000.1	ERF/DREB	AP2/EREBP
+MA1001.1	ERF/DREB	AP2/EREBP
+MA1004.1	ERF/DREB	AP2/EREBP
+MA1005.1	ERF/DREB	AP2/EREBP
+MA1006.1	ERF/DREB	AP2/EREBP
+MA1007.1	ERF/DREB	AP2/EREBP
+MA1008.1	ERF/DREB	AP2/EREBP
+MA1009.1	ARF	B3
+MA1010.1	ERF/DREB	AP2/EREBP
+MA1011.1		Basic helix-loop-helix factors (bHLH)
+MA1012.1	MIKC	MADS box factors
+MA1013.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1014.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1015.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1016.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1017.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1018.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1019.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1020.1	Trihelix	Tryptophan cluster factors
+MA1021.1		Basic helix-loop-helix factors (bHLH)
+MA1022.1	DOF	Other C4 zinc finger-type factors
+MA1023.1	ERF/DREB	AP2/EREBP
+MA1024.1	HD-ZIP	Homeo domain factors
+MA1025.1		Basic helix-loop-helix factors (bHLH)
+MA1026.1	HD-ZIP	Homeo domain factors
+MA1027.1	GARP_G2-like	Tryptophan cluster factors
+MA1028.1	GARP_G2-like	Tryptophan cluster factors
+MA1030.1	Myb	Tryptophan cluster factors
+MA1031.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1032.1	ERF/DREB	AP2/EREBP
+MA1033.1	Group A	Basic leucine zipper factors (bZIP)
+MA1034.1	ERF/DREB	AP2/EREBP
+MA1035.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1036.1	Myb	Tryptophan cluster factors
+MA1037.1	Myb	Tryptophan cluster factors
+MA1038.1	Myb	Tryptophan cluster factors
+MA1039.1	Myb	Tryptophan cluster factors
+MA1040.1	Myb	Tryptophan cluster factors
+MA1041.1	Myb	Tryptophan cluster factors
+MA1042.1	Myb	Tryptophan cluster factors
+MA1043.1	NAC	GCM domain factors
+MA1044.1	NAC	GCM domain factors
+MA1045.1	NAC	GCM domain factors
+MA1046.1	NAC	GCM domain factors
+MA1047.1	Group D	Basic leucine zipper factors (bZIP)
+MA1048.1	ERF/DREB	AP2/EREBP
+MA1049.1	ERF/DREB	AP2/EREBP
+MA1050.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1051.1	ERF/DREB	AP2/EREBP
+MA1053.1	ERF/DREB	AP2/EREBP
+MA1054.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1055.1	SBP	C2H2 zinc finger factors
+MA1056.1	SBP	C2H2 zinc finger factors
+MA1057.1	SBP	C2H2 zinc finger factors
+MA1058.1	SBP	C2H2 zinc finger factors
+MA1059.1	SBP	C2H2 zinc finger factors
+MA1060.1	SBP	C2H2 zinc finger factors
+MA1061.1		Basic helix-loop-helix factors (bHLH)
+MA1062.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1063.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1064.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1065.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1066.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1067.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1068.1	Group D	Basic leucine zipper factors (bZIP)
+MA1069.1	Group D	Basic leucine zipper factors (bZIP)
+MA1070.1	Group D	Basic leucine zipper factors (bZIP)
+MA1071.1	DOF	Other C4 zinc finger-type factors
+MA1074.1		Basic helix-loop-helix factors (bHLH)
+MA1075.1	WRKY	GCM domain factors
+MA1076.1	WRKY	GCM domain factors
+MA1077.1	WRKY	GCM domain factors
+MA1078.1	WRKY	GCM domain factors
+MA1079.1	WRKY	GCM domain factors
+MA1080.1	WRKY	GCM domain factors
+MA1081.1	WRKY	GCM domain factors
+MA1083.1	WRKY	GCM domain factors
+MA1084.1	WRKY	GCM domain factors
+MA1085.1	WRKY	GCM domain factors
+MA1086.1	WRKY	GCM domain factors
+MA1087.1	WRKY	GCM domain factors
+MA1088.1	WRKY	GCM domain factors
+MA1089.1	WRKY	GCM domain factors
+MA1090.1	WRKY	GCM domain factors
+MA1091.1	WRKY	GCM domain factors
+MA1092.1	WRKY	GCM domain factors
+MA1093.1	WRKY	GCM domain factors
+MA1094.1	WRKY	GCM domain factors
+MA1095.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1096.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1097.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1098.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1100.1	MyoD/ASC-related factors	Basic helix-loop-helix factors (bHLH)
+MA1101.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA0018.3	CREB-related factors	Basic leucine zipper factors (bZIP)
+MA1102.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0852.2	FOX	Fork head/winged helix factors
+MA1103.1	FOX	Fork head/winged helix factors
+MA0481.2	FOX	Fork head/winged helix factors
+MA0036.3	C4-GATA-related	Other C4 zinc finger-type factors
+MA1104.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1105.1	Grainyhead-related factors	Grainyhead domain factors
+MA1106.1	PAS domain factors	Basic helix-loop-helix factors (bHLH)
+MA0039.3	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1107.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0495.2	Maf-related	Basic leucine zipper factors (bZIP)
+MA0496.2	Maf-related	Basic leucine zipper factors (bZIP)
+MA0620.2	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA1108.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0147.3	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0100.3	Myb/SANT domain factors	Tryptophan cluster factors
+MA0104.4	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA1109.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0161.2	Nuclear factor 1	SMAD/NF-1 DNA-binding domain factors
+MA0060.3	NFY	Other alpha
+MA1110.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1111.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA1112.1	NGFI-B-related receptors (NR4)	Nuclear receptors with C4 zinc fingers
+MA0014.3	Paired domain only	Paired box factors
+MA1113.1	TALE-type homeo domain factors	Homeo domain factors
+MA1114.1	TALE-type homeo domain factors	Homeo domain factors
+MA1115.1	POU domain factors	Homeo domain factors
+MA0508.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1116.1	CSL-related factors	Rel homology region (RHR) factors
+MA1117.1	NF-kappaB-related factors	Rel homology region (RHR) factors
+MA1118.1	HD-SINE	Homeo domain factors
+MA1119.1	HD-SINE	Homeo domain factors
+MA0442.2	SOX-related factors	High-mobility group (HMG) domain factors
+MA1120.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA1121.1	TEF-1-related factors	TEA domain factors
+MA1122.1	E2F	Fork head/winged helix factors
+MA1123.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0526.2	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0750.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0103.3	HD-ZF factors	Homeo domain factors
+MA1124.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1125.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1154.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1155.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0086.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0037.3	C4-GATA-related	Other C4 zinc finger-type factors
+MA0099.3	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1126.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1127.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1128.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1129.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1130.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1131.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1132.1	Jun-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1133.1	Jun-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1134.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1135.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1136.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1137.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1138.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1139.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1140.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA1141.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1142.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1143.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1144.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1145.1	Fos-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA1146.1	Thyroid hormone receptor-related factors (NR1)::RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers::Nuclear receptors with C4 zinc fingers
+MA1147.1	NGFI-B-related receptors (NR4)::RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers::Nuclear receptors with C4 zinc fingers
+MA1148.1	Thyroid hormone receptor-related factors (NR1)::RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers::Nuclear receptors with C4 zinc fingers
+MA1149.1	Thyroid hormone receptor-related factors (NR1)::RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers::Nuclear receptors with C4 zinc fingers
+MA1150.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1151.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1152.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA0831.2	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0693.2	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1153.1	SMAD factors	SMAD/NF-1 DNA-binding domain factors
+MA1156.1		C2H2 zinc finger factors
+MA1157.1		C2H2 zinc finger factors
+MA1158.1		C2H2 zinc finger factors
+MA1159.1		C2H2 zinc finger factors
+MA1160.1		C2H2 zinc finger factors
+MA1161.1		CPP
+MA1162.1		CPP
+MA1163.1	GARP_G2-like	Tryptophan cluster factors
+MA1164.1	GARP_G2-like	Tryptophan cluster factors
+MA1165.1	GARP_G2-like	Tryptophan cluster factors
+MA1166.1	GARP_G2-like	Tryptophan cluster factors
+MA1167.1	GARP_G2-like	Tryptophan cluster factors
+MA1168.1	GARP_G2-like	Tryptophan cluster factors
+MA1169.1	Myb	Tryptophan cluster factors
+MA1170.1	Myb	Tryptophan cluster factors
+MA1171.1	Myb	Tryptophan cluster factors
+MA1172.1	Myb	Tryptophan cluster factors
+MA1173.1	Myb	Tryptophan cluster factors
+MA1174.1	Myb	Tryptophan cluster factors
+MA1175.1	Myb	Tryptophan cluster factors
+MA1176.1	Myb	Tryptophan cluster factors
+MA1177.1	Myb	Tryptophan cluster factors
+MA1178.1	Myb	Tryptophan cluster factors
+MA1179.1	Myb	Tryptophan cluster factors
+MA1180.1	Myb	Tryptophan cluster factors
+MA1181.1	Myb	Tryptophan cluster factors
+MA1182.1	Myb-related	Tryptophan cluster factors
+MA1183.1	Myb-related	Tryptophan cluster factors
+MA1184.1	Myb-related	Tryptophan cluster factors
+MA1185.1	Myb-related	Tryptophan cluster factors
+MA1186.1	Myb-related	Tryptophan cluster factors
+MA1187.1	Myb-related	Tryptophan cluster factors
+MA1188.1	Myb-related	Tryptophan cluster factors
+MA1189.1	Myb-related	Tryptophan cluster factors
+MA1190.1	Myb-related	Tryptophan cluster factors
+MA1191.1	Myb-related	Tryptophan cluster factors
+MA1192.1	Myb-related	Tryptophan cluster factors
+MA1193.1	Myb-related	Tryptophan cluster factors
+MA1194.1	Myb-related	Tryptophan cluster factors
+MA1195.1	Myb-related	Tryptophan cluster factors
+MA1196.1	Myb-related	Tryptophan cluster factors
+MA1197.1		CAMTA
+MA1198.1	HD-ZIP	Homeo domain factors
+MA1199.1	MIKC	MADS box factors
+MA1201.1	MIKC	MADS box factors
+MA1202.1	M alpha	MADS box factors
+MA1203.1	MIKC	MADS box factors
+MA1204.1	MIKC	MADS box factors
+MA1205.1	MIKC	MADS box factors
+MA1206.1	ARF	B3
+MA1207.1	Trihelix	Tryptophan cluster factors
+MA1208.1	Trihelix	Tryptophan cluster factors
+MA1209.1	HD-ZIP	Homeo domain factors
+MA1210.1	HD-ZIP	Homeo domain factors
+MA1211.1	HD-ZIP	Homeo domain factors
+MA1212.1	HD-ZIP	Homeo domain factors
+MA1213.1	HD-ZIP::PLINC	Homeo domain factors::Homeo domain factors
+MA1214.1	HD-ZIP	Homeo domain factors
+MA1215.1	HD-ZIP	Homeo domain factors
+MA1218.1	ERF/DREB	AP2/EREBP
+MA1219.1	ERF/DREB	AP2/EREBP
+MA1220.1	ERF/DREB	AP2/EREBP
+MA1221.1	ERF/DREB	AP2/EREBP
+MA1222.1	ERF/DREB	AP2/EREBP
+MA1223.1	ERF/DREB	AP2/EREBP
+MA1225.1	ERF/DREB	AP2/EREBP
+MA1226.1	ERF/DREB	AP2/EREBP
+MA1227.1	ERF/DREB	AP2/EREBP
+MA1228.1	ERF/DREB	AP2/EREBP
+MA1229.1	ERF/DREB	AP2/EREBP
+MA1230.1	ERF/DREB	AP2/EREBP
+MA1231.1	ERF/DREB	AP2/EREBP
+MA1232.1	ERF/DREB	AP2/EREBP
+MA1233.1	ERF/DREB	AP2/EREBP
+MA1234.1	ERF/DREB	AP2/EREBP
+MA1235.1	AP2	AP2/EREBP
+MA1236.1	ERF/DREB	AP2/EREBP
+MA1238.1	ERF/DREB	AP2/EREBP
+MA1239.1	ERF/DREB	AP2/EREBP
+MA1240.1	ERF/DREB	AP2/EREBP
+MA1241.1	ERF/DREB	AP2/EREBP
+MA1242.1	ERF/DREB	AP2/EREBP
+MA1243.1	ERF/DREB	AP2/EREBP
+MA1244.1	ERF/DREB	AP2/EREBP
+MA1245.1	ERF/DREB	AP2/EREBP
+MA1246.1	ERF/DREB	AP2/EREBP
+MA1247.1	ERF/DREB	AP2/EREBP
+MA1248.1	ERF/DREB	AP2/EREBP
+MA1250.1	ERF/DREB	AP2/EREBP
+MA1251.1	ERF/DREB	AP2/EREBP
+MA1252.1	ERF/DREB	AP2/EREBP
+MA1253.1	ERF/DREB	AP2/EREBP
+MA1256.1	ERF/DREB	AP2/EREBP
+MA1257.1	ERF/DREB	AP2/EREBP
+MA1258.1	ERF/DREB	AP2/EREBP
+MA1259.1	ERF/DREB	AP2/EREBP
+MA1260.1	ERF/DREB	AP2/EREBP
+MA1261.1	ERF/DREB	AP2/EREBP
+MA1262.1	ERF/DREB	AP2/EREBP
+MA1263.1	ERF/DREB	AP2/EREBP
+MA1264.1	ERF/DREB	AP2/EREBP
+MA1265.1	ERF/DREB	AP2/EREBP
+MA1266.1	ERF/DREB	AP2/EREBP
+MA1267.1	DOF	Other C4 zinc finger-type factors
+MA1268.1	DOF	Other C4 zinc finger-type factors
+MA1269.1	DOF	Other C4 zinc finger-type factors
+MA1270.1	DOF	Other C4 zinc finger-type factors
+MA1272.1	DOF	Other C4 zinc finger-type factors
+MA1273.1	DOF	Other C4 zinc finger-type factors
+MA1274.1	DOF	Other C4 zinc finger-type factors
+MA1275.1	DOF	Other C4 zinc finger-type factors
+MA1276.1	DOF	Other C4 zinc finger-type factors
+MA1277.1	DOF	Other C4 zinc finger-type factors
+MA1278.1	DOF	Other C4 zinc finger-type factors
+MA1279.1	DOF	Other C4 zinc finger-type factors
+MA1280.1	DOF	Other C4 zinc finger-type factors
+MA1281.1	DOF	Other C4 zinc finger-type factors
+MA1282.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1283.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1284.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1285.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1286.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1287.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1288.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1289.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1290.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1291.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1292.1	Myb	Tryptophan cluster factors
+MA1293.1	Myb	Tryptophan cluster factors
+MA1294.1	Myb	Tryptophan cluster factors
+MA1295.1	WRKY	GCM domain factors
+MA1296.1	WRKY	GCM domain factors
+MA1297.1	WRKY	GCM domain factors
+MA1298.1	WRKY	GCM domain factors
+MA1299.1	WRKY	GCM domain factors
+MA1300.1	WRKY	GCM domain factors
+MA1301.1	WRKY	GCM domain factors
+MA1302.1	WRKY	GCM domain factors
+MA1303.1	WRKY	GCM domain factors
+MA1304.1	WRKY	GCM domain factors
+MA1305.1	WRKY	GCM domain factors
+MA1306.1	WRKY	GCM domain factors
+MA1307.1	WRKY	GCM domain factors
+MA1308.1	WRKY	GCM domain factors
+MA1309.1	WRKY	GCM domain factors
+MA1310.1	WRKY	GCM domain factors
+MA1311.1	WRKY	GCM domain factors
+MA1312.1	WRKY	GCM domain factors
+MA1313.1	WRKY	GCM domain factors
+MA1314.1	WRKY	GCM domain factors
+MA1315.1	WRKY	GCM domain factors
+MA1316.1	WRKY	GCM domain factors
+MA1317.1	WRKY	GCM domain factors
+MA1318.1	WRKY	GCM domain factors
+MA0577.2	SBP	C2H2 zinc finger factors
+MA1320.1	SBP	C2H2 zinc finger factors
+MA1321.1	SBP	C2H2 zinc finger factors
+MA1322.1	SBP	C2H2 zinc finger factors
+MA1323.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1324.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1325.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1326.1	PLINC	Homeo domain factors
+MA1327.1	HD-ZIP	Homeo domain factors
+MA1328.1	PLINC	Homeo domain factors
+MA1329.1	PLINC	Homeo domain factors
+MA1330.1	PLINC	Homeo domain factors
+MA1331.1	BES/BZR	Basic helix-loop-helix factors (bHLH)
+MA1332.1	BES/BZR	Basic helix-loop-helix factors (bHLH)
+MA1333.1	BES/BZR	Basic helix-loop-helix factors (bHLH)
+MA1334.1	Group S	Basic leucine zipper factors (bZIP)
+MA1335.1	Group D	Basic leucine zipper factors (bZIP)
+MA1336.1	Group D	Basic leucine zipper factors (bZIP)
+MA1337.1	Group S	Basic leucine zipper factors (bZIP)
+MA1338.1	Group A	Basic leucine zipper factors (bZIP)
+MA1339.1	Group S	Basic leucine zipper factors (bZIP)
+MA1340.1	Group S	Basic leucine zipper factors (bZIP)
+MA1341.1	Group S	Basic leucine zipper factors (bZIP)
+MA1343.1	Group I	Basic leucine zipper factors (bZIP)
+MA1344.1	Group B	Basic leucine zipper factors (bZIP)
+MA1345.1	Group S	Basic leucine zipper factors (bZIP)
+MA1346.1	Group D	Basic leucine zipper factors (bZIP)
+MA0968.2	Group G	Basic leucine zipper factors (bZIP)
+MA1348.1	Group D	Basic leucine zipper factors (bZIP)
+MA1349.1	Group G	Basic leucine zipper factors (bZIP)
+MA1350.1	Group S	Basic leucine zipper factors (bZIP)
+MA1351.1	Group G	Basic leucine zipper factors (bZIP)
+MA1352.1	Myb-related	Tryptophan cluster factors
+MA1353.1	Myb-related	Tryptophan cluster factors
+MA1354.1	Myb-related	Tryptophan cluster factors
+MA1355.1	Myb-related	Tryptophan cluster factors
+MA1356.1	Myb-related	Tryptophan cluster factors
+MA1357.1		Basic helix-loop-helix factors (bHLH)
+MA1358.1		Basic helix-loop-helix factors (bHLH)
+MA1359.1		Basic helix-loop-helix factors (bHLH)
+MA1360.1		Basic helix-loop-helix factors (bHLH)
+MA1361.1		Basic helix-loop-helix factors (bHLH)
+MA1362.1		Basic helix-loop-helix factors (bHLH)
+MA1363.1		Basic helix-loop-helix factors (bHLH)
+MA1364.1		Basic helix-loop-helix factors (bHLH)
+MA1365.1	Trihelix	Tryptophan cluster factors
+MA1366.1	Trihelix	Tryptophan cluster factors
+MA1367.1	Trihelix	Tryptophan cluster factors
+MA1368.1	Trihelix	Tryptophan cluster factors
+MA1369.1	HD-ZIP	Homeo domain factors
+MA1370.1		C2H2 zinc finger factors
+MA1371.1		C2H2 zinc finger factors
+MA1372.1		C2H2 zinc finger factors
+MA1373.1		C2H2 zinc finger factors
+MA1374.1		C2H2 zinc finger factors
+MA1375.1	HD-ZIP	Homeo domain factors
+MA1376.1	ERF/DREB	AP2/EREBP
+MA1377.1	AP2	AP2/EREBP
+MA1378.1	AP2	AP2/EREBP
+MA1379.1		CPP
+MA1380.1		CPP
+MA1381.1		C2H2 zinc finger factors
+MA1382.1	WRKY-like_FRS/FRF	GCM domain factors
+MA1383.1	GARP_G2-like	Tryptophan cluster factors
+MA1384.1	GARP_G2-like	Tryptophan cluster factors
+MA1385.1	GARP_G2-like	Tryptophan cluster factors
+MA1386.1	GARP_G2-like	Tryptophan cluster factors
+MA1387.1	GARP_G2-like	Tryptophan cluster factors
+MA1388.1	GARP_G2-like	Tryptophan cluster factors
+MA1389.1	GARP_G2-like	Tryptophan cluster factors
+MA1390.1	GARP_G2-like	Tryptophan cluster factors
+MA1391.1	Myb	Tryptophan cluster factors
+MA1392.1	Myb	Tryptophan cluster factors
+MA1393.1	Myb	Tryptophan cluster factors
+MA1394.1	Myb	Tryptophan cluster factors
+MA1396.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1397.1	Myb-related	Tryptophan cluster factors
+MA1398.1	Myb-related	Tryptophan cluster factors
+MA1400.1	Myb-related	Tryptophan cluster factors
+MA1401.1	Myb-related	Tryptophan cluster factors
+MA1402.1		BBR/BPC
+MA1403.1		BBR/BPC
+MA1404.1		BBR/BPC
+MA0954.2	HD-ZIP	Homeo domain factors
+MA1000.2	ERF/DREB	AP2/EREBP
+MA0586.2	SBP	C2H2 zinc finger factors
+MA1026.2	HD-ZIP	Homeo domain factors
+MA0548.2	MIKC	MADS box factors
+MA0550.2	BES/BZR	Basic helix-loop-helix factors (bHLH)
+MA1059.2	SBP	C2H2 zinc finger factors
+MA1405.1		C2H2 zinc finger factors
+MA1406.1	HD-ZIP	Homeo domain factors
+MA1407.1	Group A	Basic leucine zipper factors (bZIP)
+MA1408.1	Myb-related	Tryptophan cluster factors
+MA1409.1	GARP_ARR-B	Tryptophan cluster factors
+MA1410.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1411.1		Basic helix-loop-helix factors (bHLH)
+MA1412.1		Basic helix-loop-helix factors (bHLH)
+MA1414.1	E2F	Fork head/winged helix factors
+MA1415.1		C2H2 zinc finger factors
+MA1085.2	WRKY	GCM domain factors
+MA1416.1		C2H2 zinc finger factors
+MA1417.1	Group C	Basic leucine zipper factors (bZIP)
+MA0162.3	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1418.1	Interferon-regulatory factors	Tryptophan cluster factors
+MA1419.1	Interferon-regulatory factors	Tryptophan cluster factors
+MA1420.1	Interferon-regulatory factors	Tryptophan cluster factors
+MA1421.1	TCF-7-related factors	High-mobility group (HMG) domain factors
+MA1424.1	ERF/DREB	AP2/EREBP
+MA1425.1	Group H	Basic leucine zipper factors (bZIP)
+MA1426.1	Myb	Tryptophan cluster factors
+MA1427.1	NAC	GCM domain factors
+MA1428.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1430.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1431.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA1432.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA1433.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA1434.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA1435.1		C6 zinc cluster factors
+MA1436.1		Basic helix-loop-helix factors (bHLH)
+MA1437.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1438.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA1439.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1440.1	FOX	Fork head/winged helix factors
+MA1441.1		Homeo domain factors
+MA1442.1		Homeo domain factors
+MA1443.1		Homeo domain factors
+MA1444.1	CEBP-related	Basic leucine zipper factors (bZIP)
+MA1445.1	NK	Homeo domain factors
+MA1446.1	FOX	Fork head/winged helix factors
+MA1448.1	Fos-related	Basic leucine zipper factors (bZIP)
+MA1449.1		Basic helix-loop-helix factors (bHLH)
+MA1450.1		CRC domain
+MA1451.1		Nuclear receptors with C4 zinc fingers
+MA1455.1	DMRT factors	DM-type intertwined zinc finger factors
+MA1456.1	BED zinc finger factors	C2H2 zinc finger factors
+MA1457.1	Grainyhead-related factors	Grainyhead domain factors
+MA1458.1	HSF factors	Heat shock factors
+MA1459.1		C2H2 zinc finger factors
+MA1460.1		C2H2 zinc finger factors
+MA1461.1		Paired box factors
+MA1462.1		C2H2 zinc finger factors
+MA1463.1	Paired-related HD factors	Homeo domain factors
+MA1464.1	PAS domain factors	Basic helix-loop-helix factors (bHLH)
+MA1466.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA1467.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1468.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1101.2	Jun-related	Basic leucine zipper factors (bZIP)
+MA1470.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA1471.1	NK	Homeo domain factors
+MA1472.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1473.1	HOX	Homeo domain factors
+MA1474.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+MA1475.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+MA1476.1	NK	Homeo domain factors
+MA1478.1	DMRT factors	DM-type intertwined zinc finger factors
+MA1479.1	DMRT factors	DM-type intertwined zinc finger factors
+MA1480.1	Paired-related HD factors	Homeo domain factors
+MA1481.1	Paired-related HD factors	Homeo domain factors
+MA1483.1	Ets-related	Tryptophan cluster factors
+MA1484.1	Ets-related	Tryptophan cluster factors
+MA1485.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1487.1	FOX	Fork head/winged helix factors
+MA1489.1	FOX	Fork head/winged helix factors
+MA1491.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1493.1	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA1494.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA1495.1	HOX	Homeo domain factors
+MA1496.1	HOX	Homeo domain factors
+MA1497.1	HOX	Homeo domain factors
+MA1498.1	HOX	Homeo domain factors
+MA1499.1	HOX	Homeo domain factors
+MA1500.1	HOX	Homeo domain factors
+MA1501.1	HOX	Homeo domain factors
+MA1502.1	HOX	Homeo domain factors
+MA1503.1	HOX	Homeo domain factors
+MA1504.1	HOX	Homeo domain factors
+MA1505.1	HOX	Homeo domain factors
+MA1506.1	HOX	Homeo domain factors
+MA1507.1	HOX	Homeo domain factors
+MA1508.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1509.1	Interferon-regulatory factors	Tryptophan cluster factors
+MA1511.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1512.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1513.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1514.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1515.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1516.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1517.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1518.1	HD-LIM	Homeo domain factors
+MA1519.1	HD-LIM	Homeo domain factors
+MA1520.1	Maf-related	Basic leucine zipper factors (bZIP)
+MA1521.1	Maf-related	Basic leucine zipper factors (bZIP)
+MA1522.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1523.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA1524.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1525.1	NFAT-related factors	Rel homology region (RHR) factors
+MA1527.1	Nuclear factor 1	SMAD/NF-1 DNA-binding domain factors
+MA1528.1	Nuclear factor 1	SMAD/NF-1 DNA-binding domain factors
+MA1529.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1530.1	NK	Homeo domain factors
+MA1531.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1532.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1533.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1534.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1535.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA1536.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA1537.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA1538.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA1539.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA1540.1	FTZF1related(NR5A)	Nuclear receptors with C4 zinc fingers
+MA1541.1	GCNF-related receptors (NR6)	Nuclear receptors with C4 zinc fingers
+MA1542.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA1544.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1545.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1546.1	Paired plus homeo domain	Paired box factors
+MA1547.1	Paired-related HD factors	Homeo domain factors
+MA1548.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1549.1	POU domain factors	Homeo domain factors
+MA1550.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1552.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1553.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1554.1	RFX-related factors	Fork head/winged helix factors
+MA1555.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA1556.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA1557.1	SMAD factors	SMAD/NF-1 DNA-binding domain factors
+MA1558.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1559.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1560.1	PAS domain factors	Basic helix-loop-helix factors (bHLH)
+MA1561.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA1562.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA1563.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA1564.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1565.1	TBX1-related factors	T-Box factors
+MA1566.1	TBX2-related factors	T-Box factors
+MA1567.1	TBX6-related factors	T-Box factors
+MA1568.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1569.1	AP-2	Basic helix-span-helix factors (bHSH)
+MA1570.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA1571.1	TALE-type homeo domain factors	Homeo domain factors
+MA1572.1	TALE-type homeo domain factors	Homeo domain factors
+MA1573.1	THAP-related factors	C2CH THAP-type zinc finger factors
+MA1574.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1575.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1576.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1577.1	NK	Homeo domain factors
+MA1578.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1579.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1580.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA1581.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1583.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1584.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1585.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1587.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1588.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1589.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1592.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1593.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1594.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1596.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1597.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1599.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1600.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1601.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1602.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1603.1	DMRT factors	DM-type intertwined zinc finger factors
+MA1604.1	Early B-Cell Factor-related factors	Rel homology region (RHR) factors
+MA1606.1	FOX	Fork head/winged helix factors
+MA1607.1	FOX	Fork head/winged helix factors
+MA1608.1	HD-LIM	Homeo domain factors
+MA1615.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1616.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1618.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1619.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1620.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1621.1	CSL-related factors	Rel homology region (RHR) factors
+MA1623.1	STAT factors	STAT domain factors
+MA1624.1	STAT factors	STAT domain factors
+MA1625.1	STAT factors	STAT domain factors
+MA1627.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1628.1	More than 3 adjacent zinc fingers::More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1629.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1630.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0570.2	Group A	Basic leucine zipper factors (bZIP)
+MA0529.2	Zinc finger, BED-type	C2H2 zinc finger factors
+MA0205.2		C2H2 zinc finger factors
+MA0249.2		Basic helix-loop-helix factors (bHLH)
+MA1100.2	MyoD/ASC-related factors	Basic helix-loop-helix factors (bHLH)
+MA0605.2	Fos-related	Basic leucine zipper factors (bZIP)
+MA0877.2	NK	Homeo domain factors
+MA0462.2	B-ATF-related factors::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA0463.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0878.2	HOX	Homeo domain factors
+MA0864.2	E2F	Fork head/winged helix factors
+MA0469.3	E2F	Fork head/winged helix factors
+MA0470.2	E2F	Fork head/winged helix factors
+MA0612.2	NK	Homeo domain factors
+MA0847.2	FOX	Fork head/winged helix factors
+MA0766.2	C4-GATA-related	Other C4 zinc finger-type factors
+MA0038.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0734.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0893.2	HOX	Homeo domain factors
+MA1099.2	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA0616.2	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA0650.2	HOX	Homeo domain factors
+MA0900.2	HOX	Homeo domain factors
+MA0158.2	HOX	Homeo domain factors
+MA0594.2	HOX	Homeo domain factors
+MA0902.2	HOX	Homeo domain factors
+MA0904.2	HOX	Homeo domain factors
+MA0485.2	HOX	Homeo domain factors
+MA0909.2	HOX	Homeo domain factors
+MA0912.2	HOX	Homeo domain factors
+MA0910.2	HOX	Homeo domain factors
+MA0913.2	HOX	Homeo domain factors
+MA1140.2	Jun-related	Basic leucine zipper factors (bZIP)
+MA0701.2	HD-LIM	Homeo domain factors
+MA0702.2	HD-LIM	Homeo domain factors
+MA0703.2	HD-LIM	Homeo domain factors
+MA0623.2	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0842.2	Maf-related	Basic leucine zipper factors (bZIP)
+MA0682.2	Paired-related HD factors	Homeo domain factors
+MA0075.3	Paired-related HD factors	Homeo domain factors
+MA0867.2	SOX-related factors	High-mobility group (HMG) domain factors
+MA0868.2	SOX-related factors	High-mobility group (HMG) domain factors
+MA0079.4	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0516.2	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0746.2	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0632.2	PAS domain factors	Basic helix-loop-helix factors (bHLH)
+MA0871.2	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0753.2	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0122.3	NK	Homeo domain factors
+UN0001.1		Basic leucine zipper factors (bZIP)
+UN0002.1	DOF	Other C4 zinc finger-type factors
+UN0003.1		Basic helix-loop-helix factors (bHLH)
+UN0005.1		AP2/ERF domain
+UN0007.1	DOF	Other C4 zinc finger-type factors
+UN0008.1	Trihelix	Tryptophan cluster factors
+UN0010.1	WRKY	GCM domain factors
+UN0011.1		Basic helix-loop-helix factors (bHLH)
+UN0013.1	GARP_G2-like	Tryptophan cluster factors
+UN0015.1		Basic helix-loop-helix factors (bHLH)
+UN0016.1	DOF	Other C4 zinc finger-type factors
+UN0017.1		AP2/ERF domain
+UN0019.1		Basic helix-loop-helix factors (bHLH)
+UN0021.1		AP2/ERF domain
+UN0022.1	Group D	Basic leucine zipper factors (bZIP)
+UN0025.1		Basic helix-loop-helix factors (bHLH)
+UN0026.1	TCP	Basic helix-loop-helix factors (bHLH)
+UN0027.1	DOF	Other C4 zinc finger-type factors
+UN0029.1	Myb	Tryptophan cluster factors
+UN0030.1	TCP	Basic helix-loop-helix factors (bHLH)
+UN0032.1	TCP	Basic helix-loop-helix factors (bHLH)
+UN0034.1	TCP	Basic helix-loop-helix factors (bHLH)
+UN0036.1	DOF	Other C4 zinc finger-type factors
+UN0037.1		Basic helix-loop-helix factors (bHLH)
+UN0038.1		Basic leucine zipper factors (bZIP)
+UN0039.1	DOF	Other C4 zinc finger-type factors
+UN0040.1		AP2/ERF domain
+UN0041.1	Group A	Basic leucine zipper factors (bZIP)
+UN0042.1		Basic helix-loop-helix factors (bHLH)
+UN0043.1		Basic helix-loop-helix factors (bHLH)
+UN0044.1		Homeo domain factors
+UN0046.1		AP2/ERF domain
+UN0047.1	Myb	Tryptophan cluster factors
+UN0048.1	TCP	Basic helix-loop-helix factors (bHLH)
+UN0049.1		Basic helix-loop-helix factors (bHLH)
+UN0050.1	DOF	Other C4 zinc finger-type factors
+UN0051.1	HD-ZIP	Homeo domain factors
+UN0054.1	Trihelix	Tryptophan cluster factors
+UN0057.1	Myb	Tryptophan cluster factors
+UN0059.1	DOF	Other C4 zinc finger-type factors
+UN0060.1	DOF	Other C4 zinc finger-type factors
+UN0061.1		Basic leucine zipper factors (bZIP)
+UN0063.1	Group A	Basic leucine zipper factors (bZIP)
+UN0064.1		AP2/ERF domain
+UN0067.1	TALE-type HD	Homeo domain factors
+UN0068.1	WRKY	GCM domain factors
+UN0070.1	GARP_G2-like	Tryptophan cluster factors
+UN0072.1	NAC	GCM domain factors
+UN0073.1		Basic leucine zipper factors (bZIP)
+UN0074.1	Group S	Basic leucine zipper factors (bZIP)
+UN0076.1		CPP
+UN0077.1	Myb	Tryptophan cluster factors
+UN0078.1	Myb	Tryptophan cluster factors
+MA1706.1	GARP_G2-like	Tryptophan cluster factors
+UN0080.1	GARP_G2-like	Tryptophan cluster factors
+UN0081.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0082.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0083.1		Basic leucine zipper factors (bZIP)
+UN0084.1		C6 zinc cluster factors
+UN0085.1		C6 zinc cluster factors
+UN0086.1		C6 zinc cluster factors
+UN0087.1		Basic leucine zipper factors (bZIP)
+UN0088.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0089.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0090.1		Basic leucine zipper factors (bZIP)
+UN0091.1		C2H2 zinc finger factors
+UN0092.1		Basic leucine zipper factors (bZIP)
+UN0093.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0094.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0095.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0096.1		C6 zinc cluster factors
+UN0097.1	C4-GATA-related	Other C4 zinc finger-type factors
+UN0098.1		C6 zinc cluster factors
+UN0099.1		C2H2 zinc finger factors
+UN0100.1		C2H2 zinc finger factors
+UN0101.1		C6 zinc cluster factors
+UN0102.1		C6 zinc cluster factors
+UN0103.1		C2H2 zinc finger factors
+UN0104.1		Cold-shock domain factors
+UN0105.1		Homeo domain factors
+UN0106.1		Cold-shock domain factors
+UN0107.1		C2H2 zinc finger factors
+UN0108.1		High-mobility group (HMG) domain factors
+UN0109.1		Nuclear receptors with C4 zinc fingers
+UN0110.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+UN0111.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+UN0112.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+UN0113.1	SOX-related factors	High-mobility group (HMG) domain factors
+UN0114.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1707.1	DMRT factors	DM-type intertwined zinc finger factors
+UN0116.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0118.1	Ets-related	Tryptophan cluster factors
+MA1708.1	Ets-related	Tryptophan cluster factors
+UN0121.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0122.1	Fos-related	Basic leucine zipper factors (bZIP)
+UN0123.1	FOX	Fork head/winged helix factors
+UN0124.1	HOX	Homeo domain factors
+UN0127.1	HSF factors	Heat shock factors
+UN0129.1	HSF factors	Heat shock factors
+UN0130.1	TALE-type homeo domain factors	Homeo domain factors
+UN0131.1	TALE-type homeo domain factors	Homeo domain factors
+UN0132.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0133.1	Paired domain only	Paired box factors
+UN0134.1	Paired-related HD factors	Homeo domain factors
+UN0137.1	SOX-related factors	High-mobility group (HMG) domain factors
+UN0139.1	Dbp-related factors	Cold-shock domain factors
+UN0143.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0144.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0145.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0146.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0148.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0149.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0150.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0151.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0152.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0153.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0154.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0155.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0156.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1709.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0158.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0159.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+UN0160.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0161.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0162.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0163.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0164.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0165.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0167.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0168.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0169.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1710.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0171.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0172.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0173.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0174.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0175.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0176.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0177.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0179.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1711.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0184.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0185.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0186.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0187.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0188.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0190.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0191.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1712.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0196.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0197.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0198.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0199.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0200.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0201.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0204.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0205.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0206.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0207.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0208.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1713.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0210.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0211.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1714.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0213.1		C2H2 zinc finger factors
+MA1715.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0216.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0217.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0218.1		C2H2 zinc finger factors
+UN0219.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1716.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0222.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0223.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0225.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0226.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0227.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0228.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1717.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0230.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0231.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0232.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1718.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0234.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0235.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1719.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0237.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0238.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0239.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1720.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0241.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1721.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0243.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0244.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0245.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0246.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1722.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0248.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0249.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0251.1	CEBP-related	Basic leucine zipper factors (bZIP)
+UN0252.1	DMRT factors	DM-type intertwined zinc finger factors
+UN0253.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1723.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1724.1	RFX-related factors	Fork head/winged helix factors
+UN0262.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0264.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+UN0269.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0271.1	C4-GATA-related	Other C4 zinc finger-type factors
+UN0272.1	C4-GATA-related	Other C4 zinc finger-type factors
+UN0273.1	POU domain factors	Homeo domain factors
+UN0274.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0275.1		C2H2 zinc finger factors
+UN0276.1		Nuclear receptors with C4 zinc fingers
+UN0277.1		C6 zinc cluster factors
+UN0278.1		Basic helix-loop-helix factors (bHLH)
+UN0279.1		C6 zinc cluster factors
+UN0280.1		C6 zinc cluster factors
+UN0281.1		Basic leucine zipper factors (bZIP)
+UN0282.1		C6 zinc cluster factors
+UN0283.1		C6 zinc cluster factors
+UN0284.1		C6 zinc cluster factors
+UN0285.1		C6 zinc cluster factors
+UN0286.1		C6 zinc cluster factors
+UN0287.1		C6 zinc cluster factors
+UN0288.1		C6 zinc cluster factors
+UN0289.1		C6 zinc cluster factors
+UN0290.1		C6 zinc cluster factors
+UN0291.1		C6 zinc cluster factors
+UN0292.1		C6 zinc cluster factors
+UN0293.1		Basic helix-loop-helix factors (bHLH)
+UN0294.1		Basic helix-loop-helix factors (bHLH)
+UN0295.1		C6 zinc cluster factors
+UN0296.1		Basic leucine zipper factors (bZIP)
+UN0297.1		Basic leucine zipper factors (bZIP)
+UN0298.1		C6 zinc cluster factors
+UN0299.1		C6 zinc cluster factors
+UN0300.1		C6 zinc cluster factors
+UN0301.1		C6 zinc cluster factors
+UN0302.1		C6 zinc cluster factors
+UN0303.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0304.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1631.1	MyoD/ASC-related factors	Basic helix-loop-helix factors (bHLH)
+MA1632.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA1633.1	Jun-related	Basic leucine zipper factors (bZIP)
+MA1634.1	B-ATF-related factors	Basic leucine zipper factors (bZIP)
+MA1635.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1636.1	CEBP-related	Basic leucine zipper factors (bZIP)
+MA1637.1	Early B-Cell Factor-related factors	Rel homology region (RHR) factors
+MA1638.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1639.1	TALE-type homeo domain factors	Homeo domain factors
+MA1640.1	TALE-type homeo domain factors	Homeo domain factors
+MA1641.1	MyoD/ASC-related factors	Basic helix-loop-helix factors (bHLH)
+MA1642.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1643.1	Nuclear factor 1	SMAD/NF-1 DNA-binding domain factors
+MA1644.1	Heteromeric CCAAT-binding	Heteromeric CCAAT-binding factors
+MA1645.1	NK	Homeo domain factors
+MA1646.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1647.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1648.1	E2A	Basic helix-loop-helix factors (bHLH)
+MA1649.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1650.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1651.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1652.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1653.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1654.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1655.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1656.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1657.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1659.1	Group A	Basic leucine zipper factors (bZIP)
+MA1660.1	NAC	GCM domain factors
+MA1661.1	Trihelix	Tryptophan cluster factors
+MA1662.1	Trihelix	Tryptophan cluster factors
+MA1663.1	NAC	GCM domain factors
+MA1664.1		Heat shock factors
+MA1665.1		Heat shock factors
+MA1666.1		Heat shock factors
+MA1667.1		Heat shock factors
+MA1669.1	ERF/DREB	AP2/EREBP
+MA1670.1	ERF/DREB	AP2/EREBP
+MA1671.1	ERF/DREB	AP2/EREBP
+MA1672.1	Group G	Basic leucine zipper factors (bZIP)
+MA1673.1	LBD	Other C4 zinc finger-type factors
+MA1674.1	NAC	GCM domain factors
+MA1675.1	NAC	GCM domain factors
+MA1676.1	NAC	GCM domain factors
+MA1677.1	NAC	GCM domain factors
+MA1678.1	NAC	GCM domain factors
+MA1679.1	ERF/DREB	AP2/EREBP
+MA1681.1	Myb-related	Tryptophan cluster factors
+MA1682.1		CPP
+MA1683.1	FOX	Fork head/winged helix factors
+UN0305.1	HD-ZF factors	Homeo domain factors
+UN0308.1	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+UN0312.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0313.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0314.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0316.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0317.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1725.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0319.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0320.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1726.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1727.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0323.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0324.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0325.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0326.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0327.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0330.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0331.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0332.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0333.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1728.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0335.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0336.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0337.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1729.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1730.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0340.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1731.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA2005.1	NAC	GCM domain factors
+MA2006.1	NAC	GCM domain factors
+UN0351.1		ARID
+UN0353.1	Trihelix	Tryptophan cluster factors
+UN0354.1	GRF	CH3
+UN0355.1		C2H2 zinc finger factors
+UN0357.1		mTERF
+UN0359.1		Basic helix-loop-helix factors (bHLH)
+MA1732.1	E2F	Fork head/winged helix factors
+UN0362.1		CAMTA
+MA2007.1	Myb	Tryptophan cluster factors
+MA2008.1	Myb	Tryptophan cluster factors
+MA2009.1	NAC	GCM domain factors
+UN0379.1		S1Fa-like
+MA2010.1	NAC	GCM domain factors
+MA0833.2	ATF-4-related factors	Basic leucine zipper factors (bZIP)
+MA0835.2	B-ATF-related factors	Basic leucine zipper factors (bZIP)
+MA0465.2	HOX	Homeo domain factors
+MA0102.4	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0836.2	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0018.4	CREB-related factors	Basic leucine zipper factors (bZIP)
+MA1102.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0471.2	E2F	Fork head/winged helix factors
+MA0154.4	Early B-Cell Factor-related factors	Rel homology region (RHR) factors
+MA0162.4	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0598.3	Ets-related	Tryptophan cluster factors
+MA0473.3	Ets-related	Tryptophan cluster factors
+MA0640.2	Ets-related	Tryptophan cluster factors
+MA0592.3	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+MA0761.2	Ets-related	Tryptophan cluster factors
+MA0764.2	Ets-related	Tryptophan cluster factors
+MA0765.2	Ets-related	Tryptophan cluster factors
+MA0477.2	Fos-related	Basic leucine zipper factors (bZIP)
+MA0148.4	FOX	Fork head/winged helix factors
+MA0047.3	FOX	Fork head/winged helix factors
+MA1103.2	FOX	Fork head/winged helix factors
+MA0481.3	FOX	Fork head/winged helix factors
+MA0062.3	Ets-related	Tryptophan cluster factors
+MA0035.4	C4-GATA-related	Other C4 zinc finger-type factors
+MA0482.2	C4-GATA-related	Other C4 zinc finger-type factors
+MA1104.2	C4-GATA-related	Other C4 zinc finger-type factors
+MA1105.2	Grainyhead-related factors	Grainyhead domain factors
+MA0043.3	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0114.4	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0484.2	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+MA0901.2	HOX	Homeo domain factors
+MA0490.2	Jun-related	Basic leucine zipper factors (bZIP)
+MA0491.2	Jun-related	Basic leucine zipper factors (bZIP)
+MA0039.4	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1107.2	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0700.2	HD-LIM	Homeo domain factors
+MA0495.3	Maf-related	Basic leucine zipper factors (bZIP)
+MA0659.2	Maf-related	Basic leucine zipper factors (bZIP)
+MA0496.3	Maf-related	Basic leucine zipper factors (bZIP)
+MA0052.4	Regulators of differentiation	MADS box factors
+MA0620.3	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA1108.2	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0499.2	MyoD/ASC-related factors	Basic helix-loop-helix factors (bHLH)
+MA0500.2	MyoD/ASC-related factors	Basic helix-loop-helix factors (bHLH)
+MA0056.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0089.2	Maf-related::Jun-related	Basic leucine zipper factors (bZIP)::Basic leucine zipper factors (bZIP)
+MA0025.2	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0502.2	Heteromeric CCAAT-binding	Heteromeric CCAAT-binding factors
+MA0063.2	NK	Homeo domain factors
+MA1112.2	NGFI-B-related receptors (NR4)	Nuclear receptors with C4 zinc fingers
+MA0679.2	HD-CUT	Homeo domain factors
+MA0712.2	Paired-related HD factors	Homeo domain factors
+MA1113.2	TALE-type homeo domain factors	Homeo domain factors
+MA0681.2	Paired-related HD factors	Homeo domain factors
+MA0782.2	TALE-type homeo domain factors	Homeo domain factors
+MA0627.2	POU domain factors	Homeo domain factors
+MA0508.3	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0509.2	RFX-related factors	Fork head/winged helix factors
+MA0798.2	RFX-related factors	Fork head/winged helix factors
+MA0684.2	Runt-related factors	Runt domain factors
+MA0743.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0744.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0745.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0143.4	SOX-related factors	High-mobility group (HMG) domain factors
+MA0080.5	Ets-related	Tryptophan cluster factors
+MA0081.2	Ets-related	Tryptophan cluster factors
+MA0829.2	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0522.3	E2A	Basic helix-loop-helix factors (bHLH)
+MA0830.2	E2A	Basic helix-loop-helix factors (bHLH)
+MA0769.2	TCF-7-related factors	High-mobility group (HMG) domain factors
+MA0090.3	TEF-1-related factors	TEA domain factors
+MA0809.2	TEF-1-related factors	TEA domain factors
+MA0003.4	AP-2	Basic helix-span-helix factors (bHSH)
+MA0814.2	AP-2	Basic helix-span-helix factors (bHSH)
+MA1123.2	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0093.3	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0526.3	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0748.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0528.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1245.2	ERF/DREB	AP2/EREBP
+MA1365.2	Trihelix	Tryptophan cluster factors
+MA1327.2	HD-ZIP	Homeo domain factors
+MA0110.3	HD-ZIP	Homeo domain factors
+MA1393.2	Myb	Tryptophan cluster factors
+MA0974.2	DOF	Other C4 zinc finger-type factors
+MA0976.2	ERF/DREB	AP2/EREBP
+MA1265.2	ERF/DREB	AP2/EREBP
+MA1233.2	ERF/DREB	AP2/EREBP
+MA1227.2	ERF/DREB	AP2/EREBP
+MA1238.2	ERF/DREB	AP2/EREBP
+MA0995.2	ERF/DREB	AP2/EREBP
+MA1001.2	ERF/DREB	AP2/EREBP
+MA1005.2	ERF/DREB	AP2/EREBP
+MA0992.2	ERF/DREB	AP2/EREBP
+MA0565.2	ABI3	B3
+MA1368.2	Trihelix	Tryptophan cluster factors
+MA1398.2	Myb-related	Tryptophan cluster factors
+MA1391.2	Myb	Tryptophan cluster factors
+MA1394.2	Myb	Tryptophan cluster factors
+MA0980.2	ERF/DREB	AP2/EREBP
+MA1062.2	TCP	Basic helix-loop-helix factors (bHLH)
+MA1065.2	TCP	Basic helix-loop-helix factors (bHLH)
+MA1047.2	Group D	Basic leucine zipper factors (bZIP)
+MA1076.2	WRKY	GCM domain factors
+MA1311.2	WRKY	GCM domain factors
+MA1329.2	PLINC	Homeo domain factors
+MA0609.2	CREB-related factors	Basic leucine zipper factors (bZIP)
+MA1684.1	FOX	Fork head/winged helix factors
+MA1685.1	ARF	B3
+MA1686.1	ARF	B3
+MA1687.1	ARF	B3
+MA1688.1	ARF	B3
+MA1689.1	ARF	B3
+MA1690.1	ARF	B3
+MA1691.1	ARF	B3
+MA1692.1	ARF	B3
+MA1693.1	ARF	B3
+MA1694.1	ARF	B3
+MA1695.1	ARF	B3
+MA1696.1	ARF	B3
+MA1697.1	ARF	B3
+MA1698.1	ARF	B3
+MA1699.1		Homeo domain factors
+MA1700.1		C2H2 zinc finger factors
+MA1701.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1702.1		Basic leucine zipper factors (bZIP)
+MA1703.1		C2H2 zinc finger factors
+MA1704.1		Basic leucine zipper factors (bZIP)
+UN0384.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1733.1	Trihelix	Tryptophan cluster factors
+MA1734.1	NAC	GCM domain factors
+MA1735.1	GARP_G2-like	Tryptophan cluster factors
+MA1736.1		C2H2 zinc finger factors
+MA1737.1	GARP_G2-like	Tryptophan cluster factors
+MA1738.1	Myb	Tryptophan cluster factors
+MA1739.1		Basic helix-loop-helix factors (bHLH)
+MA1740.1		Basic helix-loop-helix factors (bHLH)
+MA1741.1	NAC	GCM domain factors
+MA1742.1	Group I	Basic leucine zipper factors (bZIP)
+MA1743.1	Group S	Basic leucine zipper factors (bZIP)
+MA1744.1	Group I	Basic leucine zipper factors (bZIP)
+MA1745.1	Group C	Basic leucine zipper factors (bZIP)
+MA1746.1	Group I	Basic leucine zipper factors (bZIP)
+MA1747.1	DOF	Other C4 zinc finger-type factors
+MA1748.1	ERF/DREB	AP2/EREBP
+MA1749.1	E2F	Fork head/winged helix factors
+MA1750.1	E2F	Fork head/winged helix factors
+MA1751.1	EIL	
+MA1752.1	ERF/DREB	AP2/EREBP
+MA1753.1	ERF/DREB	AP2/EREBP
+MA1754.1	ERF/DREB	AP2/EREBP
+MA1755.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1756.1	GRF	CH3
+MA1757.1	HD-ZIP	Homeo domain factors
+MA1758.1		Heat shock factors
+MA1759.1		Heat shock factors
+MA1760.1		Heat shock factors
+MA1761.1		Heat shock factors
+MA1762.1	Myb	Tryptophan cluster factors
+MA1764.1	Myb	Tryptophan cluster factors
+MA1765.1	Myb	Tryptophan cluster factors
+MA1766.1	Myb	Tryptophan cluster factors
+MA1767.1	Myb	Tryptophan cluster factors
+MA1768.1	Myb	Tryptophan cluster factors
+MA1769.1	Myb	Tryptophan cluster factors
+MA1770.1	Myb	Tryptophan cluster factors
+MA1771.1	Myb	Tryptophan cluster factors
+MA1772.1	Myb	Tryptophan cluster factors
+MA1773.1	Myb	Tryptophan cluster factors
+MA1774.1	Myb	Tryptophan cluster factors
+MA1775.1	Myb	Tryptophan cluster factors
+MA1776.1	Myb	Tryptophan cluster factors
+MA1777.1	Myb	Tryptophan cluster factors
+MA1778.1	Myb	Tryptophan cluster factors
+MA1779.1	Myb	Tryptophan cluster factors
+MA1780.1	Myb	Tryptophan cluster factors
+MA1781.1	Myb	Tryptophan cluster factors
+MA1783.1	NAC	GCM domain factors
+MA1784.1	NAC	GCM domain factors
+MA1785.1	NAC	GCM domain factors
+MA1786.1	NAC	GCM domain factors
+MA1787.1	NAC	GCM domain factors
+MA1788.1	NAC	GCM domain factors
+MA1789.1	NAC	GCM domain factors
+MA1790.1	NAC	GCM domain factors
+MA1791.1	NAC	GCM domain factors
+MA1792.1	NAC	GCM domain factors
+MA1793.1	Myb-related	Tryptophan cluster factors
+MA1794.1		RWP-RK
+MA1795.1	ERF/DREB	AP2/EREBP
+MA1796.1	AP2	AP2/EREBP
+MA1797.1	RAV	B3
+MA1799.1	SBP	C2H2 zinc finger factors
+MA1800.1	RAV	B3
+MA1801.1		C2H2 zinc finger factors
+MA1802.1	Myb-related	Tryptophan cluster factors
+MA1803.1	Group I	Basic leucine zipper factors (bZIP)
+MA1804.1	ERF/DREB	AP2/EREBP
+MA1805.1	WRKY	GCM domain factors
+MA1807.1	PLINC	Homeo domain factors
+UN0386.1	M gamma	MADS box factors
+UN0388.1		ARID
+UN0389.1		GeBP/Storekeeper
+UN0390.1	REM	B3
+UN0391.1	Trihelix	Tryptophan cluster factors
+UN0392.1		GeBP/Storekeeper
+UN0393.1	Myb-related	Tryptophan cluster factors
+UN0394.1	Platz	CHC2-C2H2-C4 zinc finger factors
+UN0396.1	YABBY	Other C4 zinc finger-type factors
+UN0397.1	RAV	B3
+UN0398.1		C2H2 zinc finger factors
+UN0399.1		GeBP/Storekeeper
+UN0400.1		ARID
+UN0401.1		ARID
+UN0402.1		C2H2 zinc finger factors
+UN0403.1		C2H2 zinc finger factors
+UN0404.1		CH3
+UN0405.1	NAC	GCM domain factors
+UN0406.1		RWP-RK
+UN0407.1	REM	B3
+UN0408.1	REM	B3
+UN0409.1		RWP-RK
+UN0410.1		GeBP/Storekeeper
+UN0411.1		CPP
+UN0412.1	Trihelix	Tryptophan cluster factors
+UN0413.1	WOX	Homeo domain factors
+UN0414.1	WOX	Homeo domain factors
+UN0415.1	YABBY	Other C4 zinc finger-type factors
+UN0416.1	YABBY	Other C4 zinc finger-type factors
+UN0417.1		C2H2 zinc finger factors
+MA1808.1	Group A	Basic leucine zipper factors (bZIP)
+MA1809.1	GRF	CH3
+MA1810.1	ABI3	B3
+MA1811.1	Group A	Basic leucine zipper factors (bZIP)
+UN0418.1	PLINC	Homeo domain factors
+UN0420.1	ABI3	B3
+UN0421.1	Group A	Basic leucine zipper factors (bZIP)
+UN0422.1	NF-YB	Heteromeric CCAAT-binding factors
+UN0423.1	NF-YB	Heteromeric CCAAT-binding factors
+UN0424.1	NF-YB	Heteromeric CCAAT-binding factors
+MA1812.1	Myb-related	Tryptophan cluster factors
+MA1813.1		EIL
+MA1814.1	MIKC	MADS box factors
+UN0426.1	MIKC	MADS box factors
+MA1815.1	GRF	CH3
+UN0427.1	NF-YB	Heteromeric CCAAT-binding factors
+UN0428.1	NAC	GCM domain factors
+UN0429.1	NAC	GCM domain factors
+UN0430.1	NAC	GCM domain factors
+MA1816.1		Basic helix-loop-helix factors (bHLH)
+MA1817.1	ERF/DREB	AP2/EREBP
+MA1818.1	ERF/DREB	AP2/EREBP
+MA1819.1	ERF/DREB	AP2/EREBP
+MA1820.1	ERF/DREB	AP2/EREBP
+MA1821.1	ERF/DREB	AP2/EREBP
+MA1822.1		Basic leucine zipper factors (bZIP)
+MA1823.1	DOF	Other C4 zinc finger-type factors
+MA1824.1	HD-ZIP	Homeo domain factors
+MA1825.1	Myb-related	Tryptophan cluster factors
+MA1826.1	ARF	B3
+MA1827.1	GARP_G2-like	Tryptophan cluster factors
+MA1828.1	TCP	Basic helix-loop-helix factors (bHLH)
+MA1829.1	Myb	Tryptophan cluster factors
+MA1830.1	GARP_G2-like	Tryptophan cluster factors
+MA1831.1	ERF/DREB	AP2/EREBP
+MA1832.1	ERF/DREB	AP2/EREBP
+MA1833.1	ERF/DREB	AP2/EREBP
+MA1834.1		Basic helix-loop-helix factors (bHLH)
+MA1835.1	Group D	Basic leucine zipper factors (bZIP)
+UN0431.1		Basic helix-loop-helix factors (bHLH)
+UN0432.1		GRAS
+UN0433.1	Myb-related	Tryptophan cluster factors
+UN0434.1	Myb-related	Tryptophan cluster factors
+UN0435.1		
+MA1836.1		
+MA1837.1		
+MA1838.1		
+MA1839.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1840.1	GCM	GCM domain factors
+MA1841.1	EBF-related	Rel homology region (RHR) factors
+MA1842.1		
+UN0436.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0437.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0438.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1843.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA1844.1	HOX	Homeo domain factors
+MA1845.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1846.1	Brachyury-related factors	T-Box factors
+MA1847.1	NK	Homeo domain factors
+MA1848.1	CEBP-related	Basic leucine zipper factors (bZIP)
+MA1849.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+MA1850.1	NK	Homeo domain factors
+MA1851.1	NK	Homeo domain factors
+MA1852.1	NK	Homeo domain factors
+MA1853.1	Ets-related	Tryptophan cluster factors
+MA1854.1	Ets-related	Tryptophan cluster factors
+MA1855.1	Ets-related	Tryptophan cluster factors
+MA1856.1	Ets-related	Tryptophan cluster factors
+MA1857.1	Ets-related	Tryptophan cluster factors
+MA1858.1	Fos-related	Basic leucine zipper factors (bZIP)
+MA1859.1	FOX	Fork head/winged helix factors
+MA1860.1	FOX	Fork head/winged helix factors
+MA1861.1	FOX	Fork head/winged helix factors
+MA1862.1	FOX	Fork head/winged helix factors
+MA1863.1	FOX	Fork head/winged helix factors
+MA1864.1	FOX	Fork head/winged helix factors
+MA1865.1	FOX	Fork head/winged helix factors
+MA1866.1	FOX	Fork head/winged helix factors
+MA1867.1	FOX	Fork head/winged helix factors
+MA1868.1	FOX	Fork head/winged helix factors
+MA1869.1	FOX	Fork head/winged helix factors
+MA1870.1	FOX	Fork head/winged helix factors
+MA1871.1	FOX	Fork head/winged helix factors
+MA1872.1	FOX	Fork head/winged helix factors
+MA1873.1	FOX	Fork head/winged helix factors
+MA1874.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1875.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1876.1	HOX	Homeo domain factors
+MA1877.1	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA1878.1	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA1879.1		Homeo domain factors
+MA1880.1	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA1881.1	POU domain factors	Homeo domain factors
+MA1882.1	POU domain factors	Homeo domain factors
+MA1883.1	HOX	Homeo domain factors
+MA1884.1	HOX	Homeo domain factors
+MA1885.1	HOX	Homeo domain factors
+MA1886.1	HOX	Homeo domain factors
+MA1887.1	HSF factors	Heat shock factors
+MA1888.1	Interferon-regulatory factors	Tryptophan cluster factors
+MA1889.1	Paired-related HD factors	Homeo domain factors
+MA1890.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1891.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1892.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1893.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1894.1	Maf-related	Basic leucine zipper factors (bZIP)
+MA1895.1	HD-LIM	Homeo domain factors
+MA1896.1	HD-LIM	Homeo domain factors
+MA1897.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA1898.1	HOX	Homeo domain factors
+MA1899.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA1900.1	HOX	Homeo domain factors
+MA1901.1	NK	Homeo domain factors
+MA1902.1	NF-kappaB-related factors	Rel homology region (RHR) factors
+MA1903.1	NK	Homeo domain factors
+MA1904.1	NK	Homeo domain factors
+MA1905.1	NK	Homeo domain factors
+MA1906.1	NK	Homeo domain factors
+MA1907.1	Paired-related HD factors	Homeo domain factors
+MA1908.1	Paired-related HD factors	Homeo domain factors
+MA1909.1	Paired-related HD factors	Homeo domain factors
+MA1910.1	Paired-related HD factors	Homeo domain factors
+MA1911.1	NF-kappaB-related factors	Rel homology region (RHR) factors
+MA1912.1	HD-SINE	Homeo domain factors
+MA1913.1	Maf-related	Basic leucine zipper factors (bZIP)
+MA1914.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1915.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA1916.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA1917.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA1918.1	SOX-related factors	High-mobility group (HMG) domain factors
+MA1919.1	TBX1-related factors	T-Box factors
+MA1920.1	TBX1-related factors	T-Box factors
+MA1921.1	TBX1-related factors	T-Box factors
+MA1922.1	TBX2-related factors	T-Box factors
+MA1923.1	E2A	Basic helix-loop-helix factors (bHLH)
+MA1924.1	NK	Homeo domain factors
+MA1925.1	Paired-related HD factors	Homeo domain factors
+MA1926.1	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA1927.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0439.1	AP-2	Basic helix-span-helix factors (bHSH)
+UN0440.1	ARID-related	ARID
+UN0441.1	Jun-related	Basic leucine zipper factors (bZIP)
+UN0442.1	Jun-related	Basic leucine zipper factors (bZIP)
+UN0443.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0444.1	HOX	Homeo domain factors
+UN0445.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+UN0446.1	CREB-related factors	Basic leucine zipper factors (bZIP)
+UN0447.1	E2F	Fork head/winged helix factors
+UN0448.1	Ets-related	Tryptophan cluster factors
+UN0449.1		
+UN0450.1	Steroid hormone receptors (NR3)	Nuclear receptors with C4 zinc fingers
+UN0451.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0452.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0453.1	RXR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+UN0454.1	Regulators of differentiation	MADS box factors
+UN0455.1	TALE-type homeo domain factors	Homeo domain factors
+UN0456.1		
+UN0457.1	CEBP-related	Basic leucine zipper factors (bZIP)
+UN0458.1	NK	Homeo domain factors
+UN0459.1	XR-related receptors (NR2)	Nuclear receptors with C4 zinc fingers
+UN0460.1	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+UN0461.1	p53-related factors	p53 domain factors
+UN0462.1	Paired domain only	Paired box factors
+UN0463.1	Paired plus homeo domain	Paired box factors
+UN0464.1	Paired plus homeo domain	Paired box factors
+UN0465.1	TALE-type homeo domain factors	Homeo domain factors
+UN0466.1	POU domain factors	Homeo domain factors
+UN0467.1	HD-PROS factors	Homeo domain factors
+UN0468.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0469.1	HD-SINE	Homeo domain factors
+UN0470.1	Regulators of differentiation	MADS box factors
+UN0471.1	CEBP-related	Basic leucine zipper factors (bZIP)
+UN0472.1	XBP-1-related factors	Basic leucine zipper factors (bZIP)
+UN0473.1	XBP-1-related factors	Basic leucine zipper factors (bZIP)
+UN0474.1	XBP-1-related factors	Basic leucine zipper factors (bZIP)
+UN0475.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0476.1		C2H2 zinc finger factors
+UN0477.1		C2H2 zinc finger factors
+UN0478.1		C2H2 zinc finger factors
+UN0479.1		C2H2 zinc finger factors
+UN0480.1		C2H2 zinc finger factors
+UN0481.1		C2H2 zinc finger factors
+UN0482.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0483.1		
+UN0484.1		C2H2 zinc finger factors
+MA1928.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1929.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1930.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1931.1	Ets-related::HOX-related factors	Tryptophan cluster factors::Homeo domain factors
+MA1932.1	Ets-related::HOX-related factors	Tryptophan cluster factors::Homeo domain factors
+MA1933.1	Ets-related::bHLH-ZIP	Tryptophan cluster factors::Basic helix-loop-helix factors (bHLH)
+MA1934.1	Ets-related::Tal-related	Tryptophan cluster factors::Basic helix-loop-helix factors (bHLH)
+MA1935.1	Ets-related::FOX	Tryptophan cluster factors::Fork head/winged helix factors
+MA1936.1	Ets-related::FOX	Tryptophan cluster factors::Fork head/winged helix factors
+MA1937.1	Ets-related::HOX-related factors	Tryptophan cluster factors::Homeo domain factors
+MA1938.1	Ets-related::Tal-related	Tryptophan cluster factors::Basic helix-loop-helix factors (bHLH)
+MA1939.1	Ets-related::bHLH-ZIP	Tryptophan cluster factors::Basic helix-loop-helix factors (bHLH)
+MA1940.1	Ets-related::Paired-related HD factors	Tryptophan cluster factors::Homeo domain factors
+MA1941.1	Ets-related::Tal-related	Tryptophan cluster factors::Basic helix-loop-helix factors (bHLH)
+MA1942.1	Ets-related::FOX	Tryptophan cluster factors::Fork head/winged helix factors
+MA1943.1	Ets-related::HOX-related factors	Tryptophan cluster factors::Homeo domain factors
+MA1944.1	Ets-related::Paired-related HD factors	Tryptophan cluster factors::Homeo domain factors
+MA1945.1	Ets-related::Tal-related	Tryptophan cluster factors::Basic helix-loop-helix factors (bHLH)
+MA1946.1	Ets-related::FOX	Tryptophan cluster factors::Fork head/winged helix factors
+MA1947.1	Ets-related::FOX	Tryptophan cluster factors::Fork head/winged helix factors
+MA1948.1	Ets-related::HOX-related factors	Tryptophan cluster factors::Homeo domain factors
+MA1949.1	Paired-related HD factors::Ets-related	Homeo domain factors::Tryptophan cluster factors
+MA1950.1	Ets-related::FOX	Tryptophan cluster factors::Fork head/winged helix factors
+MA1951.1	Fos-related	Basic leucine zipper factors (bZIP)
+MA1952.1	FOX::Ets-related	Fork head/winged helix factors::Tryptophan cluster factors
+MA1953.1	FOX::Ets-related	Fork head/winged helix factors::Tryptophan cluster factors
+MA1954.1	FOX::Ets-related	Fork head/winged helix factors::Tryptophan cluster factors
+MA1955.1	FOX::Ets-related	Fork head/winged helix factors::Tryptophan cluster factors
+MA1956.1	FOX::Ets-related	Fork head/winged helix factors::Tryptophan cluster factors
+MA1957.1	HOX::Ets-related	Homeo domain factors::Tryptophan cluster factors
+MA1958.1	HOX::Ets-related	Homeo domain factors::Tryptophan cluster factors
+MA1959.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1960.1	TBX6-related factors::HOX	T-Box factors::Homeo domain factors
+MA1961.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1962.1	POU domain factors::SOX-related factors	Homeo domain factors::High-mobility group (HMG) domain factors
+MA1963.1	HD-CUT	Homeo domain factors
+MA1964.1	SMAD factors	SMAD/NF-1 DNA-binding domain factors
+MA1965.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1966.1	bHLH-ZIP::Ets-related	Basic helix-loop-helix factors (bHLH)::Tryptophan cluster factors
+MA1967.1	bHLH-ZIP::Ets-related	Basic helix-loop-helix factors (bHLH)::Tryptophan cluster factors
+MA1968.1	CP2-related factors	Grainyhead domain factors
+MA1969.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1970.1	C4-GATA-related	Other C4 zinc finger-type factors
+MA1971.1	BED zinc finger factors	C2H2 zinc finger factors
+MA1972.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1973.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1974.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1975.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1976.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1977.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1978.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1979.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1980.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1981.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1982.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1983.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1984.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1985.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1986.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1987.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0485.1	Paired-related HD factors::TBrain-related factors	Homeo domain factors::T-Box factors
+UN0486.1	HD-CUT::HOX	Homeo domain factors::Homeo domain factors
+UN0487.1	HD-CUT::HOX	Homeo domain factors::Homeo domain factors
+UN0488.1	HD-CUT::TBrain-related factors	Homeo domain factors::T-Box factors
+UN0489.1	E2F::Hairy-related	Fork head/winged helix factors::Basic helix-loop-helix factors (bHLH)
+UN0490.1	E2F::Hairy-related	Fork head/winged helix factors::Basic helix-loop-helix factors (bHLH)
+UN0491.1	Paired-related HD factors::E2F	Homeo domain factors::Fork head/winged helix factors
+UN0492.1	E2F::HD-CUT	Fork head/winged helix factors::Homeo domain factors
+UN0493.1	E2F::HD-CUT	Fork head/winged helix factors::Homeo domain factors
+UN0494.1	Ets-related::TBrain-related factors	Tryptophan cluster factors::T-Box factors
+UN0495.1	Ets-related::Ets-related	Tryptophan cluster factors::Tryptophan cluster factors
+UN0496.1	Ets-related::FOX	Tryptophan cluster factors::Fork head/winged helix factors
+UN0497.1	Ets-related::FOX	Tryptophan cluster factors::Fork head/winged helix factors
+UN0498.1	Ets-related::HOX-related factors	Tryptophan cluster factors::Homeo domain factors
+UN0499.1	Ets-related::HD-CUT	Tryptophan cluster factors::Homeo domain factors
+UN0500.1	Ets-related::Paired domain only	Tryptophan cluster factors::Paired box factors
+UN0501.1	Ets-related::Paired domain only	Tryptophan cluster factors::Paired box factors
+UN0502.1	Ets-related::Paired domain only	Tryptophan cluster factors::Paired box factors
+UN0503.1	Ets-related::Ets-related	Tryptophan cluster factors::Tryptophan cluster factors
+UN0504.1	Ets-related::CEBP-related	Tryptophan cluster factors::Basic leucine zipper factors (bZIP)
+UN0505.1	Ets-related::CEBP-related	Tryptophan cluster factors::Basic leucine zipper factors (bZIP)
+UN0506.1	Ets-related::Ets-related	Tryptophan cluster factors::Tryptophan cluster factors
+UN0507.1	Ets-related::bHLH-ZIP	Tryptophan cluster factors::Basic helix-loop-helix factors (bHLH)
+UN0508.1	Ets-related::TBrain-related factors	Tryptophan cluster factors::T-Box factors
+UN0509.1	Ets-related::bHLH-ZIP	Tryptophan cluster factors::Basic helix-loop-helix factors (bHLH)
+UN0510.1	Ets-related::CEBP-related	Tryptophan cluster factors::Basic leucine zipper factors (bZIP)
+UN0511.1	Ets-related::TBrain-related factors	Tryptophan cluster factors::T-Box factors
+UN0512.1	Ets-related::Ets-related	Tryptophan cluster factors::Tryptophan cluster factors
+UN0513.1	Ets-related::FOX	Tryptophan cluster factors::Fork head/winged helix factors
+UN0514.1	Ets-related::FOX	Tryptophan cluster factors::Fork head/winged helix factors
+UN0515.1	Ets-related::FOX	Tryptophan cluster factors::Fork head/winged helix factors
+UN0516.1	Ets-related::FOX	Tryptophan cluster factors::Fork head/winged helix factors
+UN0517.1	Ets-related::Tal-related	Tryptophan cluster factors::Basic helix-loop-helix factors (bHLH)
+UN0518.1	Ets-related::HD-CUT	Tryptophan cluster factors::Homeo domain factors
+UN0519.1	Ets-related::HD-CUT	Tryptophan cluster factors::Homeo domain factors
+UN0520.1	Ets-related::Ets-related	Tryptophan cluster factors::Tryptophan cluster factors
+UN0521.1	Ets-related::bHLH-ZIP	Tryptophan cluster factors::Basic helix-loop-helix factors (bHLH)
+UN0522.1	Ets-related::CEBP-related	Tryptophan cluster factors::Basic leucine zipper factors (bZIP)
+UN0523.1	Ets-related::CEBP-related	Tryptophan cluster factors::Basic leucine zipper factors (bZIP)
+UN0524.1	Ets-related::Ets-related	Tryptophan cluster factors::Tryptophan cluster factors
+UN0525.1	Ets-related::Tal-related	Tryptophan cluster factors::Basic helix-loop-helix factors (bHLH)
+UN0526.1	Ets-related::CEBP-related	Tryptophan cluster factors::Basic leucine zipper factors (bZIP)
+UN0527.1	Ets-related::CEBP-related	Tryptophan cluster factors::Basic leucine zipper factors (bZIP)
+UN0528.1	Ets-related::Ets-related	Tryptophan cluster factors::Tryptophan cluster factors
+UN0529.1	Tal-related factors::Ets-related	Basic helix-loop-helix factors (bHLH)::Tryptophan cluster factors
+UN0530.1	Ets-related::FOX	Tryptophan cluster factors::Fork head/winged helix factors
+UN0531.1	Ets-related::HOX-related factors	Tryptophan cluster factors::Homeo domain factors
+UN0532.1	Ets-related::bHLH-ZIP	Tryptophan cluster factors::Basic helix-loop-helix factors (bHLH)
+UN0533.1	FOX::HOX	Fork head/winged helix factors::Homeo domain factors
+UN0534.1	FOX::Paired-related HD	Fork head/winged helix factors::Homeo domain factors
+UN0535.1	FOX::Ets-related	Fork head/winged helix factors::Tryptophan cluster factors
+UN0536.1	FOX::Ets-related	Fork head/winged helix factors::Tryptophan cluster factors
+UN0537.1	FOX	Fork head/winged helix factors
+UN0538.1	FOX	Fork head/winged helix factors
+UN0540.1	GCM::Ets-related	GCM domain factors::Tryptophan cluster factors
+UN0541.1	GCM::Ets-related	GCM domain factors::Tryptophan cluster factors
+UN0542.1	GCM::Ets-related	GCM domain factors::Tryptophan cluster factors
+UN0543.1	GCM::Ets-related	GCM domain factors::Tryptophan cluster factors
+UN0544.1	GCM::Ets-related	GCM domain factors::Tryptophan cluster factors
+UN0545.1	GCM::FOX	GCM domain factors::Fork head/winged helix factors
+UN0546.1	GCM::HOX	GCM domain factors::Homeo domain factors
+UN0547.1	GCM::HOX	GCM domain factors::Homeo domain factors
+UN0548.1	GCM::HD-CUT	GCM domain factors::Homeo domain factors
+UN0549.1	GCM::SOX-related factors	GCM domain factors::High-mobility group (HMG) domain factors
+UN0550.1	GCM::TBrain-related factors	GCM domain factors::T-Box factors
+UN0551.1	GCM::Paired-related HD factors	GCM domain factors::Paired-related HD factors
+UN0552.1	GCM::Ets-related	GCM domain factors::Tryptophan cluster factors
+UN0553.1	GCM::HOX	GCM domain factors::Homeo domain factors
+UN0554.1	GCM::Paired-related HD factors	GCM domain factors::Homeo domain factors
+UN0555.1	GCM::TBrain-related factors	GCM domain factors::T-Box factors
+UN0556.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0557.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0558.1	HOX	Homeo domain factors
+UN0559.1	HOX::Ets-related	Homeo domain factors::Tryptophan cluster factors
+UN0560.1	HOX::Ets-related	Homeo domain factors::Tryptophan cluster factors
+UN0561.1	HOX::Paired domain only	Homeo domain factors::Paired box factors
+UN0562.1	HOX::Paired domain only	Homeo domain factors::Paired box factors
+UN0563.1	HOX::Paired domain only	Homeo domain factors::Paired box factors
+UN0564.1	HOX::TBrain-related factors	Homeo domain factors::T-Box factors
+UN0565.1	HOX::TBX2-related factors	Homeo domain factors::T-Box factors
+UN0566.1	HOX::TBrain-related factors	Homeo domain factors::T-Box factors
+UN0567.1	HOX::Ets-related	Homeo domain factors::Tryptophan cluster factors
+UN0568.1	HOX::Ets-related	Homeo domain factors::Tryptophan cluster factors
+UN0569.1	HOX::Ets-related	Homeo domain factors::Tryptophan cluster factors
+UN0570.1	TALE-type homeo domain factors::Paired-related HD factors	Homeo domain factors::Homeo domain factors
+UN0571.1	TALE-type homeo domain factors::HOX	Homeo domain factors::Homeo domain factors
+UN0572.1	TBX6-related factors::NK	T-Box factors::Homeo domain factors
+UN0573.1	TBX6-related factors::NK	T-Box factors::Homeo domain factors
+UN0574.1	Myb/SANT domain factors::TBrain-related factors	Tryptophan cluster factors::T-Box factors
+UN0575.1	Paired-related HD factors::Hairy-related factors	Homeo domain factors::Basic helix-loop-helix factors (bHLH)
+UN0576.1	Paired-related HD factors::TBrain-related factors	Homeo domain factors::T-Box factors
+UN0577.1	POU domain factors::NK	Homeo domain factors::Homeo domain factors
+UN0578.1	POU domain factors::Ets-related	Homeo domain factors::Tryptophan cluster factors
+UN0579.1	POU domain factors::Ets-related	Homeo domain factors::Tryptophan cluster factors
+UN0580.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+UN0581.1	TEF-1-related factors::Paired-related HD factors	TEA domain factors::Homeo domain factors
+UN0582.1	TEF-1-related factors::Ets-related	TEA domain factors::Tryptophan cluster factors
+UN0583.1	TEF-1-related factors::Ets-related	TEA domain factors::Tryptophan cluster factors
+UN0584.1	TEF-1-related factors::Ets-related	TEA domain factors::Tryptophan cluster factors
+UN0585.1	TEF-1-related factors::Ets-related	TEA domain factors::Tryptophan cluster factors
+UN0586.1	TEF-1-related factors::Ets-related	TEA domain factors::Tryptophan cluster factors
+UN0587.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0588.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0589.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0590.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0591.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0592.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0593.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+UN0594.1		C2H2 zinc finger factors
+UN0595.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0596.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0597.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0598.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0599.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0600.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0601.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0602.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0603.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0604.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0605.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0606.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0607.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0609.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0610.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0611.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0612.1		C2H2 zinc finger factors
+UN0613.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0614.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0615.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0616.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0617.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0618.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0619.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0620.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0621.1		C2H2 zinc finger factors
+UN0622.1		C2H2 zinc finger factors
+UN0623.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0624.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0625.1		C2H2 zinc finger factors
+UN0626.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0627.1		C2H2 zinc finger factors
+UN0628.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0629.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0630.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0631.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0632.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0633.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0634.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0635.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0636.1		C2H2 zinc finger factors
+UN0637.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0638.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0639.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0640.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0641.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0642.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0643.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0644.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0645.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0646.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0647.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0648.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0649.1		C2H2 zinc finger factors
+UN0650.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0651.1		C2H2 zinc finger factors
+UN0652.1		C2H2 zinc finger factors
+UN0653.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0654.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0655.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0656.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0657.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0658.1		C2H2 zinc finger factors
+UN0659.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0660.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0661.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0662.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0663.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0664.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0665.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0666.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0667.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0668.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0669.1	Myb/SANT domain factors	Tryptophan cluster factors
+MA1988.1	Fos-related	Basic leucine zipper factors (bZIP)
+MA1989.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA1990.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1991.1	POU domain factors	Homeo domain factors
+MA1992.1	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1993.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1994.1	NK	Homeo domain factors
+MA1995.1	PAS domain factors	Basic helix-loop-helix factors (bHLH)
+MA1996.1	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1997.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1998.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1999.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA2001.1	HD-SINE	Homeo domain factors
+MA2002.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0670.1	ARID-related	ARID
+UN0671.1	Homeo	Helix-Turn-Helix
+UN0672.1	EBF-related	Rel homology region (RHR) factors
+UN0673.1	Fos-related	Basic leucine zipper factors (bZIP)
+UN0674.1	Tal-related	Basic helix-loop-helix factors (bHLH)
+UN0675.1	HMGA	TATA-binding proteins
+UN0676.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0677.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0678.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0679.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0680.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0681.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0682.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0683.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0684.1	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+UN0685.1	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+MA2003.1	NK	Homeo domain factors
+MA0037.4	C4-GATA-related	Other C4 zinc finger-type factors
+MA0041.2	FOX	Fork head/winged helix factors
+MA0050.3	Interferon-regulatory factors	Tryptophan cluster factors
+MA0067.2	Paired domain only	Paired box factors
+MA0078.2	SOX-related factors	High-mobility group (HMG) domain factors
+MA0079.5	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0080.6	Ets-related	Tryptophan cluster factors
+MA0087.2	SOX-related factors	High-mobility group (HMG) domain factors
+MA0095.3	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0136.3	Ets-related	Tryptophan cluster factors
+MA0152.2	NFAT-related factors	Rel homology region (RHR) factors
+MA0156.3	Ets-related	Tryptophan cluster factors
+MA0157.3	FOX	Fork head/winged helix factors
+MA0160.2	NGFI-B-related receptors (NR4)	Nuclear receptors with C4 zinc fingers
+MA0265.2	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0279.2		Basic leucine zipper factors (bZIP)
+MA0281.2	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0284.2		Basic leucine zipper factors (bZIP)
+MA0303.2		Basic leucine zipper factors (bZIP)
+MA0312.2		C6 zinc cluster factors
+MA0314.2	Heteromeric CCAAT-binding	Heteromeric CCAAT-binding factors
+MA0347.2	Other factors with up to three adjacent zinc fingers	C2H2 zinc finger factors
+MA0352.2		C6 zinc cluster factors
+MA0359.2	Myb/SANT domain factors	Tryptophan cluster factors
+MA0363.2	Myb/SANT domain factors	Tryptophan cluster factors
+MA0382.2		Basic leucine zipper factors (bZIP)
+MA0403.2	Myb/SANT domain factors	Tryptophan cluster factors
+MA0412.2		C6 zinc cluster factors
+MA0466.3	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0467.2	Paired-related HD factors	Homeo domain factors
+MA0474.3	Ets-related	Tryptophan cluster factors
+MA0480.2	FOX	Fork head/winged helix factors
+MA0489.2	Jun-related	Basic leucine zipper factors (bZIP)
+MA0493.2	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0505.2	FTZF1related(NR5A)	Nuclear receptors with C4 zinc fingers
+MA0506.2	Jun-related	Basic leucine zipper factors (bZIP)
+MA0507.2	POU domain factors	Homeo domain factors
+MA0509.3	RFX-related factors	Fork head/winged helix factors
+MA0514.2	SOX-related factors	High-mobility group (HMG) domain factors
+MA0516.3	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0521.2	E2A	Basic helix-loop-helix factors (bHLH)
+MA0526.4	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0606.2	NFAT-related factors	Rel homology region (RHR) factors
+MA0607.2	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0611.2	Paired-related HD factors	Homeo domain factors
+MA0624.2	NFAT-related factors	Rel homology region (RHR) factors
+MA0625.2	NFAT-related factors	Rel homology region (RHR) factors
+MA0633.2	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0642.2	NK	Homeo domain factors
+MA0644.2	Paired-related HD factors	Homeo domain factors
+MA0650.3	HOX	Homeo domain factors
+MA0651.2	HOX	Homeo domain factors
+MA0659.3	Maf-related	Basic leucine zipper factors (bZIP)
+MA0666.2	NK	Homeo domain factors
+MA0668.2	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0680.2	Paired plus homeo domain	Paired box factors
+MA0685.2	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0690.2	TBrain-related factors	T-Box factors
+MA0693.3	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA0697.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0707.2	HOX	Homeo domain factors
+MA0708.2	NK	Homeo domain factors
+MA0723.2	NK	Homeo domain factors
+MA0734.3	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA0740.2	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0742.2	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA0754.2	HD-CUT	Homeo domain factors
+MA0756.2	HD-CUT	Homeo domain factors
+MA0759.2	Ets-related	Tryptophan cluster factors
+MA0764.3	Ets-related	Tryptophan cluster factors
+MA0765.3	Ets-related	Tryptophan cluster factors
+MA0768.2	TCF-7-related factors	High-mobility group (HMG) domain factors
+MA0784.2	POU domain factors	Homeo domain factors
+MA0798.3	RFX-related factors	Fork head/winged helix factors
+MA0799.2	RFX-related factors	Fork head/winged helix factors
+MA0818.2	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA0819.2	PAS domain factors	Basic helix-loop-helix factors (bHLH)
+MA0821.2	Hairy-related factors	Basic helix-loop-helix factors (bHLH)
+MA0828.2	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0831.3	bHLH-ZIP	Basic helix-loop-helix factors (bHLH)
+MA0837.2	CEBP-related	Basic leucine zipper factors (bZIP)
+MA0847.3	FOX	Fork head/winged helix factors
+MA0865.2	E2F	Fork head/winged helix factors
+MA0869.2	SOX-related factors	High-mobility group (HMG) domain factors
+MA0877.3	NK	Homeo domain factors
+MA0878.3	HOX	Homeo domain factors
+MA0879.2	NK	Homeo domain factors
+MA0884.2	Paired-related HD factors	Homeo domain factors
+MA0885.2	NK	Homeo domain factors
+MA0909.3	HOX	Homeo domain factors
+MA1110.2	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1467.2	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1472.2	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1476.2	NK	Homeo domain factors
+MA1483.2	Ets-related	Tryptophan cluster factors
+MA1487.2	FOX	Fork head/winged helix factors
+MA1491.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1498.2	HOX	Homeo domain factors
+MA1511.2	Three-zinc finger Kruppel-related	C2H2 zinc finger factors
+MA1518.2	HD-LIM	Homeo domain factors
+MA1524.2	Tal-related	Basic helix-loop-helix factors (bHLH)
+MA1525.2	NFAT-related factors	Rel homology region (RHR) factors
+MA1532.2	Thyroid hormone receptor-related factors (NR1)	Nuclear receptors with C4 zinc fingers
+MA1547.2	Paired-related HD factors	Homeo domain factors
+MA1563.2	SOX-related factors	High-mobility group (HMG) domain factors
+MA1566.2	TBX2-related factors	T-Box factors
+MA1567.2	TBX6-related factors	T-Box factors
+MA1573.2	THAP-related factors	C2CH THAP-type zinc finger factors
+MA1601.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1630.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA1633.2	Jun-related	Basic leucine zipper factors (bZIP)
+MA1647.2	Factors with multiple dispersed zinc fingers	C2H2 zinc finger factors
+UN0173.2	More than 3 adjacent zinc fingers	C2H2 zinc finger factors
+MA2011.1	ERF/DREB	AP2/EREBP
+MA2012.1	ERF/DREB	AP2/EREBP
+MA2013.1	ERF/DREB	AP2/EREBP
+MA2014.1	BES/BZR	Basic helix-loop-helix factors (bHLH)
+MA2015.1	NAC	beta-Hairpin exposed by an alpha/beta-scaffold
+MA2016.1	GRF	C3H zinc finger factors
+MA2017.1	NAC	GCM domain factors
+MA2018.1	NAC	GCM domain factors
+MA2019.1		Heat shock factors
+MA2020.1		Heat shock factors
+MA2021.1	LBD	Other C4 zinc finger-type factors
+MA2022.1	LBD	Other C4 zinc finger-type factors
+MA2023.1	GARP_G2-like	Tryptophan cluster factors
+MA2024.1	Myb	Tryptophan cluster factors
+MA2025.1	Myb	Tryptophan cluster factors
+MA2026.1	Myb	Tryptophan cluster factors
+MA2027.1	Myb	Tryptophan cluster factors
+MA2028.1	Myb	Tryptophan cluster factors
+MA2029.1	Myb	Tryptophan cluster factors
+MA2030.1	Myb	Tryptophan cluster factors
+MA2031.1	Myb-related	Tryptophan cluster factors
+MA2032.1	Myb-related	Tryptophan cluster factors
+UN0687.1	RAV	B3
+UN0688.1		Basic helix-loop-helix factors (bHLH)
+UN0689.1	NF-YB	Heteromeric CCAAT-binding factors
+UN0690.1	NF-YC	Heteromeric CCAAT-binding factors
+MA2033.1	NAC	GCM domain factors
+MA2034.1	NAC	GCM domain factors
+MA2035.1	NAC	GCM domain factors
+MA2036.1	NAC	GCM domain factors
+MA2037.1	NAC	GCM domain factors
+MA2038.1	NAC	GCM domain factors
+MA2039.1	Trihelix	Tryptophan cluster factors
+MA2040.1	Trihelix	Tryptophan cluster factors
+MA2041.1	Myb	Tryptophan cluster factors
+MA2042.1	Myb	Tryptophan cluster factors
+MA2043.1	NAC	GCM domain factors
+MA2044.1	NAC	GCM domain factors
+MA2045.1	NAC	GCM domain factors
+MA2046.1	NAC	GCM domain factors
+MA2047.1	NAC	GCM domain factors
+MA2048.1	NAC	GCM domain factors
+MA2049.1	NAC	GCM domain factors
+MA2050.1	NAC	GCM domain factors
+MA2051.1	NAC	GCM domain factors
+MA2052.1		C2H2 zinc finger factors
+MA2053.1	NAC	GCM domain factors
+MA0008.3	HD-ZIP	Homeo domain factors
+MA0597.2	THAP-related factors	C2CH THAP-type zinc finger factors
+MA0930.2	Group A	Basic leucine zipper factors (bZIP)
+MA0938.2	NAC	GCM domain factors
+MA0964.2		Basic helix-loop-helix factors (bHLH)
+MA0965.2		Basic helix-loop-helix factors (bHLH)
+MA0994.2	ERF/DREB	AP2/EREBP
+MA1055.2		SBP
+MA1068.2	Group D	Basic leucine zipper factors (bZIP)
+MA1069.2	Group D	Basic leucine zipper factors (bZIP)
+MA1070.2	Group D	Basic leucine zipper factors (bZIP)
+MA1079.2	WRKY	GCM domain factors
+MA1081.2	WRKY	GCM domain factors
+MA1083.2	WRKY	GCM domain factors
+MA1087.2	WRKY	GCM domain factors
+MA1094.2	WRKY	GCM domain factors
+MA1163.2	GARP_G2-like	Tryptophan cluster factors
+MA1165.2	GARP_G2-like	Tryptophan cluster factors
+MA1178.2	Myb	Tryptophan cluster factors
+MA1210.2	HD-ZIP	Homeo domain factors
+MA1213.2	PLINC	Homeo domain factors
+MA1219.2	ERF/DREB	AP2/EREBP
+MA1231.2	ERF/DREB	AP2/EREBP
+MA1272.2	DOF	Other C4 zinc finger-type factors
+MA1307.2	WRKY	GCM domain factors
+MA0577.3		SBP
+MA1322.2		SBP
+MA1338.2	Group A	Basic leucine zipper factors (bZIP)
+MA1351.2	Group G	Basic leucine zipper factors (bZIP)
+MA1359.2		Basic helix-loop-helix factors (bHLH)
+MA1360.2		Basic helix-loop-helix factors (bHLH)
+MA1386.2	GARP_G2-like	Tryptophan cluster factors
+MA1390.2	GARP_G2-like	Tryptophan cluster factors
+MA1392.2	Myb	Tryptophan cluster factors
+MA1427.2	NAC	GCM domain factors
+MA1540.2	FTZF1related(NR5A)	Nuclear receptors with C4 zinc fingers
+MA1663.2	NAC	GCM domain factors
+MA1664.2		Heat shock factors
+MA1665.2		Heat shock factors
+MA1666.2		Heat shock factors
+MA1667.2		Heat shock factors
+MA1674.2	NAC	GCM domain factors
+MA1676.2	NAC	GCM domain factors
+MA1678.2	NAC	GCM domain factors
+MA1001.3	ERF/DREB	AP2/EREBP
+
