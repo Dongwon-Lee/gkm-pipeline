@@ -2,7 +2,9 @@
 A pipeline for discovery of likely CRE transcription factor elements from epigenomic sequencing data using the [LS-GKM](https://github.com/Dongwon-Lee/lsgkm) algorithm and built with [Snakemake](https://snakemake.readthedocs.io/en/stable/index.html).
 
 ### Setup
-First to set up the [Conda](https://docs.conda.io/en/latest/) environment, run the following in the project root directory:
+Gkm-pipeline requires functional installments of the [LS-GKM](https://github.com/Dongwon-Lee/lsgkm) and [gkmQC](https://github.com/Dongwon-Lee/gkmQC) to be present on the same machine. Please first follow the setup directions for both of those tools in order to use gkm-pipeline. (Note: you can skip the conda setup steps there, as gkm-pipeline requires its own conda environment).
+
+To set up the [Conda](https://docs.conda.io/en/latest/) environment for gkm-pipeline, run the following in the project root directory:
 ```bash
 $ conda env create -f environment.yml
 $ conda activate gkm-pipeline
@@ -61,8 +63,8 @@ Configuration of the pipeline and inputs/outputs is done by changing values in t
   - `padj_cutoff_poisson`: Adjusted p-value cutoff for the Poisson test, which uses a Poisson distribution to determine whether the number of k-mers at the top `percentile_cutoff`th percentile of SVM weight is significantly higher than average. Default: `0.01`
   - `padj_cutoff_wilcox`: Adjusted p-value cutoff for the Wilcox test, which uses a Wilcoxon rank-sum test to determine whether the average SVM weight of the k-mers associated with a TF is significantly higher than the overall average SVM weight. Default: `0.01`
 - `paths`:
-  - `lsgkm`: Absolute path of `lsgkm` program on this machine
-  - `gkmQC`: Absolute path of `gkmQC` program on this machine
+  - `lsgkm`: Absolute path of [LS-GKM](https://github.com/Dongwon-Lee/lsgkm) program on this machine
+  - `gkmQC`: Absolute path of [gkmQC](https://github.com/Dongwon-Lee/gkmQC) program on this machine
 
 ### Running the pipeline on a compute cluster
 When running the pipeline on a clustering engine such as Slurm, take care to give at least as many resources to the cluster job as to Snakemake. For example:
