@@ -1,8 +1,10 @@
+# Default target which runs all qc steps
 rule all:
     default_target: True
     input:
         expand("results/{sample}/{sample}.{word_length}mers.gkmqc.curve.pdf", sample=config["samples"], word_length=config["word_length"])
 
+# Run evaluate step of gkmQC
 rule qc_eval:
     input:
         "data/samples/{sample}.bed"
@@ -20,6 +22,7 @@ rule qc_eval:
         "-n {wildcards.sample}.{wildcards.word_length}mers -o {params.score_col} "
         "-@ {threads} -L {wildcards.word_length} -c {resources.mem_mb}"
 
+# Move output of gkmQC to results directory
 rule move_qc_output:
     input:
         rules.qc_eval.output
@@ -29,6 +32,7 @@ rule move_qc_output:
     shell:
         "mv {input} results/qc/"
 
+# Run report step of gkmQC
 rule qc_report:
     input:
         rules.move_qc_output.output.eval_out

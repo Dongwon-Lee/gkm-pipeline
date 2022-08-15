@@ -1,3 +1,4 @@
+# Runs scripts/nkmers.py to create fasta file containing all k-mers of word_length length
 rule get_kmers:
     default_target: True
     output: 

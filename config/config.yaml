@@ -4,7 +4,7 @@ samples:
 bed_score_col: 7
 
 word_length: 10
-min_word_length: 9
+min_word_length: 8
 
 tf_metadata_file: "TF_metadata"
 

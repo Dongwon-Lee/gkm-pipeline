@@ -1,13 +1,16 @@
 configfile: "config/config.yaml"
 
+# Import the motif_database snakefile
 module motif_database:
     snakefile: 'rules/motif_database.smk'
     config: config
 
+# Import the motif_enrichment snakefile
 module motif_enrichment:
     snakefile: 'rules/motif_enrichment.smk'
     config: config
 
+# Import the qc snakefile
 module qc:
     snakefile: 'rules/qc.smk'
     config: config
@@ -16,6 +19,7 @@ use rule * from motif_database as motif_database_*
 use rule * from motif_enrichment as motif_enrichment_* 
 use rule * from qc as qc_* 
 
+# Default rule which runs whole pipeline when no rule is specified
 rule all:
     default_target: True
     input:
